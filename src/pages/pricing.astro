@@ -6,55 +6,55 @@ import PricingCard from "@components/pricing.astro";
 
 const pricing = [
   {
-    name: "Personal",
-    price: "Free",
+    name: "Demo",
+    price: "Gratis",
     popular: false,
     features: [
-      "Lifetime free",
-      "Up to 3 users",
-      "Unlimited Pages",
-      "Astro Sub domain",
-      "Basic Integrations",
-      "Community Support",
+      "7 días de acceso",
+      "1 mentoría de 10 minutos",
+      "Operaciones limitadas",
+      "Acceso a blogs",
+      "Acceso básico",
+      "Atención por correo",
     ],
     button: {
-      text: "Get Started",
+      text: "Adelante",
       link: "/",
     },
   },
   {
-    name: "Startup",
+    name: "Acceso ilimitado",
     price: {
-      monthly: "$19",
-      annual: "$16",
-      discount: "10%",
-      original: "$24",
+      mensual: "$0",
+      anual: "$0*",
+      descuento: "1% solo Enero",
+      original: "$50",
     },
     popular: true,
     features: [
-      "All Free Features",
-      "Up to 20 users",
-      "20 Custom domains",
-      "Unlimited Collaborators",
+      "Acceso completo anual",
+      "2 mentorías de 20 minutos al mes",
+      "Todas las operaciones",
+      "2 análisis personalizados al año",
       "Advanced Integrations",
-      "Priority Support",
+      "Atención prioritaria",
     ],
     button: {
-      text: "Get Started",
+      text: "Me suscribo",
       link: "#",
     },
   },
   {
-    name: "Enterprise",
-    price: "Custom",
+    name: "Pack PRO",
+    price: "Personalizado",
     popular: false,
     features: [
-      "All Pro Features",
-      "Unlimited Custom domains",
-      "99.99% Uptime SLA",
-      "SAML & SSO Integration",
+      "Acceso a contenido accesorio",
+      "Mentorias ilimitadas*",
+      "Operaciones web 3",
+      "3 análisis personalizados al año",
       "Dedicated Account Manager",
-      "24/7 Phone Support",
+      "Botón Rojo",
     ],
     button: {
       text: "Contact us",
@@ -64,12 +64,12 @@ const pricing = [
 ];
 ---
 
-<Layout title="Pricing">
+<Layout title="Precing">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">Pricing</Fragment>
+      <Fragment slot="title">Precios</Fragment>
       <Fragment slot="desc">
-        Simple & Predictable pricing. No Surprises.
+        Precio asequible. Sin sorpresas
       </Fragment>
     </Sectionhead>
 
