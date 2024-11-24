@@ -62,29 +62,14 @@ const pricing = [
 <Layout title="Pricing">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">Precios</Fragment>
+      <Fragment slot="title">Pricing</Fragment>
       <Fragment slot="desc">
-        Coste asequible. Sin sorpresas
+        Simple & Predictable pricing. No Surprises.
       </Fragment>
     </Sectionhead>
 
     <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-screen-lg mt-12">
-      {pricing.map((item) => {
-        // Divide el precio en texto antes y después del *
-        const [basePrice, asterisk] = item.price.includes("*")
-          ? item.price.split("*")
-          : [item.price, ""];
-
-        return (
-          <PricingCard 
-            plan={{
-              ...item,
-              basePrice: basePrice.trim(), // Parte antes del *
-              asterisk: asterisk ? "*" : "", // Asterisco si existe
-            }} 
-          />
-        );
-      })}
+      {pricing.map((item) => <PricingCard plan={item} />)}
     </div>
   </Container>
 </Layout>
