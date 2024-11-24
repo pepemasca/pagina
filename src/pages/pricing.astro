@@ -71,12 +71,15 @@ const pricing = [
     <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-screen-lg mt-12">
       {pricing.map((item) => {
         // Divide el precio en texto antes y después del *
-        const [basePrice, asterisk] = item.price.split("*");
+        const [basePrice, asterisk] = item.price.includes("*")
+          ? item.price.split("*")
+          : [item.price, ""];
+
         return (
           <PricingCard 
             plan={{
               ...item,
-              basePrice: basePrice, // Parte antes del *
+              basePrice: basePrice.trim(), // Parte antes del *
               asterisk: asterisk ? "*" : "", // Asterisco si existe
             }} 
           />
@@ -86,24 +89,3 @@ const pricing = [
   </Container>
 </Layout>
 
----
-const { plan } = Astro.props;
----
-
-<div class="pricing-card">
-  <h3 class="text-xl font-semibold">{plan.name}</h3>
-  <div class="price text-2xl font-bold">
-    {plan.basePrice}
-    {plan.asterisk && <span class="text-red-500">{plan.asterisk}</span>}
-  </div>
-  <ul class="features-list mt-4 space-y-2">
-    {plan.features.map((feature) => (
-      <li>{feature}</li>
-    ))}
-  </ul>
-  {plan.button && (
-    <a href={plan.button.link} class="btn mt-6">
-      {plan.button.text}
-    </a>
-  )}
-</div>
