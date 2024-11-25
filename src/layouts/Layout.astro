@@ -22,7 +22,7 @@ const { title } = Astro.props;
 
 const makeTitle = title
   ? title + " | " + "Astroship"
-  : "Astroship - Starter Template for Astro with Tailwind CSS";
+  : "Cryptopedia - Una comunidad abierta sobre crypto";
 ---
 
 <!DOCTYPE html>
@@ -36,7 +36,7 @@ const makeTitle = title
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO
       title={makeTitle}
-      description="Astroship is a starter website template for Astro built with TailwindCSS."
+      description="Accede a información de calidad para poder invertir mejor."
       canonical={canonicalURL}
       twitter={{
         creator: "@surjithctly",
@@ -47,7 +47,7 @@ const makeTitle = title
         basic: {
           url: canonicalURL,
           type: "website",
-          title: `Astroship - Starter Template for Astro`,
+          title: `Cryptopedia - Una comunidad abierta sobre crypto`,
           image: resolvedImageWithDomain,
         },
         image: {
