@@ -1,15 +1,15 @@
 ---
 draft: false
-title: "How to become a Frontend Master"
+title: "¿Qué es el dinero?"
 snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 image: {
     src: "https://lh3.googleusercontent.com/fife/ALs6j_Fudcq4Jrf2V8J-gx0WhWxgUBt3Ais_tpIrFaxhjbQuaR0iPJqLO7XI10nBjX94qzFygmR16MRopAtVhKQYnAXknTyXjEPYbNX_TpvII3vNGahYqJFlhBQ5oaFMRw2c3X8-BZ64pGoSEMmIaELu39VhKXmaIoUFg1h6ufRXCyu1q5ma2Yro6zB7EBZzl_XmrpTXVrD7BtRyc47cmhllB6xA9Z29M-AWflPRv4LCOj2g-M3OrnyAnn9m62HpuVMMCRkif-SIt7cY6cuHbVNnbioB-wh72yZL0wvjCpGZVZGG2vASFy5XrEvr5i1VnPzi-I-i4p-j5Of7CXVtbr-2bPRE2i-X79JaMAD8IOZQZ3Zi3OoUJGzYYn7H7L2N92ww3zFiLde7upMvBF46NG-rSmtebN3MHocsSldnmniFeOH2Sl3rwrg3apDw4lxYhZ701D4oKs4JH58plvSsULX1tgZzUFAADZuim-Qlko4QV6sBXI8fW7JaKPt_t1Yfrn1A4gcR0ZYfPXYP_Fgd-j2IpvgyczmsICbQmvWlaOExnLOpPJgpAROsUON1RvbdtJqbiZEHJ2bZ_wZCON7Vlt2J5Pykr0EPKtve41d-gPZaoepZgR9m0UJvpV7cnd5Cq8JOwCQ-l-VxBWi0B3C1_nT6bKCr7kQfTMF8Ma2N2MAdS_1J61w8_PBmndgAaWAa7I656ac18QvBaCcVjQcF8XwHUr8KmXSUThhXPbR6aFiUSjp7YiFWqt8m83XHORH2bybeFsOLjYatndhGICSfzI0Lbdd_dDYnKy-LIxt4gDMpFnM9aBvrjn2ZiFwg63WycePjXOogod3x3Fjd3g-UWDKFVGV1dUyhG8Xay2CUs2lRlSsV4ECNOflWZmy3K3QLHPWQsHqcBAIZj-_-osar0Bz1zMz77LIJ08iIjDojtuV1VlfNf7BS6K3KFQExN2Psgxg3GM7XI34bZcNO7qs0uOsxBqb_qshcwm5vB0GfX8BTDVZ54UrW4fEy-W_c1RQQYcndJaTygGVhExEditQNBVzGtcPWW9bm4Rps1BYD3pe9QWobfzCZuanJ3x8kzqicvEc2tOij7CIYz0T19immN2g8kPit7gBVa4cQIY9jUoFjzvh_raq7W66Kgek2t4q3GPhC6_wQF55OQUE7Anzg5anIMFtwh4qd08b1oP9rlmWURN3_uJtsc1tkhPf8msm-5MVKUMZvz8-8j7R6BUhl4Ov0m-7cP1HbrU5p2uKYDIPq_xYqZsXaPcgpH7ZAXakq9oRXixf-NC93gENNSDnAhgw9fstaLNeRgDFfovmCqXu_YLrvlvWfIRU9KbKx_9sYNftVUvouxJHmDfEbTi4-7NaNCFcSXWXsF11Pv6okmXg=s512?authuser=1",
     alt: "frontend master"
 }
-publishDate: "2022-11-07 15:39"
-category: "Tutorials"
-author: "Connor Lopez"
-tags: [astro, tailwindcss, frontend]
+publishDate: "2024-11-29 15:39"
+category: "Economía"
+author: "Javier Mascarell"
+tags: [Divisas, Oro, Mercancía]
 ---
 
 Whatever you do, it's always beneficial to have the right tools at your disposal. I love working remotely and am a big advocate of doing remote software development. Therefore, I always strive to have the best equipment available to be as productive as possible. Writing posts like this constantly takes a lot of time. Luckily iVanky helped me out and sponsored this post so that I can concentrate on writing. I recently had the chance to test out one of their hottest products, a dual USB-C Docking Station that allows me to connect both my wide-screen monitors to my MacBook with Dual 4K@60Hz display connectivity. It also supports up to 96W laptop charging, which is awesome. If you are in a situation like me and want to upgrade your equipment, check out this and their other products! And now comes the article:
@@ -25,7 +25,7 @@ Lorem ipsum dolor sit amet consectetur adipiscing elit euismod rutrum, consequat
 
 Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti augue nulla vivamus senectus odio, quisque curabitur enim consequat class sociis feugiat ullamcorper, felis dis imperdiet cubilia commodo sed massa phasellus. Viverra purus mus nisi condimentum dui vehicula facilisis turpis, habitant nascetur lectus tempor quisque habitasse urna scelerisque, nibh nullam vestibulum luctus aenean mollis metus. Suscipit gravida duis nec aliquet natoque molestie a ridiculus scelerisque cum, justo cursus sapien sodales purus dignissim vel facilisi magnis, inceptos rutrum ut integer auctor commodo sollicitudin fames et. Faucibus ligula nibh sagittis mauris auctor posuere habitant, scelerisque phasellus accumsan egestas gravida viverra nam, sed etiam eleifend proin massa dictumst. Porttitor risus luctus per aenean tellus primis fringilla vitae fames lacinia mauris metus, nec pulvinar quisque commodo sodales ac nibh natoque phasellus semper placerat. Lectus aenean potenti leo sollicitudin tristique eros quam ligula, vestibulum diam consequat enim torquent nec tempus, blandit viverra dapibus eleifend dis nunc nascetur.
 
-## Sodales hendrerit malesuada et vestibulum
+# Sodales hendrerit malesuada et vestibulum
 
 - Luctus euismod pretium nisi et, est dui enim.
 
