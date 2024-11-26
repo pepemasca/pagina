@@ -1,0 +1,36 @@
+---
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+import Layout from "@layouts/Layout.astro";
+import { Icon } from "astro-icon/components";
+---
+
+<Layout title="Donativo">
+  <Container>
+    <Sectionhead>
+      <Fragment slot="title">Contacto</Fragment>
+      <Fragment slot="desc">Estoy aquí para ayudarte.</Fragment>
+    </Sectionhead>
+
+    <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-16">
+      <div>
+        <h2 class="font-medium text-2xl text-gray-800">Contacto Cryptopedia</h2>
+        <p class="text-lg leading-relaxed text-slate-500 mt-3">
+          ¿Tienes alguna duda urgente? ¿Necesitas una mentoría personalizada? No dudes en consultar. 
+          Rellena el formulario o envía un correo electronico si es urgente.
+        </p>
+        <div class="mt-5">
+          <div class="flex items-center mt-2 space-x-2 text-gray-600">
+            <Icon class="text-gray-400 w-4 h-4" name="uil:map-marker" />
+            <span>1734 España</span>
+          </div><div class="flex items-center mt-2 space-x-2 text-gray-600">
+            <Icon class="text-gray-400 w-4 h-4" name="uil:envelope" /><a
+              href="mailto:cryptopedia@gmail.com"
+              >cryptopedia@gmail.com</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </Container>
+</Layout>
