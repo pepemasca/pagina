@@ -144,3 +144,60 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 [info] i  hosting: 127.0.0.1 - - [27/Nov/2024:10:13:30 +0000] "GET /node_modules/@fontsource-variable/bricolage-grotesque/files/bricolage-grotesque-latin-wght-normal.woff2 HTTP/1.1" 304 - "http://127.0.0.1:5000/donativo" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Nov/2024:10:13:30 +0000] \"GET /node_modules/@fontsource-variable/bricolage-grotesque/files/bricolage-grotesque-latin-wght-normal.woff2 HTTP/1.1\" 304 - \"http://127.0.0.1:5000/donativo\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\""}}
 [info] i  hosting: 127.0.0.1 - - [27/Nov/2024:10:13:30 +0000] "GET /LOGO.png HTTP/1.1" 304 - "http://127.0.0.1:5000/donativo" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [27/Nov/2024:10:13:30 +0000] \"GET /LOGO.png HTTP/1.1\" 304 - \"http://127.0.0.1:5000/donativo\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\""}}
 [debug] [2024-11-27T10:13:49.456Z] Received signal SIGHUP 1
+[debug] [2024-11-27T10:15:07.570Z] ----------------------------------------------------------------------
+[debug] [2024-11-27T10:15:07.572Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Francesc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-11-27T10:15:07.573Z] CLI Version:   13.27.0
+[debug] [2024-11-27T10:15:07.573Z] Platform:      win32
+[debug] [2024-11-27T10:15:07.573Z] Node Version:  v22.11.0
+[debug] [2024-11-27T10:15:07.573Z] Time:          Wed Nov 27 2024 11:15:07 GMT+0100 (hora estándar de Europa central)
+[debug] [2024-11-27T10:15:07.573Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-27T10:15:07.677Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-27T10:15:07.678Z] > authorizing via signed-in user (javiermascga2@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2024-11-27T10:15:07.685Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-11-27T10:15:07.685Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-11-27T10:15:07.685Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project cryptopedia-com. This may result in unexpected behavior. 
+[debug] [2024-11-27T10:15:07.690Z] [hub] writing locator at C:\Users\Francesc\AppData\Local\Temp\hub-cryptopedia-com.json
+[debug] [2024-11-27T10:15:07.703Z] Checked if tokens are valid: true, expires at: 1732705937396
+[debug] [2024-11-27T10:15:07.704Z] Checked if tokens are valid: true, expires at: 1732705937396
+[debug] [2024-11-27T10:15:07.704Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/cryptopedia-com [none]
+[debug] [2024-11-27T10:15:07.993Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/cryptopedia-com 200
+[debug] [2024-11-27T10:15:07.993Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/cryptopedia-com {"projectId":"cryptopedia-com","projectNumber":"604907843383","displayName":"cryptopedia","name":"projects/cryptopedia-com","resources":{"hostingSite":"cryptopedia-com"},"state":"ACTIVE","etag":"1_0371a5a5-f1e3-47b7-be24-2946ad6ee535"}
+[info] 
+   Thank you for trying our experimental support for Astro on Firebase Hosting.
+   While this integration is maintained by Googlers it is not a supported Firebase product.
+   Issues filed on GitHub will be addressed on a best-effort basis by maintainers and other community members.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/frameworks-overview
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2024-11-27T10:15:21.767Z] [web frameworks] effective firebase.json:  {
+  "hosting": [
+    {
+      "source": ".",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "frameworksBackend": {
+        "region": "europe-west1"
+      },
+      "site": "cryptopedia-com",
+      "rewrites": [],
+      "redirects": [],
+      "headers": [],
+      "cleanUrls": true,
+      "public": ".firebase\\cryptopedia-com\\hosting",
+      "webFramework": "astro"
+    }
+  ]
+}
+[debug] [2024-11-27T10:15:21.771Z] Checked if tokens are valid: true, expires at: 1732705937396
+[debug] [2024-11-27T10:15:21.771Z] Checked if tokens are valid: true, expires at: 1732705937396
+[debug] [2024-11-27T10:15:21.771Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/cryptopedia-com/sites 
