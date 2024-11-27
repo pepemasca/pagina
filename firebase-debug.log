@@ -1,0 +1,87 @@
+[debug] [2024-11-27T10:12:18.106Z] ----------------------------------------------------------------------
+[debug] [2024-11-27T10:12:18.108Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Francesc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-11-27T10:12:18.109Z] CLI Version:   13.27.0
+[debug] [2024-11-27T10:12:18.109Z] Platform:      win32
+[debug] [2024-11-27T10:12:18.109Z] Node Version:  v22.11.0
+[debug] [2024-11-27T10:12:18.109Z] Time:          Wed Nov 27 2024 11:12:18 GMT+0100 (hora estándar de Europa central)
+[debug] [2024-11-27T10:12:18.110Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-27T10:12:18.235Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-27T10:12:18.235Z] > authorizing via signed-in user (javiermascga2@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2024-11-27T10:12:18.245Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-11-27T10:12:18.246Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-11-27T10:12:18.246Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-11-27T10:12:18.250Z] [hub] writing locator at C:\Users\Francesc\AppData\Local\Temp\hub-cryptopedia-com.json
+[debug] [2024-11-27T10:12:18.275Z] Checked if tokens are valid: false, expires at: 1732701218163
+[debug] [2024-11-27T10:12:18.275Z] Checked if tokens are valid: false, expires at: 1732701218163
+[debug] [2024-11-27T10:12:18.275Z] > refreshing access token with scopes: []
+[debug] [2024-11-27T10:12:18.279Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-11-27T10:12:18.279Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-11-27T10:12:18.395Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-11-27T10:12:18.395Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-11-27T10:12:18.402Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/cryptopedia-com [none]
+[debug] [2024-11-27T10:12:18.765Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/cryptopedia-com 200
+[debug] [2024-11-27T10:12:18.765Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/cryptopedia-com {"projectId":"cryptopedia-com","projectNumber":"604907843383","displayName":"cryptopedia","name":"projects/cryptopedia-com","resources":{"hostingSite":"cryptopedia-com"},"state":"ACTIVE","etag":"1_0371a5a5-f1e3-47b7-be24-2946ad6ee535"}
+[info] 
+   Thank you for trying our experimental support for Astro on Firebase Hosting.
+   While this integration is maintained by Googlers it is not a supported Firebase product.
+   Issues filed on GitHub will be addressed on a best-effort basis by maintainers and other community members.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/frameworks-overview
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2024-11-27T10:12:31.957Z] [web frameworks] effective firebase.json:  {
+  "hosting": [
+    {
+      "source": ".",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "frameworksBackend": {
+        "region": "europe-west1"
+      },
+      "site": "cryptopedia-com",
+      "rewrites": [],
+      "redirects": [],
+      "headers": [],
+      "cleanUrls": true,
+      "public": ".firebase\\cryptopedia-com\\hosting",
+      "webFramework": "astro"
+    }
+  ]
+}
+[debug] [2024-11-27T10:12:31.965Z] Checked if tokens are valid: true, expires at: 1732705937396
+[debug] [2024-11-27T10:12:31.965Z] Checked if tokens are valid: true, expires at: 1732705937396
+[debug] [2024-11-27T10:12:31.965Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/cryptopedia-com/sites 
+[debug] [2024-11-27T10:12:33.165Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/cryptopedia-com/sites 200
+[debug] [2024-11-27T10:12:33.165Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/cryptopedia-com/sites {"sites":[{"name":"projects/cryptopedia-com/sites/cryptopedia-com","defaultUrl":"https://cryptopedia-com.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2024-11-27T10:12:33.165Z] Checked if tokens are valid: true, expires at: 1732705937396
+[debug] [2024-11-27T10:12:33.166Z] Checked if tokens are valid: true, expires at: 1732705937396
+[debug] [2024-11-27T10:12:33.166Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/cryptopedia-com/webApps/-/config [none]
+[debug] [2024-11-27T10:12:33.658Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/cryptopedia-com/webApps/-/config 200
+[debug] [2024-11-27T10:12:33.658Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/cryptopedia-com/webApps/-/config {"projectId":"cryptopedia-com","storageBucket":"cryptopedia-com.firebasestorage.app","apiKey":"AIzaSyDZbbRb5vRAeePzgefJ0S9wUcKY2oeKCLI","authDomain":"cryptopedia-com.firebaseapp.com","messagingSenderId":"604907843383"}
+[info] i  hosting[cryptopedia-com]: Serving hosting files from: .firebase\cryptopedia-com\hosting {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1m.firebase\\cryptopedia-com\\hosting\u001b[22m"}}
+[info] +  hosting[cryptopedia-com]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[debug] [2024-11-27T10:12:33.700Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
