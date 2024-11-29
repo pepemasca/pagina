@@ -52,8 +52,16 @@ import Button from "./ui/button.astro";
       Porfavor pon tu mensaje.
     </div>
   </div>
-  <Button type="submit" size="lg" block>Enviar mensaje</Button>
-  <div id="result" class="mt-3 text-center"></div>
+  <Button type="submit" size="lg" block class="custom-btn">Enviar mensaje</Button>
+
+  <style>
+    .custom-btn {
+      background-color: orange;
+      color: black;
+    }
+  </style>  
+  <div 
+  id="result" class="mt-3 text-center"></div>
 </form>
 
 <style>
