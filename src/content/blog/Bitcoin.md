@@ -33,7 +33,7 @@ En este sentido, el Whitepaper de Bitcoin aunque no habla directamente de dinero
 ## ¿Dónde está entonces el valor de Bitcoin?
 Cuando me he encontrado con personas que opinaban sobre Bitcoin, muchas eran las dudas y preocupaciones sobre su futuro. Las personas que conocian de técnicas de inversión como puedan ser Value investing argumentaban que el valor intrínseco de Bitcoin era 0, ya que a diferencia de cualquier negocio, Bitcoin no generaba flujos de caja (rentabilidad anual) y que por tanto su valor solamente se basaba en la esperanza de que subiera más y más. Pero cuando exponías que Bitcoin era más bien un activo real como el oro y que no era un activo financiero, respondian que el oro si que tenía una utilidad clara y es que su demanda iba a mantenerse por las necesidades de la industria y del sector joyero (aunque realmente casi toda la propiedad se concentra realmente en demandantes de valor refugio y garantistas como lo son los Bancos Centrales).
 
-Por el contrario cuando hablabas con otras personas mucho más prácticas, argumentaban que Bitcoin no es dinero y que ya se pueden hacer bizums o pagos online con tarjeta o transferencia bancaria y que más allá del precio, nadie utilizaba Bitcoin en su día a día para pagar o enviar dinero.
+Por el contrario cuando hablabas con otras personas mucho más prácticas, argumentaban que Bitcoin no es dinero y que ya se pueden hacer Bizums o pagos online con tarjeta o transferencia bancaria y que más allá del precio, nadie utilizaba Bitcoin en su día a día para pagar o enviar dinero.
 
 Mi respuesta en este post es clara al respecto: Bitcoin a día de hoy no tiene las capacidades para convertirse en dinero, el principal problema es que la velocidad, los costes por operación y la inestabilidad en el precio lo convierten en un mal dinero, sobretodo para aquellos que tengan altas necesidades de liquidez en su vida diaria (o incapacidad de ahorro en el tiempo).
 
@@ -70,11 +70,11 @@ Obviamente hay que conocer sus riesgos y tener en cuenta que Bitcoin no ha vivid
 
 Por todo lo anterior y dado que yo valoro mucho el ahorro/inversión, tengo parte de mi riqueza en Bitcoin, pero cada uno debe analizar sus circunstancias, conocer su tolerancia a variaciones de precio y sobretodo su periodo temporal mínimo para dehacer sus ahorros para adquirir aquello que desean.
 
+</div>
+
 <section id="referencias">
   <h2>Referencias</h2>
   <p id="referencia1">Referencia 1: <a href="https://cryptopedia-com.web.app/madriguera" target="_blank">https://cryptopedia-com.web.app/madriguera</a></p>
   <p id="referencia2">Referencia 2: <a href="https://satoshi.nakamotoinstitute.org/es/posts/p2pfoundation/3/" target="_blank">https://satoshi.nakamotoinstitute.org/<wbr>es/posts/p2pfoundation/3/</a></p>
 
 </section>
-
-</div>
