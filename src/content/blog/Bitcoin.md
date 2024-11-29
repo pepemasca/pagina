@@ -12,7 +12,13 @@ author: "Javier Mascarell"
 tags: [Bitcoin, Activo real, Reserva de valor]
 ---
 
-Si te interesa conocer más sobre bitcoin o no entiendes algo en esta publicación, puedes encontrar información en https://cryptopedia-com.web.app/madriguera
+<div
+ class="mx-auto prose prose-lg mt-6 max-w-3xl prose-h3:underline prose-p:text-justify">
+
+
+<p>Si te interesa conocer más sobre bitcoin o no entiendes algo en esta publicación, puedes encontrar información en 
+<a href="https://cryptopedia-com.web.app/madriguera" class="text-blue-500 underline">cryptopedia-com.web.app/madriguera</a>
+<a href="#referencia1" style="font-weight: bold; text-decoration: none;"><sup>[1]</sup></a></p>
 
 ## Introducción
 Desde su creación y posterior lanzamiento en 2009, Bitcoin ha evolucionado constantemente, pues como cualquier otra técnologia, las mejoras son necesarias para mantener la seguridad y competitividad.
@@ -22,7 +28,7 @@ Sin embargo, también hay otra cuestión que ha ido evolucionando a lo largo del
 El creador de una herramienta o instrumento, trata de resolver problemas, pero no puede decidir cual será el uso que las personas van a hacer de el (el microondas se utilizó por primera vez para luchar contra aviones de los Nazis, el papel de burbujas se ideó para colocarlo en las paredes de las viviendas), como mucho los creadores podrán intuir o incentivar uno o varios usos, peró será la sociedad quien encuentre la utilidad que generá mayor valor.
 
 ## La visión de Satoshi
-En este sentido, el Whitepaper de Bitcoin aunque no habla directamente de dinero, si que destaca su cualidad de efectivo digital entre personas (símil con los billetes, pero online), aunque Satoshi priorizó aspectos como la seguridad (De la red y de los activos de los propietarios mediante dilución tendiente a 0) y descentralización (Mediante un tamaño de bloque reducido), dejó a un lado la escalabilidad, pues pensaba que los otros dos atributos erán prioritarios. De hecho, el propio Satoshi ya era consciente del "problema" de establecer una oferta tan rígida, como argumentó ante la pregunta de una cantidad de Bitcoins fija y el número de usuarios creciente: "Es más típico de un metal precioso. En lugar de que la oferta cambie para mantener el valor igual, la oferta está predeterminada y el valor cambia. A medida que crece el número de usuarios, aumenta el valor por moneda." Dejando claro que para el no era tan importante el uso como dinero, como si lo era la calidad del activo.
+En este sentido, el Whitepaper de Bitcoin aunque no habla directamente de dinero, si que destaca su cualidad de efectivo digital entre personas (símil con los billetes, pero online), aunque Satoshi priorizó aspectos como la seguridad (De la red y de los activos de los propietarios mediante dilución tendiente a 0) y descentralización (Mediante un tamaño de bloque reducido), dejó a un lado la escalabilidad, pues pensaba que los otros dos atributos erán prioritarios. De hecho, el propio Satoshi ya era consciente del "problema" de establecer una oferta tan rígida, como argumentó ante la pregunta de una cantidad de Bitcoins fija y el número de usuarios creciente: "Es más típico de un metal precioso. En lugar de que la oferta cambie para mantener el valor igual, la oferta está predeterminada y el valor cambia. A medida que crece el número de usuarios, aumenta el valor por moneda."<a href="#referencia2" style="font-weight: bold; text-decoration: none;"><sup>[2]</sup></a> Dejando claro que para el no era tan importante el uso como dinero, como si lo era la calidad del activo.
 
 ## ¿Dónde está entonces el valor de Bitcoin?
 Cuando me he encontrado con personas que opinaban sobre Bitcoin, muchas eran las dudas y preocupaciones sobre su futuro. Las personas que conocian de técnicas de inversión como puedan ser Value investing argumentaban que el valor intrínseco de Bitcoin era 0, ya que a diferencia de cualquier negocio, Bitcoin no generaba flujos de caja (rentabilidad anual) y que por tanto su valor solamente se basaba en la esperanza de que subiera más y más. Pero cuando exponías que Bitcoin era más bien un activo real como el oro y que no era un activo financiero, respondian que el oro si que tenía una utilidad clara y es que su demanda iba a mantenerse por las necesidades de la industria y del sector joyero (aunque realmente casi toda la propiedad se concentra realmente en demandantes de valor refugio y garantistas como lo son los Bancos Centrales).
@@ -38,13 +44,13 @@ Es decir, muchas personas pagan e intermediarios para poder ahorrar su dinero en
 ## Bitcoin como reserva de valor
 
 Algo que no se contempla muy bien cuando se compara Bitcoin con cualquier forma de ahorro es que mantener cualquier forma de ahorro en el tiempo tiene algún tipo de coste:
-- Coste de oportunidad
+- **<u>Coste de oportunidad:</u>**
 Dadas tus necesidades, puede que cualquier otra decisión hubiera sido más rentable
-- Coste de almacenamiento
+- **<u>Coste de almacenamiento:</u>**
 Quien tiene acciones, necesariamente habrá de pasar por un broker quien anualmente cobre comisiones de mantenimiento o custodia. Quien tiene una vivienda deberá pagar IBI, contribuciones, reformas, derramas, etc. Quién tenga una materia prima deberá almacenarla cuidadosamente e implementar medidas de seguridad, lo cual tiene un coste. Siendo Bitcoin el claro ganador, ya que no tiene costes de mantenimiento, aunque si costes de tiempo por la indispensable formación para garantizar una mínima seguridad.
-- Costes de transacción
+- **<u>Costes de transacción:</u>**
 Quien almacena valor, generalmente trata de deshacerlo en algun momento para adquirir aquello que desea. Esta es una clara ventaja del dinero fiat, ya que estos costes son muy bajos. Pero las viviendas tienen costes elevados, como puedan ser el notario, la gestión hipotecaria y sobretodo los impuestos. El oro tiene un alto coste por la desconfianza de la veracidad del contenido y para bajas cantidades relativamente es muy alto. Con los isntrumentos estas comisiones son similares a bitcoin, pero no es tan bajo como el de euros o dolares.
-- Coste de dilución
+- **<u>Coste de dilución:</u>**
 Esta es una clara ventaja y una clara fuente de demanda de Bitcoin que actualmente cuenta con un incremento de unidades del 0,85% anual, pero que en 2033 será del 0,2% y en 2050 estará muy cerca del 0%. Las acciones por ejemplo tienen la capacidad de diluir al accionista cuando se emiten nuevas unidades de la nada. Las viviendas en los últimos años no sufren este problema en España, pues las nuevas construcciones en ciudades muy demandadas son bajas, pero en 2008 y años posteriores si fue un problema cuando había una alta competencia entre oferentes. El dinero tal como hablé en el blog de ¿Qué es realmente el dinero? sufre mucho sobretodo en periodos temporales largos debido a la oferta creciente. El oro aunque escaso, sigue siendo minado y la tasa de extracción es cercana al 2% anual y aunque también debería de disminuir ya que algunas estimaciones apuntan a que solamente queda un 30% por minar, la tecnología mejora y si sube mucho de precio, surgirán muchas empresas y nuevos métodos para aumentar la velocidad de extracción.
 
 - ### Ventajas 
@@ -64,4 +70,11 @@ Obviamente hay que conocer sus riesgos y tener en cuenta que Bitcoin no ha vivid
 
 Por todo lo anterior y dado que yo valoro mucho el ahorro/inversión, tengo parte de mi riqueza en Bitcoin, pero cada uno debe analizar sus circunstancias, conocer su tolerancia a variaciones de precio y sobretodo su periodo temporal mínimo para dehacer sus ahorros para adquirir aquello que desean.
 
-## Bibliografía
+<section id="referencias">
+  <h2>Referencias</h2>
+  <p id="referencia1">Referencia 1: <a href="https://cryptopedia-com.web.app/madriguera" target="_blank">https://cryptopedia-com.web.app/madriguera</a></p>
+  <p id="referencia2">Referencia 2: <a href="https://satoshi.nakamotoinstitute.org/es/posts/p2pfoundation/3/" target="_blank">https://satoshi.nakamotoinstitute.org/es/posts/p2pfoundation/3/</a></p>
+</section>
+
+
+</div>
