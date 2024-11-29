@@ -13,8 +13,7 @@ tags: [Divisas, Oro, Mercancía]
 ---
 
 <div
- class="mx-auto prose prose-lg mt-6 max-w-3xl prose-h3:underline prose-p:text-justify">
-
+ class="mx-auto prose prose-lg mt-6 max-w-3xl prose-h3:underline prose-p:text-justify text-justify">
 
 ## Introducción para todos los públicos
 

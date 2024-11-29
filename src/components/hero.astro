@@ -22,31 +22,31 @@ import { Icon } from "astro-icon/components";
       class="text-3xl lg:text-5xl xl:text-6xl font-bold lg:tracking-tight xl:tracking-tighter">
       Aprovechemos juntos las oportunidades
     </h1>
-    <p class="text-lg mt-4 text-slate-600 max-w-xl">
+    <p class="text-lg mt-4 text-slate-600 max-w-xl text-justify">
       El proyecto de Cryptopedia nace con el propósito de hacer más comprensible el complejo mundo de los criptoactivos mediante pequeñas pildoras de conocimiento,
       y sobretodo con el objetivo de proporcionar información valiosa sobre la gestión financiera y las posiciones que pueden generar mayores rentabilidades en este
       ciclo alcista.
     </p>
     <div class="mt-6 flex flex-col sm:flex-row gap-3">
+      <!-- Botón "Bases de la comunidad.pdf" -->
       <Link
         href="/pdf"
         target="_blank"
-        class="flex gap-1 items-center justify-center bg-orange-400 text-black rounded-md"
+        class="flex gap-1 items-center justify-center border border-orange-400 text-orange-400 rounded-lg px-4 py-2 hover:bg-orange-400 hover:text-black transition-colors duration-300"
         rel="noopener">
         <Icon class="w-5 h-5" name="bx:bxs-cloud-download" />
         Bases de la comunidad.pdf
       </Link>
+    
+      <!-- Botón "Quiero crear contenido" -->
       <Link
         size="lg"
         rel="noopener"
         href="/contact"
-        class="flex gap-1 items-center justify-center border border-orange-400 text-orange-400 rounded-md"
+        class="flex gap-1 items-center justify-center bg-orange-400 text-black rounded-lg px-4 py-2 hover:bg-black hover:text-orange-400 transition-colors duration-300"
         target="_blank">
         <Icon class="w-4 h-4" name="bx:bxl-github" />
         Quiero crear contenido
       </Link>
     </div>
-  </div>
-</main>
-
     
