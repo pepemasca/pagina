@@ -74,6 +74,7 @@ Por todo lo anterior y dado que yo valoro mucho el ahorro/inversión, tengo part
   <h2>Referencias</h2>
   <p id="referencia1">Referencia 1: <a href="https://cryptopedia-com.web.app/madriguera" target="_blank">https://cryptopedia-com.web.app/madriguera</a></p>
   <p id="referencia2">Referencia 2: <a href="https://satoshi.nakamotoinstitute.org/es/posts/p2pfoundation/3/" target="_blank">https://satoshi.nakamotoinstitute.org/es/posts/p2pfoundation/3/</a></p>
+  
 </section>
 
 
