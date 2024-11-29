@@ -4,6 +4,7 @@ import { Picture } from "astro:assets";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
+import { Icon } from "astro-icon/components";
 
 // Filter team entries with 'draft: false' & date before current date
 const publishedTeamMembers = await getCollection("team", ({ data }) => {
@@ -30,30 +31,54 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
         Haciendo referencia a uno de mis inversores favoritos, Emérito Quintana, "Duermo mucho más tranquilo con Bitcoin en cartera".
       </p>
     </div>
-    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
-      {
-        publishedTeamMembers.map((teamMemberEntry) => (
-          <div class="group">
-            <div class="w-full aspect-square">
-              <Picture
-                src={teamMemberEntry.data.avatar.src}
-                alt={teamMemberEntry.data.avatar.alt}
-                sizes="(max-width: 800px) 100vw, 400px"
-                width={400}
-                height={400}
-                class="w-full rounded-md rounded transition group-hover:-translate-y-1 group-hover:shadow-xl bg-white object-cover object-center aspect-square"
-              />
+    <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-12">
+      <div class="grid grid-rows-3 gap-4">
+        {
+          publishedTeamMembers.map((teamMemberEntry) => (
+            <div class="row-span-3 group">
+              <div class="w-full aspect-square">
+                <Picture
+                  src={teamMemberEntry.data.avatar.src}
+                  alt={teamMemberEntry.data.avatar.alt}
+                  sizes="(max-width: 800px) 100vw, 400px"
+                  width={400}
+                  height={400}
+                  class="w-full rounded-md rounded transition group-hover:-translate-y-1 group-hover:shadow-xl bg-white object-cover object-center aspect-square"
+                />
+              </div>
+              <div class="mt-4 text-center">
+                <h2 class="text-lg text-gray-800">{teamMemberEntry.data.name}</h2>
+                <h3 class="text-sm text-slate-500">
+                  {teamMemberEntry.data.title}
+                </h3>
+              </div>
             </div>
-
-            <div class="mt-4 text-center">
-              <h2 class="text-lg text-gray-800">{teamMemberEntry.data.name}</h2>
-              <h3 class="text-sm text-slate-500">
-                {teamMemberEntry.data.title}
-              </h3>
-            </div>
-          </div>
-        ))
-      }
+          ))
+        }
+      </div>
+      <div class="grid grid-rows-3 gap-3 mx-auto max-w-4xl mt-16 prose-p:text-justify margin-top">
+        <div class="row-span-1"> 
+          <h2 class="text-lg font-bold text-slate-700 flex items-center">
+            <Icon class="w-6 h-6 mr-2" name="bx:link-alt" />
+            La digitalización de las finanzas
+          </h2>
+          <p class="text-lg leading-relaxed text-slate-500">En mi trabajo final de grado 
+          "La digitalización de las finanzas" abordo algunas de las disrupciones que este sector debe abordar haciendo hincapíe en
+          el territorio europeo y español. <a href="https://drive.google.com/file/d/1PZgw57VIDadEfAjpiY4aKSt0DPe2mo6v/view?usp=sharing"
+          class="text-blue-500 underline">Aquí se puede encontrar el PDF</a></p>
+        </div>
+        <div class="row-span-2">
+          <h2 class="text-lg font-bold text-slate-700 flex items-center">
+            <Icon class="w-6 h-6 mr-2" name="simple-icons:linkedin" />
+            LinkedIn
+          </h2>
+          <p class="text-lg leading-relaxed text-slate-500">
+            También aprovecho para compartir mi 
+            <a href="https://www.linkedin.com/in/javier-mascarell/" class="text-blue-500 underline">
+              perfil en LinkedIn</a>, donde se pueden ver otros trabajos que he realizado y la formación que he superado.
+          </p>
+        </div>
+      </div>
     </div>
   </Container>
 </Layout>
