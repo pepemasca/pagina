@@ -1,0 +1,72 @@
+---
+import { getCollection } from "astro:content";
+import { Picture } from "astro:assets";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+
+// Filter blog entries with 'draft: false' & date before current date
+const publishedMadrigueraEntries = await getCollection("madriguera", ({ data }) => {
+  return !data.draft && data.publishDate < new Date();
+});
+
+// Sort content entries by publication date
+publishedMadrigueraEntries.sort(function (a, b) {
+  return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
+});
+---
+
+<Layout title="Madriguera">
+  <Container>
+    <Sectionhead>
+      <Fragment slot="title">La madriguera de Cryptopedia</Fragment>
+      <Fragment slot="desc">
+        Fuentes de información sobre temas relevantes para la gestión de criptoactivos.
+      </Fragment>
+    </Sectionhead>
+    <main class="mt-16">
+      <ul class="grid gap-16 max-w-6xl mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+        {
+          publishedMadrigueraEntries.map((madrigueraPostEntry, index) => (
+            <li>
+              <a href={`/madriguera/${madrigueraPostEntry.slug}`}>
+                <div class="flex flex-col gap-5">
+                  <Picture
+                    src={madrigueraPostEntry.data.image.src}
+                    alt={madrigueraPostEntry.data.image.alt}
+                    sizes="(max-width: 800px) 100vw, 800px"
+                    width={800}
+                    height={600}
+                    loading={index <= 2 ? "eager" : "lazy"}
+                    decoding={index <= 2 ? "sync" : "async"}
+                    class="w-full h-[200px] rounded-md object-cover object-center bg-gray-100"
+                  />
+                  <div>
+                    <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
+                      {madrigueraPostEntry.data.category}
+                    </span>
+    
+                    <h2 class="text-2xl font-semibold leading-snug tracking-tight mt-1">
+                      {madrigueraPostEntry.data.title}
+                    </h2>
+    
+                    <div class="flex gap-2 mt-3">
+                      <span class="text-gray-400">
+                        {madrigueraPostEntry.data.author}
+                      </span>
+                      <span class="text-gray-400">• </span>
+                      <time
+                        class="text-gray-400"
+                        datetime={madrigueraPostEntry.data.publishDate.toISOString()}>
+                        {madrigueraPostEntry.data.publishDate.toDateString()}
+                      </time>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </main>
+    
