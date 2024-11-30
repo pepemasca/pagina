@@ -34,86 +34,309 @@ Texto del segundo apartado
 
 ## 1. Principiantes <a name="1"></a>
 
-| **Título** | **Medio** | **Contenido** |
-|:-----------|:---------:|:--------------|
-|[Estudio Bitcoin] https://estudiobitcoin.com/a-empezar-en-bitcoin/  |      Web     | Posiblemente la comunidad española más influyente en España.|
-| El Dinero Bitcoin: El Cuento de Bitvilla | Libro | Este corto cómic para todos los públicos explica de forma muy resumida y sencilla que es Bitcoin en este mundo.|
-|    [Exchanges populares]    |  Web   | Aquí os dejo un fragmento de mi sencilla públicación |
-|[Comprar y vender sin KYC] https://estudiobitcoin.com/comprar-y-vender/ |    Web       | Una manera poco sencilla y que requiere de tiempo, pero es las más correcta. |
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
+<div class="overflow-x-auto max-w-full">
+  <table class="min-w-full border-collapse border border-gray-200">
+    <thead class="bg-gray-100">
+      <tr>
+        <th class="border border-gray-300 px-4 py-2 text-left">Título</th>
+        <th class="border border-gray-300 px-4 py-2 text-left">Medio</th>
+        <th class="border border-gray-300 px-4 py-2 text-left">Contenido</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">
+          <a href="https://estudiobitcoin.com/a-empezar-en-bitcoin/" class="text-blue-500 hover:underline">Estudio Bitcoin</a>
+        </td>
+        <td class="border border-gray-300 px-4 py-2">Web</td>
+        <td class="border border-gray-300 px-4 py-2">
+          Posiblemente la comunidad española más influyente en España.
+        </td>
+      </tr>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">El Dinero Bitcoin: El Cuento de Bitvilla</td>
+        <td class="border border-gray-300 px-4 py-2">Libro</td>
+        <td class="border border-gray-300 px-4 py-2">
+          Este corto cómic para todos los públicos explica de forma muy resumida y sencilla qué es Bitcoin en este mundo.
+        </td>
+      </tr>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">
+          <a href="#" class="text-blue-500 hover:underline">Exchanges populares</a>
+        </td>
+        <td class="border border-gray-300 px-4 py-2">Web</td>
+        <td class="border border-gray-300 px-4 py-2">
+          Aquí os dejo un fragmento de mi sencilla publicación.
+        </td>
+      </tr>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">
+          <a href="https://estudiobitcoin.com/comprar-y-vender/" class="text-blue-500 hover:underline">Comprar y vender sin KYC</a>
+        </td>
+        <td class="border border-gray-300 px-4 py-2">Web</td>
+        <td class="border border-gray-300 px-4 py-2">
+          Una manera poco sencilla y que requiere de tiempo, pero es la más correcta.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 
 ## 2. Intermedio-Avanzado <a name="2"></a>
 
-| **Título** | **Medio** | **Contenido** |
-|:-----------|:---------:|:--------------|
-|[Whitepaper, AKA la biblia] https://bitcoin.org/es/bitcoin-documento |     PDF      |Este documento multidisciplinar y anónimo dio a conocer Bitcoin|
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
+
+<div class="overflow-x-auto max-w-full">
+  <table class="min-w-full border-collapse border border-gray-200">
+    <thead class="bg-gray-100">
+      <tr>
+        <th class="border border-gray-300 px-4 py-2 text-left">Título</th>
+        <th class="border border-gray-300 px-4 py-2 text-left">Medio</th>
+        <th class="border border-gray-300 px-4 py-2 text-left">Contenido</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">
+          <a href="https://bitcoin.org/es/bitcoin-documento" class="text-blue-500 hover:underline">Whitepaper, AKA la biblia</a>
+        </td>
+        <td class="border border-gray-300 px-4 py-2">PDF</td>
+        <td class="border border-gray-300 px-4 py-2">
+          Posiblemente la comunidad española más influyente en España.
+        </td>
+      </tr>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">aa</td>
+        <td class="border border-gray-300 px-4 py-2">aa</td>
+        <td class="border border-gray-300 px-4 py-2">
+          aa
+        </td>
+      </tr>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">
+          <a href="#" class="text-blue-500 hover:underline">aa</a>
+        </td>
+        <td class="border border-gray-300 px-4 py-2">aa</td>
+        <td class="border border-gray-300 px-4 py-2">
+          aa
+        </td>
+      </tr>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">
+          <a href="https:www.google.com"" class="text-blue-500 hover:underline">aa</a>
+        </td>
+        <td class="border border-gray-300 px-4 py-2">aa</td>
+        <td class="border border-gray-300 px-4 py-2">
+          aa
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 
 ## 3. Economía <a name="3"></a>
 
-| **Título** | **Medio** | **Contenido** |
-|------------|-----------|---------------|
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
+
+<div class="overflow-x-auto max-w-full">
+  <table class="min-w-full border-collapse border border-gray-200">
+    <thead class="bg-gray-100">
+      <tr>
+        <th class="border border-gray-300 px-4 py-2 text-left">Título</th>
+        <th class="border border-gray-300 px-4 py-2 text-left">Medio</th>
+        <th class="border border-gray-300 px-4 py-2 text-left">Contenido</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">
+          <a href="#" class="text-blue-500 hover:underline">aa</a>
+        </td>
+        <td class="border border-gray-300 px-4 py-2">aa</td>
+        <td class="border border-gray-300 px-4 py-2">
+          aa
+        </td>
+      </tr>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">aa</td>
+        <td class="border border-gray-300 px-4 py-2">aa</td>
+        <td class="border border-gray-300 px-4 py-2">
+          aa
+        </td>
+      </tr>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">
+          <a href="#" class="text-blue-500 hover:underline">aa</a>
+        </td>
+        <td class="border border-gray-300 px-4 py-2">aa</td>
+        <td class="border border-gray-300 px-4 py-2">
+          aa
+        </td>
+      </tr>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">
+          <a href="https:www.google.com" class="text-blue-500 hover:underline">aa</a>
+        </td>
+        <td class="border border-gray-300 px-4 py-2">aa</td>
+        <td class="border border-gray-300 px-4 py-2">
+          aa
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 
 ## 4. Tecnología <a name="4"></a>
 
-| **Título** | **Medio** | **Contenido** |
-|------------|-----------|---------------|
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
+<div class="overflow-x-auto max-w-full">
+  <table class="min-w-full border-collapse border border-gray-200">
+    <thead class="bg-gray-100">
+      <tr>
+        <th class="border border-gray-300 px-4 py-2 text-left">Título</th>
+        <th class="border border-gray-300 px-4 py-2 text-left">Medio</th>
+        <th class="border border-gray-300 px-4 py-2 text-left">Contenido</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">
+          <a href="#" class="text-blue-500 hover:underline">aa</a>
+        </td>
+        <td class="border border-gray-300 px-4 py-2">aa</td>
+        <td class="border border-gray-300 px-4 py-2">
+          aa
+        </td>
+      </tr>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">aa</td>
+        <td class="border border-gray-300 px-4 py-2">aa</td>
+        <td class="border border-gray-300 px-4 py-2">
+          aa
+        </td>
+      </tr>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">
+          <a href="#" class="text-blue-500 hover:underline">aa</a>
+        </td>
+        <td class="border border-gray-300 px-4 py-2">aa</td>
+        <td class="border border-gray-300 px-4 py-2">
+          aa
+        </td>
+      </tr>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">
+          <a href="https:www.google.com" class="text-blue-500 hover:underline">aa</a>
+        </td>
+        <td class="border border-gray-300 px-4 py-2">aa</td>
+        <td class="border border-gray-300 px-4 py-2">
+          aa
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ## 5. Filosofía, política y sociología <a name="5"></a>
 
-| **Título** | **Medio** | **Contenido** |
-|------------|-----------|---------------|
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
+<div class="overflow-x-auto max-w-full">
+  <table class="min-w-full border-collapse border border-gray-200">
+    <thead class="bg-gray-100">
+      <tr>
+        <th class="border border-gray-300 px-4 py-2 text-left">Título</th>
+        <th class="border border-gray-300 px-4 py-2 text-left">Medio</th>
+        <th class="border border-gray-300 px-4 py-2 text-left">Contenido</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">
+          <a href="#" class="text-blue-500 hover:underline">aa</a>
+        </td>
+        <td class="border border-gray-300 px-4 py-2">aa</td>
+        <td class="border border-gray-300 px-4 py-2">
+          aa
+        </td>
+      </tr>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">aa</td>
+        <td class="border border-gray-300 px-4 py-2">aa</td>
+        <td class="border border-gray-300 px-4 py-2">
+          aa
+        </td>
+      </tr>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">
+          <a href="#" class="text-blue-500 hover:underline">aa</a>
+        </td>
+        <td class="border border-gray-300 px-4 py-2">aa</td>
+        <td class="border border-gray-300 px-4 py-2">
+          aa
+        </td>
+      </tr>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">
+          <a href="https:www.google.com" class="text-blue-500 hover:underline">aa</a>
+        </td>
+        <td class="border border-gray-300 px-4 py-2">aa</td>
+        <td class="border border-gray-300 px-4 py-2">
+          aa
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ## 6. Ciberseguridad e identidad digital <a name="6"></a>
 
-| **Título** | **Medio** | **Contenido** |
-|------------|-----------|---------------|
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
-|            |           |               |
+<div class="overflow-x-auto max-w-full">
+  <table class="min-w-full border-collapse border border-gray-200">
+    <thead class="bg-gray-100">
+      <tr>
+        <th class="border border-gray-300 px-4 py-2 text-left">Título</th>
+        <th class="border border-gray-300 px-4 py-2 text-left">Medio</th>
+        <th class="border border-gray-300 px-4 py-2 text-left">Contenido</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">
+          <a href="#" class="text-blue-500 hover:underline">aa</a>
+        </td>
+        <td class="border border-gray-300 px-4 py-2">aa</td>
+        <td class="border border-gray-300 px-4 py-2">
+          aa
+        </td>
+      </tr>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">aa</td>
+        <td class="border border-gray-300 px-4 py-2">aa</td>
+        <td class="border border-gray-300 px-4 py-2">
+          aa
+        </td>
+      </tr>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">
+          <a href="#" class="text-blue-500 hover:underline">aa</a>
+        </td>
+        <td class="border border-gray-300 px-4 py-2">aa</td>
+        <td class="border border-gray-300 px-4 py-2">
+          aa
+        </td>
+      </tr>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">
+          <a href="https:www.google.com" class="text-blue-500 hover:underline">aa</a>
+        </td>
+        <td class="border border-gray-300 px-4 py-2">aa</td>
+        <td class="border border-gray-300 px-4 py-2">
+          aa
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 
 Algo que no se contempla muy bien cuando se compara Bitcoin con cualquier forma de ahorro es que mantener cualquier forma de ahorro en el tiempo tiene algún tipo de coste:
 - **<u>Coste de oportunidad:</u>**
