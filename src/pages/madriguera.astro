@@ -5,30 +5,90 @@ import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 
-// Filter blog entries with 'draft: false' & date before current date
+// Importa solo los componentes necesarios de "astro-navbar"
+import { Astronav } from "astro-navbar";
+
+// Filtrar entradas publicadas con 'draft: false' y fecha antes de la actual
 const publishedMadrigueraEntries = await getCollection("madriguera", ({ data }) => {
   return !data.draft && data.publishDate < new Date();
 });
 
-// Sort content entries by publication date
-publishedMadrigueraEntries.sort(function (a, b) {
-  return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
-});
+// Ordenar entradas por fecha de publicación
+publishedMadrigueraEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
 ---
 
-<Layout title="Madriguera">
+<Layout title="Madriguera" hideNavbar={true}>
+  <!-- Navbar centrado con Astronav -->
   <Container>
+    <header class="flex justify-center items-center my-5">
+      <Astronav>
+        <div class="flex w-full lg:w-auto items-center justify-center">
+          <a href="/" class="text-lg">
+            <span class="font-bold text-slate-800">Crypto</span><span 
+            class="text-orange-400">pedia</span>
+          </a>
+        </div>
+      </Astronav>
+    </header>
+  </Container>
+
+  <main class="mt-16">
+    <!-- Contenedor para el primer post, fuera del Container para ocupar toda la pantalla -->
+    <div class="w-full">
+      <ul class="w-full">
+        
+        <!-- El primer post ocupa todo el ancho de la pantalla -->
+        <li class="w-full">
+          <a href={`/madriguera/${publishedMadrigueraEntries[0].slug}`}>
+            <div class="flex w-full h-full">
+              <!-- Mitad izquierda: Título, autor y fecha -->
+              <div class="w-1/2 p-8 flex flex-col justify-between bg-orange-400 bg-opacity-75 backdrop-blur-lg">
+                <div>
+                  <h2 class="text-4xl font-semibold">{publishedMadrigueraEntries[0].data.title}</h2>
+                  <div class="flex gap-2 mt-4 text-gray-500">
+                    <span>{publishedMadrigueraEntries[0].data.author}</span>
+                    <span>•</span>
+                    <time datetime={publishedMadrigueraEntries[0].data.publishDate.toISOString()}>
+                      {publishedMadrigueraEntries[0].data.publishDate.toDateString()}
+                    </time>
+                  </div>
+                </div>
+                <span class="mt-4 text-blue-500 uppercase tracking-wide text-sm font-medium">{publishedMadrigueraEntries[0].data.category}</span>
+              </div>
+              
+              <!-- Mitad derecha: Imagen -->
+              <div class="w-1/2">
+                <Picture
+                  src={publishedMadrigueraEntries[0].data.image.src}
+                  alt={publishedMadrigueraEntries[0].data.image.alt}
+                  sizes="(max-width: 800px) 100vw, 800px"
+                  width={800}
+                  height={600}
+                  loading="eager"
+                  decoding="sync"
+                  class="w-full h-full object-cover object-center"
+                />
+              </div>
+            </div>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+
     <Sectionhead>
       <Fragment slot="title">La madriguera de Cryptopedia</Fragment>
       <Fragment slot="desc">
         Fuentes de información sobre temas relevantes para la gestión de criptoactivos.
       </Fragment>
-    </Sectionhead>
-    <main class="mt-16">
+    </Sectionhead>  
+
+    <!-- Container principal para los siguientes posts -->
+    <Container>
       <ul class="grid gap-16 max-w-6xl mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {
-          publishedMadrigueraEntries.map((madrigueraPostEntry, index) => (
-            <li>
+          publishedMadrigueraEntries.slice(1).map((madrigueraPostEntry, index) => (
+            <li class="flex flex-col gap-5">
               <a href={`/madriguera/${madrigueraPostEntry.slug}`}>
                 <div class="flex flex-col gap-5">
                   <Picture
@@ -45,11 +105,9 @@ publishedMadrigueraEntries.sort(function (a, b) {
                     <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
                       {madrigueraPostEntry.data.category}
                     </span>
-    
                     <h2 class="text-2xl font-semibold leading-snug tracking-tight mt-1">
                       {madrigueraPostEntry.data.title}
                     </h2>
-    
                     <div class="flex gap-2 mt-3">
                       <span class="text-gray-400">
                         {madrigueraPostEntry.data.author}
@@ -68,5 +126,6 @@ publishedMadrigueraEntries.sort(function (a, b) {
           ))
         }
       </ul>
-    </main>
-    
+    </Container>
+  </main>
+</Layout>

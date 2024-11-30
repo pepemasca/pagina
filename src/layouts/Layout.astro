@@ -5,10 +5,10 @@ import Navbar from "@components/navbar/navbar.astro";
 import "@fontsource-variable/inter/index.css";
 import '@fontsource-variable/bricolage-grotesque';
 
-
-
+// Recibimos la prop hideNavbar desde las páginas
 export interface Props {
   title: string;
+  hideNavbar?: boolean; // Se agrega la propiedad hideNavbar como opcional
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
@@ -18,7 +18,7 @@ const resolvedImageWithDomain = new URL(
   Astro.site
 ).toString();
 
-const { title } = Astro.props;
+const { title, hideNavbar } = Astro.props;
 
 const makeTitle = title
   ? title + " | " + "Cryptopedia"
@@ -33,7 +33,7 @@ const makeTitle = title
     <link rel="icon" type="image/svg+xml" href="/LOGO.png" />
     <meta name="generator" content={Astro.generator} />
 
-    <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
+    <!-- SEO Meta Tags -->
     <SEO
       title={makeTitle}
       description="Accede a información de calidad para poder invertir mejor."
@@ -57,7 +57,8 @@ const makeTitle = title
     />
   </head>
   <body>
-    <Navbar />
+    {/* Si hideNavbar es falso o no está presente, se renderiza el Navbar */}
+    {!hideNavbar && <Navbar />}
     <slot />
     <Footer />
     <style is:global>
