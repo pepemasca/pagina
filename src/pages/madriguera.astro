@@ -20,10 +20,10 @@ publishedMadrigueraEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data.
 <Layout title="Madriguera" hideNavbar={true}>
   <!-- Navbar centrado con Astronav -->
   <Container>
-    <header class="flex justify-center items-center my-5">
+    <header class="flex justify-center items-center mt-10">
       <Astronav>
         <div class="flex w-full lg:w-auto items-center justify-center">
-          <a href="/" class="text-lg">
+          <a href="/" class="text-2xl">
             <span class="font-bold text-slate-800">Crypto</span><span 
             class="text-orange-400">pedia</span>
           </a>
@@ -83,11 +83,17 @@ publishedMadrigueraEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data.
       </Fragment>
     </Sectionhead>  
 
-    <!-- Container principal para los siguientes posts -->
+    <!-- Texto de separación entre los primeros 6 y el resto -->
+    <div class="text-center my-12">
+      <h2 class="text-xl font-semibold">Más artículos sobre Criptoactivos</h2>
+      <p class="mt-4 text-gray-500">Explora más temas interesantes relacionados con la gestión de criptoactivos.</p>
+    </div>
+
+    <!-- Container para los siguientes posts (del 2º al 7º) -->
     <Container>
       <ul class="grid gap-16 max-w-6xl mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {
-          publishedMadrigueraEntries.slice(1).map((madrigueraPostEntry, index) => (
+          publishedMadrigueraEntries.slice(1, 7).map((madrigueraPostEntry, index) => (
             <li class="flex flex-col gap-5">
               <a href={`/madriguera/${madrigueraPostEntry.slug}`}>
                 <div class="flex flex-col gap-5">
@@ -127,5 +133,57 @@ publishedMadrigueraEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data.
         }
       </ul>
     </Container>
+
+    <!-- Texto de separación para los posts restantes -->
+    <div class="text-center my-12">
+      <h2 class="text-xl font-semibold">Explora más artículos</h2>
+      <p class="mt-4 text-gray-500">Aquí encontrarás más contenido sobre criptomonedas y su gestión.</p>
+    </div>
+
+    <!-- Container para el resto de los posts (del 8º en adelante) -->
+    <Container>
+      <ul class="grid gap-16 max-w-6xl mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+        {
+          publishedMadrigueraEntries.slice(7).map((madrigueraPostEntry, index) => (
+            <li class="flex flex-col gap-5">
+              <a href={`/madriguera/${madrigueraPostEntry.slug}`}>
+                <div class="flex flex-col gap-5">
+                  <Picture
+                    src={madrigueraPostEntry.data.image.src}
+                    alt={madrigueraPostEntry.data.image.alt}
+                    sizes="(max-width: 800px) 100vw, 800px"
+                    width={800}
+                    height={600}
+                    loading={index <= 2 ? "eager" : "lazy"}
+                    decoding={index <= 2 ? "sync" : "async"}
+                    class="w-full h-[200px] rounded-md object-cover object-center bg-gray-100"
+                  />
+                  <div>
+                    <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
+                      {madrigueraPostEntry.data.category}
+                    </span>
+                    <h2 class="text-2xl font-semibold leading-snug tracking-tight mt-1">
+                      {madrigueraPostEntry.data.title}
+                    </h2>
+                    <div class="flex gap-2 mt-3">
+                      <span class="text-gray-400">
+                        {madrigueraPostEntry.data.author}
+                      </span>
+                      <span class="text-gray-400">• </span>
+                      <time
+                        class="text-gray-400"
+                        datetime={madrigueraPostEntry.data.publishDate.toISOString()}>
+                        {madrigueraPostEntry.data.publishDate.toDateString()}
+                      </time>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </Container>
+
   </main>
 </Layout>

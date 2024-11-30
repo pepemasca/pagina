@@ -1,32 +1,79 @@
+
 ---
+import { getCollection } from "astro:content";
+import { Picture } from "astro:assets";
+import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
-import Layout from "@layouts/Layout.astro";
-import { Icon } from "astro-icon/components";
+
+// Importa solo los componentes necesarios de "astro-navbar"
+import { Astronav } from "astro-navbar";
+
+// Filtrar entradas publicadas con 'draft: false' y fecha antes de la actual
+const publishedEstrategiasEntries = await getCollection("estrategias", ({ data }) => {
+  return !data.draft && data.publishDate < new Date();
+});
+
+// Ordenar entradas por fecha de publicación
+publishedEstrategiasEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
 ---
 
-<Layout title="Estrategias">
+<Layout title="Estrategias" hideNavbar={true}>
+  <!-- Navbar centrado con Astronav -->
   <Container>
-    <Sectionhead>
-      <Fragment slot="title">Gracias por tu ayuda</Fragment>
-      <Fragment slot="desc">Este mecenazgo será distribuido entre todos aquellos que realicen contribuciones.</Fragment>
-    </Sectionhead>
-
-    <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-16">
-      <div>
-        <h2 class="font-medium text-2xl text-gray-800">Dirección de Bitcoin</h2>
-        <div class="mt-5">
-          <div class="flex items-center mt-2 space-x-2 text-gray-600">
-            <Icon class="text-gray-400 w-4 h-4" name="uil:bitcoin" />
-            <span>32sTZE86Bh2kRxN8zSmtDyeTn6vdXnhdR7</span>
-          </div>
+    <header class="flex justify-center items-center mt-10">
+      <Astronav>
+        <div class="flex w-full lg:w-auto items-center justify-center">
+          <a href="/" class="text-2xl">
+            <span class="font-bold text-slate-800">Crypto</span><span 
+            class="text-orange-400">pedia</span>
+          </a>
         </div>
-        <br> <h2 class="font-medium text-2xl text-gray-800">Dirección de Ethereum y EVM (Optimism, Arbitrum, Base...)</h2>
-        <div class="flex items-center mt-2 space-x-2 text-gray-600">
-          <Icon class="text-gray-400 w-4 h-4" name="uil:envelope" />
-          <span>0x26d197bB4ac8268285a93b86a03e498f29cF5ce4</span>
-        </div>
-      </div>
-    </div>
+      </Astronav>
+    </header>
   </Container>
-</Layout>
+  <main class="mt-16">
+    <!-- Contenedor para el primer post, fuera del Container para ocupar toda la pantalla -->
+    <div class="w-full">
+      <ul class="w-full">
+        
+        <!-- El primer post ocupa todo el ancho de la pantalla -->
+        <li class="w-full">
+          <div class="flex w-full h-full">
+            
+            <!-- Mitad izquierda: Título, autor y fecha con un href específico -->
+            <a href= "/pdf" class="w-1/2 p-8 flex flex-col justify-between bg-orange-400 bg-opacity-75 backdrop-blur-lg">
+              <div>
+                <h2 class="text-4xl font-semibold">{publishedEstrategiasEntries[0].data.title}</h2>
+                <div class="flex gap-2 mt-4 text-gray-500">
+                  <span>{publishedEstrategiasEntries[0].data.author}</span>
+                  <span>•</span>
+                  <time datetime={publishedEstrategiasEntries[0].data.publishDate.toISOString()}>
+                    {publishedEstrategiasEntries[0].data.publishDate.toDateString()}
+                  </time>
+                </div>
+              </div>
+              <span class="mt-4 text-blue-500 uppercase tracking-wide text-sm font-medium">{publishedEstrategiasEntries[0].data.category}</span>
+            </a>
+            
+            <!-- Mitad derecha: Imagen con un href diferente -->
+            <a href={`/otra-ruta/${publishedEstrategiasEntries[0].slug}`} class="w-1/2">
+              <Picture
+                src={publishedEstrategiasEntries[0].data.image.src}
+                alt={publishedEstrategiasEntries[0].data.image.alt}
+                sizes="(max-width: 800px) 100vw, 800px"
+                width={800}
+                height={600}
+                loading="eager"
+                decoding="sync"
+                class="w-full h-full object-cover object-center"
+              />
+            </a>
+            
+          </div>
+        </li>
+  
+      </ul>
+    </div>
+  </main>
+  
