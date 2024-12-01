@@ -83,7 +83,7 @@ publishedEstrategiasEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data
     </Fragment>
   </Sectionhead>
 
-  <main class="mt-16">
+  <Container>
     <ul class="grid gap-16 max-w-6xl mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-2">
       {
         publishedEstrategiasEntries.slice(1, 100).map((estrategiasPostEntry, index) => (
@@ -126,5 +126,5 @@ publishedEstrategiasEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data
         ))
       }
     </ul>
-  </main>
+  </Container>
   
