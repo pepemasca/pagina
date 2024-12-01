@@ -7,7 +7,7 @@ image: {
     alt: "data structures & algorithms"
 }
 publishDate: "2024-11-29 16:39"
-category: "Fuentes de información"
+category: "Web 3"
 author: "Javier Mascarell"
 tags: [Bitcoin, Activo real, Reserva de valor]
 ---

@@ -92,7 +92,7 @@ publishedMadrigueraEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data.
     <Container>
       <ul class="grid gap-16 max-w-6xl mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
         {
-          publishedMadrigueraEntries.slice(1, 7).map((madrigueraPostEntry, index) => (
+          publishedMadrigueraEntries.slice(1, 5).map((madrigueraPostEntry, index) => (
             <li class="flex flex-col gap-5">
               <a href={`/madriguera/${madrigueraPostEntry.slug}`}>
                 <div class="flex flex-col gap-5">
@@ -141,9 +141,9 @@ publishedMadrigueraEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data.
 
     <!-- Container para el resto de los posts (del 8º en adelante) -->
     <Container>
-      <ul class="grid gap-16 max-w-6xl mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <ul class="grid gap-16 max-w-6xl mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
         {
-          publishedMadrigueraEntries.slice(7).map((madrigueraPostEntry, index) => (
+          publishedMadrigueraEntries.slice(5).map((madrigueraPostEntry, index) => (
             <li class="flex flex-col gap-5">
               <a href={`/madriguera/${madrigueraPostEntry.slug}`}>
                 <div class="flex flex-col gap-5">

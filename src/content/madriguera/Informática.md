@@ -1,15 +1,15 @@
 ---
 draft: false
-title: "Economía social"
+title: "Informática"
 snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 image: {
-    src: "https://img.freepik.com/vector-premium/familia-pareja-feliz-miniatura-pie-casa-madera-como-propiedad-o-plan-hipoteca-financiera_926199-3752293.jpg",
+    src: "https://static.vecteezy.com/system/resources/previews/006/310/608/non_2x/hacker-operating-laptop-cartoon-icon-illustration-people-technology-icon-concept-isolated-premium-flat-cartoon-style-vector.jpg",
     alt: "data structures & algorithms"
 }
 publishDate: "2024-11-11 16:39"
-category: "Economía"
+category: "Informática"
 author: "Javier Mascarell"
-tags: [Teoría de juegos, Macroeconomía, Política]
+tags: [Instrumentos financeros, Activos , Sistema bancario y financiero]
 ---
 
 <div

@@ -1,13 +1,13 @@
 ---
 draft: false
-title: "¿Por qué Bitcoin?"
+title: "Cómo crear una estrategia"
 snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 image: {
     src: "https://1.bp.blogspot.com/-BmV3e9qOec8/XRE8IdPdjCI/AAAAAAAACXs/trvO0u65_JwL5M5LNfL1DbyhKo8eq82_wCLcBGAs/s1600/Bitcoin.png",
     alt: "data structures & algorithms"
 }
 publishDate: "2024-11-12 16:39"
-category: "Redes"
+category: "Estrategia"
 author: "Javier Mascarell"
 tags: [Bitcoin, Activo real, Reserva de valor]
 ---

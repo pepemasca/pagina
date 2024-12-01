@@ -1,15 +1,15 @@
 ---
 draft: false
-title: "Economía social"
+title: "Energía"
 snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 image: {
-    src: "https://img.freepik.com/vector-premium/familia-pareja-feliz-miniatura-pie-casa-madera-como-propiedad-o-plan-hipoteca-financiera_926199-3752293.jpg",
+    src: "https://img.freepik.com/vector-premium/empresario-cargando-energia-carga-baja-porque-esta-cansado-exceso-trabajo-o-estresado-ilustracion-vectorial_620585-1201.jpg",
     alt: "data structures & algorithms"
 }
 publishDate: "2024-11-11 16:39"
-category: "Economía"
+category: "Energía"
 author: "Javier Mascarell"
-tags: [Teoría de juegos, Macroeconomía, Política]
+tags: [Instrumentos financeros, Activos , Sistema bancario y financiero]
 ---
 
 <div

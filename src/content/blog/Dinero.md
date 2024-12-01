@@ -7,7 +7,7 @@ image: {
     alt: "frontend master"
 }
 publishDate: "2024-11-24 15:39"
-category: "Economía"
+category: "Dinero"
 author: "Javier Mascarell"
 tags: [Divisas, Oro, Mercancía]
 ---
