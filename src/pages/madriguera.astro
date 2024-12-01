@@ -40,9 +40,9 @@ publishedMadrigueraEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data.
         <!-- El primer post ocupa todo el ancho de la pantalla -->
         <li class="w-full">
           <a href={`/madriguera/${publishedMadrigueraEntries[0].slug}`}>
-            <div class="flex w-full h-full">
+            <div class="flex flex-col md:flex-row w-full h-full">
               <!-- Mitad izquierda: Título, autor y fecha -->
-              <div class="w-1/2 p-8 flex flex-col justify-between bg-orange-400 bg-opacity-75 backdrop-blur-lg">
+              <div class="w-full md:w-1/2 p-8 flex flex-col justify-between bg-orange-400 bg-opacity-75 backdrop-blur-lg">
                 <div>
                   <h2 class="text-4xl font-semibold">{publishedMadrigueraEntries[0].data.title}</h2>
                   <div class="flex gap-2 mt-4 text-gray-500">
@@ -55,23 +55,22 @@ publishedMadrigueraEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data.
                 </div>
                 <span class="mt-4 text-blue-500 uppercase tracking-wide text-sm font-medium">{publishedMadrigueraEntries[0].data.category}</span>
               </div>
-              
               <!-- Mitad derecha: Imagen -->
-              <div class="w-1/2">
+              <div class="w-full md:w-1/2">
                 <Picture
-                  src={publishedMadrigueraEntries[0].data.image.src}
-                  alt={publishedMadrigueraEntries[0].data.image.alt}
-                  sizes="(max-width: 800px) 100vw, 800px"
-                  width={800}
-                  height={600}
-                  loading="eager"
-                  decoding="sync"
-                  class="w-full h-full object-cover object-center"
-                />
-              </div>
+                src={publishedMadrigueraEntries[0].data.image.src}
+                alt={publishedMadrigueraEntries[0].data.image.alt}
+                sizes="(max-width: 800px) 100vw, 800px"
+                width={800}
+                height={600}
+                loading="eager"
+                decoding="sync"
+                class="w-full h-full object-cover object-center"
+              />
             </div>
-          </a>
-        </li>
+          </div>
+        </a>
+      </li>
 
       </ul>
     </div>
