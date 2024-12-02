@@ -1,15 +1,15 @@
 ---
 draft: false
-title: "En construcción..."
+title: "Tipos de indicadores"
 snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 image: {
-    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr4EFrpckWIxXYlTgI-7HtH9g_7R9E960FSQ&s",
+    src: "https://www.xamai.com/hubfs/Miniaturas%20agosto-5%20copia.webp",
     alt: "data structures & algorithms"
 }
-publishDate: "2024-11-10 16:39"
-category: "Energía"
+publishDate: "2024-11-12 6:39"
+category: "Redes"
 author: "Javier Mascarell"
-tags: [Instrumentos financeros, Activos , Sistema bancario y financiero]
+tags: [Bitcoin, Activo real, Reserva de valor]
 ---
 
 <div
@@ -19,6 +19,14 @@ tags: [Instrumentos financeros, Activos , Sistema bancario y financiero]
 <p>Si te interesa conocer más sobre bitcoin o no entiendes algo en esta publicación, puedes encontrar información en 
 <a href="https://cryptopedia-com.web.app/madriguera" class="text-blue-500 underline">cryptopedia-com.web.app/madriguera</a>
 <a href="#referencia1" style="font-weight: bold; text-decoration: none;"><sup>[1]</sup></a></p>
+
+1. Introducción
+2. Tipos de indicadores
+3. Indicadores técnicos
+4. Indicadores fundamentales
+5. Indicadores On-Chain
+6. ....
+7. Resumen y conclusiones
 
 ## Introducción
 Desde su creación y posterior lanzamiento en 2009, Bitcoin ha evolucionado constantemente, pues como cualquier otra técnologia, las mejoras son necesarias para mantener la seguridad y competitividad.
