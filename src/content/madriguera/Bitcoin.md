@@ -28,7 +28,7 @@ Texto del segundo apartado
 
 
 <p>Si te interesa conocer más sobre bitcoin o no entiendes algo en esta publicación, puedes encontrar información en 
-<a href="https://cryptopedia-com.web.app/madriguera" class="text-blue-500 underline">cryptopedia-com.web.app/madriguera</a>
+<a href="/madriguera" class="text-blue-500 underline">cryptopedia-com.web.app/madriguera</a>
 <a href="#referencia1" style="font-weight: bold; text-decoration: none;"><sup>[1]</sup></a></p>
 
 
