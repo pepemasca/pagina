@@ -5,7 +5,7 @@ import Link from "@components/ui/link.astro";
 import { Icon } from "astro-icon/components";
 ---
 
-<main
+<main 
   class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-12 md:pb-24">
   <div class="py-6 md:order-1 hidden md:block">
     <Picture
@@ -28,14 +28,14 @@ import { Icon } from "astro-icon/components";
       ciclo alcista.
     </p>
     <div class="mt-6 flex flex-col sm:flex-row gap-3">
-      <!-- Botón "Bases de la comunidad.pdf" -->
       <Link
-        href="/pdf"
-        target="_blank"
-        class="flex gap-1 items-center justify-center border-3 border-orange-400 bg-transparent text-orange-400 rounded-lg px-4 py-2 hover:bg-orange-400 hover:text-white font-semibold transition-colors duration-300"
-        rel="noopener">
-        <Icon class="w-5 h-5" name="bx:bxs-cloud-download" />
-        Bases de la comunidad.pdf
+      size="lg"
+      rel="noopener"
+      href="/contact"
+      class="flex gap-1 items-center justify-center border-3 border-orange-400 bg-orange-400 text-black rounded-lg px-4 py-2 hover:bg-white hover:text-orange-400 font-semibold transition-colors duration-300"
+      target="_blank">
+      <Icon class="w-4 h-4" name="bx:bxl-github" />
+      Bases de la comunidad.pdf
       </Link>
     
       <!-- Botón "Quiero crear contenido" -->
@@ -49,4 +49,5 @@ import { Icon } from "astro-icon/components";
         Quiero crear contenido
       </Link>
     </div>
+  </div>
     
