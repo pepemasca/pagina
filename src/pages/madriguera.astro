@@ -84,8 +84,7 @@ publishedMadrigueraEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data.
 
     <!-- Texto de separación entre los primeros 6 y el resto -->
     <div class="text-center my-12">
-      <h2 class="text-xl font-semibold">Más artículos sobre Criptoactivos</h2>
-      <p class="mt-4 text-gray-500">Explora más temas interesantes relacionados con la gestión de criptoactivos.</p>
+      <h2 class="text-xl font-semibold"></h2>
     </div>
 
     <!-- Container para los siguientes posts (del 2º al 7º) -->
@@ -95,7 +94,7 @@ publishedMadrigueraEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data.
           publishedMadrigueraEntries.slice(1, 5).map((madrigueraPostEntry, index) => (
             <li class="flex flex-col gap-5">
               <a href={`/madriguera/${madrigueraPostEntry.slug}`}>
-                <div class="flex flex-col gap-5">
+                <div class="flex flex-col gap-5 hover:scale-105">
                   <Picture
                     src={madrigueraPostEntry.data.image.src}
                     alt={madrigueraPostEntry.data.image.alt}
@@ -104,7 +103,7 @@ publishedMadrigueraEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data.
                     height={600}
                     loading={index <= 2 ? "eager" : "lazy"}
                     decoding={index <= 2 ? "sync" : "async"}
-                    class="w-full h-[200px] rounded-md object-cover object-center bg-gray-100 border"
+                    class="w-full h-[200px] rounded-md object-cover object-center bg-gray-100 border transition-all"
                   />
                   <div>
                     <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
@@ -136,7 +135,7 @@ publishedMadrigueraEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data.
     <!-- Texto de separación para los posts restantes -->
     <div class="text-center my-12">
       <h2 class="text-xl font-semibold">Explora más artículos</h2>
-      <p class="mt-4 text-gray-500">Aquí encontrarás más contenido sobre criptomonedas y su gestión.</p>
+      <p class="mt-4 text-gray-500">Aquí encontrarás más contenido sobre criptoactivos.</p>
     </div>
 
     <!-- Container para el resto de los posts (del 8º en adelante) -->
@@ -146,7 +145,7 @@ publishedMadrigueraEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data.
           publishedMadrigueraEntries.slice(5).map((madrigueraPostEntry, index) => (
             <li class="flex flex-col gap-5">
               <a href={`/madriguera/${madrigueraPostEntry.slug}`}>
-                <div class="flex flex-col gap-5">
+                <div class="flex flex-col gap-5 hover:scale-105">
                   <Picture
                     src={madrigueraPostEntry.data.image.src}
                     alt={madrigueraPostEntry.data.image.alt}
@@ -155,7 +154,7 @@ publishedMadrigueraEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data.
                     height={600}
                     loading={index <= 2 ? "eager" : "lazy"}
                     decoding={index <= 2 ? "sync" : "async"}
-                    class="w-full h-[200px] rounded-md object-cover object-center bg-gray-100 border"
+                    class="w-full h-[200px] rounded-md object-cover object-center bg-gray-100 border transition-all"
                   />
                   <div>
                     <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
