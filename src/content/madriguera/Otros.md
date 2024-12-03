@@ -22,13 +22,13 @@ tags: [Instrumentos financeros, Activos , Sistema bancario y financiero]
 - **<u>Redes</u>**
 - <a href ="/contact" class="text-blue-500 hover:underline text-bold">AYUDAME A SABER QUE INFO TE INTERESA</a>
 
-<p></p>
-<h1></h1>
+<div
+ class="mx-auto prose prose-lg mt-6 max-w-3xl prose-h3:underline prose-p:text-justify">
 
-<h1 class= "text-5xl font-bold text-center tracking-widest text-orange-400">PRÓXIMAMENTE</h1>
+<h1 class="text-4xl sm:text-5xl font-bold text-center tracking-widest text-orange-400">
+    PRÓXIMAMENTE
+  </h1>
 
 <p class= "text-lg tracking-wide">Actualmente, estamos enfocándonos en las secciones de <a href="/estrategias" class="text-blue-500 underline">Estrategias</a> y <a href="/operaciones" class="text-blue-500 underline">Operaciones</a>, ya que consideramos que seguramente las oportunidades no duren por mucho tiempo. Mientras tanto, podéis acceder a <a href="/madriguera/bitcoin" class="text-blue-500 underline">la madriguera de bitcoin,</a> dónde encontraréis fuentes muy enriquecedoras. </p>
-
-<p></p>
 
 </div>
