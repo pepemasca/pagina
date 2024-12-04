@@ -6,7 +6,7 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astroship.web3templates.com",
+  site: "https://cryptopedia-com.web.app",
   integrations: [tailwind(), mdx(), sitemap(), icon()],
   server: {
     host: '0.0.0.0',
