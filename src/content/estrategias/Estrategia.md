@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Principios de inversión. Es muy importante acceder a este documento para comprender la estrategia correctamente."
+title: "Estrategia principal"
 snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 image: {
     src: "https://i.ibb.co/PDR9mSy/Gemini-Generated-Image-pneh3upneh3upneh-2.jpg",
@@ -15,10 +15,7 @@ tags: [Gestión del riesgo, Flexibilidad, Largo plazo]
 <div
  class="mx-auto prose prose-lg mt-6 max-w-3xl prose-h3:underline prose-p:text-justify">
 
- <a class="text-red-500 text-bold">*DISCLAIMER: La información proporcionada en este sitio web no constituye asesoramiento sobre 
-inversiones, asesoramiento financiero, asesoramiento comercial ni ningún otro tipo de asesoramiento y no debes tratar el contenido 
-del sitio web como tal. Cryptopedia no te recomienda que compres ni vendas criptomonedas. Actúa según tu propio juicio y consulta 
-con tu asesor financiero antes de tomar cualquier decisión sobre inversiones.</a>
+ <a class="text-red-500 text-bold no-underline">*DISCLAIMER: La información proporcionada en este sitio web no constituye asesoramiento sobre inversiones, asesoramiento financiero, asesoramiento comercial ni ningún otro tipo de asesoramiento y no debes tratar el contenido del sitio web como tal. Cryptopedia no te recomienda que compres ni vendas criptomonedas. Actúa según tu propio juicio y consulta con tu asesor financiero antes de tomar cualquier decisión sobre inversiones.</a>
 
 
 <p>Si te interesa conocer más sobre bitcoin o no entiendes algo en esta publicación, puedes encontrar información en 
@@ -29,10 +26,10 @@ con tu asesor financiero antes de tomar cualquier decisión sobre inversiones.<
 0. [Introducción sobre estrategias](#0) 
 1. [Principiantes](#1)
 2. [Estrategia actual](#2)
-3. [Indicadores principales](#3)
+3. [Indicadores esenciales](#3)
 4. [Periodo temporal y puntos clave](#4)
 5. [Puntos de no retorno y vías de escape](#5)
-6. [Tomas de ganancias](#6)
+6. [Toma de ganancias](#6)
 7. [Resumen y conclusiones](#7)
 
 ## 0. Introducción sobre estrategias <a name="0"></a>

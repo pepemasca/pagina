@@ -185,11 +185,11 @@ El acceso será completamente libre y gratuito; pues el conocimiento es poder
         </td>
       </tr>
       <tr>
-        <td class="border border-gray-300 px-4 py-2 text-[14px] sm:text-base">aa
+        <td class="border border-gray-300 px-4 py-2 text-[14px] sm:text-base">
           <a href="https://www.youtube.com/watch?v=9B2QWi3k2Zk" class="text-blue-500 hover:underline">
           Escuela austriaca y Bitcoin
         </td>
-        <td class="border border-gray-300 px-4 py-2 text-[14px] sm:text-base">aa</td>
+        <td class="border border-gray-300 px-4 py-2 text-[14px] sm:text-base">Escuela austriaca y Bitcoin</td>
         <td class="border border-gray-300 px-4 py-2 text-[14px] sm:text-base">
           Oscar Vara con Lunaticoin. Aquí hay más informaciómn sobre la Escuela austriaca.
         </td>
@@ -219,6 +219,15 @@ El acceso será completamente libre y gratuito; pues el conocimiento es poder
         <td class="border border-gray-300 px-4 py-2 text-[14px] sm:text-base">Youtube</td>
         <td class="border border-gray-300 px-4 py-2 text-[14px] sm:text-base">
           Juan Ramón Rallo con Manuel Polavieja.
+        </td>
+      </tr>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2 text-[14px] sm:text-base">
+          <a href="https://www.youtube.com/watch?v=kKoEnfdXR40" class="text-blue-500 hover:underline">The History of money</a>
+        </td>
+        <td class="border border-gray-300 px-4 py-2 text-[14px] sm:text-base">Youtube</td>
+        <td class="border border-gray-300 px-4 py-2 text-[14px] sm:text-base">
+          Nick Szabo explica en este video la historia del dinero
         </td>
       </tr>
     </tbody>

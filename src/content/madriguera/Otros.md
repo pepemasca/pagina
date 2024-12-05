@@ -3,7 +3,7 @@ draft: false
 title: "Otros"
 snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 image: {
-    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr4EFrpckWIxXYlTgI-7HtH9g_7R9E960FSQ&s",
+    src: "https://static.vecteezy.com/system/resources/previews/001/218/694/non_2x/under-construction-warning-sign-vector.jpg",
     alt: "data structures & algorithms"
 }
 publishDate: "2024-11-10 16:39"
