@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Tipos de indicadores"
+title: "Tipos de métricas"
 snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 image: {
     src: "https://www.xamai.com/hubfs/Miniaturas%20agosto-5%20copia.webp",
@@ -22,31 +22,37 @@ tags: [Bitcoin, Activo real, Reserva de valor]
 
 ## **Índice**  
 0. Introducción
-1. Tipos de indicadores
-2. Indicadores técnicos
-3. Indicadores fundamentales
-4. Indicadores On-Chain
+1. Tipos de métricas
+2. métricas técnicas
+3. métricas fundamentales
+4. métricas On-Chain
 5. ....
 6. Resumen y conclusiones
 
-## 0 Introducción
-Desde su creación y posterior lanzamiento en 2009, Bitcoin ha evolucionado constantemente, pues como cualquier otra técnologia, las mejoras son necesarias para mantener la seguridad y competitividad.
+## 0. Introducción <a name="0"></a>
 
-Los indicadores son esenciales, pues nos ayudan a conocer mejor cual es el estado de un proyecto. Vamos a poner a Bitcoin como ejemplo, pero podría ser cualquiera
+Los indicadores son esenciales, pues nos ayudan a conocer mejor cual es el estado de un proyecto. Vamos a poner a Bitcoin como ejemplo, pero podría ser cualquier otro activo que esté a la venta, como las empresas cotizadas.
 
-## La visión de Satoshi
-En este sentido, el Whitepaper de Bitcoin aunque no habla directamente de dinero, si que destaca su cualidad de efectivo digital entre personas (símil con los billetes, pero online), aunque Satoshi priorizó aspectos como la seguridad (De la red y de los activos de los propietarios mediante dilución tendiente a 0) y descentralización (Mediante un tamaño de bloque reducido), dejó a un lado la escalabilidad, pues pensaba que los otros dos atributos erán prioritarios. De hecho, el propio Satoshi ya era consciente del "problema" de establecer una oferta tan rígida, como argumentó ante la pregunta de una cantidad de Bitcoins fija y el número de usuarios creciente: "Es más típico de un metal precioso. En lugar de que la oferta cambie para mantener el valor igual, la oferta está predeterminada y el valor cambia. A medida que crece el número de usuarios, aumenta el valor por moneda."<a href="#referencia2" style="font-weight: bold; text-decoration: none;"><sup>[2]</sup></a> Dejando claro que para el no era tan importante el uso como dinero, como si lo era la calidad del activo.
+## 1. Tipos de métricas <a name="1"></a>
 
-## ¿Dónde está entonces el valor de Bitcoin?
-Cuando me he encontrado con personas que opinaban sobre Bitcoin, muchas eran las dudas y preocupaciones sobre su futuro. Las personas que conocian de técnicas de inversión como puedan ser Value investing argumentaban que el valor intrínseco de Bitcoin era 0, ya que a diferencia de cualquier negocio, Bitcoin no generaba flujos de caja (rentabilidad anual) y que por tanto su valor solamente se basaba en la esperanza de que subiera más y más. Pero cuando exponías que Bitcoin era más bien un activo real como el oro y que no era un activo financiero, respondian que el oro si que tenía una utilidad clara y es que su demanda iba a mantenerse por las necesidades de la industria y del sector joyero (aunque realmente casi toda la propiedad se concentra realmente en demandantes de valor refugio y garantistas como lo son los Bancos Centrales).
+Los indicadores se puden dividir en 3 tipos atendiendo a:
 
-Por el contrario cuando hablabas con otras personas mucho más prácticas, argumentaban que Bitcoin no es dinero y que ya se pueden hacer Bizums o pagos online con tarjeta o transferencia bancaria y que más allá del precio, nadie utilizaba Bitcoin en su día a día para pagar o enviar dinero.
+- <a id="referencia1" class="no-underline">métricas técnicas:</a> estas se basan fundamentalmente en la evolución histórica del precio de un activo. Cómo economista al principio renuncié a ellas, pues en la facultad prácticamente son irrelevantes. Sin embargo su utilidad es muy alta, pues se da la llamada profecía autocumplida, ya que muchos inversores tienen la incertidumbre de saber dónde comprar y vender cuando no tienen prisa, en este punto, el precio es una variable que da mucha información. Su punto positivo es que suelen funcionar muy bien, sin embargo, solo se suelen respetar "ceteris paribus" es decir, cuando no ocurre nada extraordinario.
 
-Mi respuesta en este post es clara al respecto: Bitcoin a día de hoy no tiene las capacidades para convertirse en dinero, el principal problema es que la velocidad, los costes por operación y la inestabilidad en el precio lo convierten en un mal dinero, sobretodo para aquellos que tengan altas necesidades de liquidez en su vida diaria (o incapacidad de ahorro en el tiempo).
+- <a id="referencia2" class="no-underline">métricas fundamentales:</a> siguen principalmente componentes macroeconómicos (tipos de interes, inflación, tasa de desempleo, precio de los bonos, prima de riesgo, etc), aunque también son esenciales los aspectos microeconómicos (whitepaper, tasa de emisión de la moneda, desbloqueos de tokens, confianza en los gestores del proyecto, competencia, avances significativos o mejoras técnologicas, etc).
 
-Y no, bitcoin no genera rentabilidades periodicas ni tampoco se usa para la industria o la joyería. Pero los ciudadanos si que le han encontrado una funcionalidad mucho más valiosa y que es uno de los negocios más rentables del mundo, esta funcionalidad se basa en almacenar y transmitir valor a lo largo del tiempo (reserva de valor, quizás una de las propiedades del dinero más descuidada) y es que si lo pensamos, en otros paises con sistemas de ahorro privados, las personas deben ahorrar periodicamente parte de sus ingresos para cuando se jubilen, o unos padres ahorran para la educación o la vivienda que tendrán sus hijos hijos recién nacidos cuando alcancen la adultez y detrás de ello existe una industria trillonaria como lo es el sector financiero que emplea a millones de personas y que es muy influyente en la sociedad mundial.
+- <a id="referencia3" class="no-underline">métricas On-Chain:</a> a diferencia del sector tradicional, la inmensa mayoría de criptoactivos cuentan con una Blockchain, que en resumidas cuentas es un documento contable público (libro mayor distribuido). Por tanto, se pueden seguir los movimientos de las principales billeteras (ballenas), las cuales suponen grandes fuentes de oferta y demanda, aportando por tanto una grán información que condicionará los otros dos indicadores. También se pueden analizar el número de transacciones, número de direcciones, cantidad de fondos bloqueados (staking), etc.
 
-Es decir, muchas personas pagan e intermediarios para poder ahorrar su dinero en instrumentos financieros o protección y mantenimiento de la propiedad a lo largo de varios años y reduciendo la incertidumbre futura de su bienestar adquisitivo o capacidad de realizar proyectos deseados.
+
+## 2. Métricas técnicas <a name="2"></a>
+
+
+<a href="#referencia1" class="font-bold text-black transition-colors duration-300 hover:text-transparent hover:bg-gradient-to-r hover:from-lime-300 hover:to-yellow-500 hover:bg-clip-text hover:animate-pulse">
+    Explicación aquí!
+</a>
+
+
+### 2.1 Soportes y resistencias:
 
 ## Bitcoin como reserva de valor
 
@@ -60,7 +66,7 @@ Quien almacena valor, generalmente trata de deshacerlo en algun momento para adq
 - **<u>Coste de dilución:</u>**
 Esta es una clara ventaja y una clara fuente de demanda de Bitcoin que actualmente cuenta con un incremento de unidades del 0,85% anual, pero que en 2033 será del 0,2% y en 2050 estará muy cerca del 0%. Las acciones por ejemplo tienen la capacidad de diluir al accionista cuando se emiten nuevas unidades de la nada. Las viviendas en los últimos años no sufren este problema en España, pues las nuevas construcciones en ciudades muy demandadas son bajas, pero en 2008 y años posteriores si fue un problema cuando había una alta competencia entre oferentes. El dinero tal como hablé en el blog de ¿Qué es realmente el dinero? sufre mucho sobretodo en periodos temporales largos debido a la oferta creciente. El oro aunque escaso, sigue siendo minado y la tasa de extracción es cercana al 2% anual y aunque también debería de disminuir ya que algunas estimaciones apuntan a que solamente queda un 30% por minar, la tecnología mejora y si sube mucho de precio, surgirán muchas empresas y nuevos métodos para aumentar la velocidad de extracción.
 
-- ### Ventajas 
+## Métricas fundamentales
 Claramente atesorar tus ahorros en bitcoin supone que evites pagar muchos costes anualmente, este coste parece insignificante, pero cuando sumas todos los años y tienes en cuenta el efecto del interés compuesto (del coste). Te das cuenta entonces de que esta solución permite que tu riqueza no disminuya en gran medida al menos.
 
 Otro aspecto fundamental es que si no hay prácticamente dilución y tiende a 0, entonces si la demanda no baja, serás capaz sin duda de mantener tu riqueza (sin contar obviamente cambios en la regulación fiscal), mientras que con el dinero obviamente esto no es así y se ve reflejado en la inflación, pero los otros activos también pecan de este problema y necesariamente necesitan de más demandantes para mantener la capacidad de compra real, sin embargo, Bitcoin no requiere de ello.
