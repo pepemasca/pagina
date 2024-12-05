@@ -20,20 +20,19 @@ tags: [Bitcoin, Activo real, Reserva de valor]
 <a href="https://cryptopedia-com.web.app/madriguera" class="text-blue-500 underline">cryptopedia-com.web.app/madriguera</a>
 <a href="#referencia1" style="font-weight: bold; text-decoration: none;"><sup>[1]</sup></a></p>
 
-1. Introducción
-2. Tipos de indicadores
-3. Indicadores técnicos
-4. Indicadores fundamentales
-5. Indicadores On-Chain
-6. ....
-7. Resumen y conclusiones
+## **Índice**  
+0. Introducción
+1. Tipos de indicadores
+2. Indicadores técnicos
+3. Indicadores fundamentales
+4. Indicadores On-Chain
+5. ....
+6. Resumen y conclusiones
 
-## Introducción
+## 0 Introducción
 Desde su creación y posterior lanzamiento en 2009, Bitcoin ha evolucionado constantemente, pues como cualquier otra técnologia, las mejoras son necesarias para mantener la seguridad y competitividad.
 
-Sin embargo, también hay otra cuestión que ha ido evolucionando a lo largo del tiempo a medida que su adopción también ha ido creciendo (ya sea por moda, especulación o acumulación), nos centraremos en las dos últimas y analizaremos cuales han sido los motivos y estudiaremos su posible evolución.
-
-El creador de una herramienta o instrumento, trata de resolver problemas, pero no puede decidir cual será el uso que las personas van a hacer de el (el microondas se utilizó por primera vez para luchar contra aviones de los Nazis, el papel de burbujas se ideó para colocarlo en las paredes de las viviendas), como mucho los creadores podrán intuir o incentivar uno o varios usos, peró será la sociedad quien encuentre la utilidad que generá mayor valor.
+Los indicadores son esenciales, pues nos ayudan a conocer mejor cual es el estado de un proyecto. Vamos a poner a Bitcoin como ejemplo, pero podría ser cualquiera
 
 ## La visión de Satoshi
 En este sentido, el Whitepaper de Bitcoin aunque no habla directamente de dinero, si que destaca su cualidad de efectivo digital entre personas (símil con los billetes, pero online), aunque Satoshi priorizó aspectos como la seguridad (De la red y de los activos de los propietarios mediante dilución tendiente a 0) y descentralización (Mediante un tamaño de bloque reducido), dejó a un lado la escalabilidad, pues pensaba que los otros dos atributos erán prioritarios. De hecho, el propio Satoshi ya era consciente del "problema" de establecer una oferta tan rígida, como argumentó ante la pregunta de una cantidad de Bitcoins fija y el número de usuarios creciente: "Es más típico de un metal precioso. En lugar de que la oferta cambie para mantener el valor igual, la oferta está predeterminada y el valor cambia. A medida que crece el número de usuarios, aumenta el valor por moneda."<a href="#referencia2" style="font-weight: bold; text-decoration: none;"><sup>[2]</sup></a> Dejando claro que para el no era tan importante el uso como dinero, como si lo era la calidad del activo.
