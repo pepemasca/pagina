@@ -21,38 +21,96 @@ tags: [Bitcoin, Activo real, Reserva de valor]
 <a href="#referencia1" style="font-weight: bold; text-decoration: none;"><sup>[1]</sup></a></p>
 
 ## **Índice**  
-0. Introducción
-1. Tipos de métricas
-2. métricas técnicas
-3. métricas fundamentales
-4. métricas On-Chain
+0. [Introducción](#0)
+1. [Tipos de métricas](#1)
+2. [Análisis técnico](#2)
+3. [Análisis fundamental](#3)
+4. [Análisis On-Chain](#4)
 5. ....
-6. Resumen y conclusiones
+6. [Resumen y conclusiones](#6)
 
 ## 0. Introducción <a name="0"></a>
 
 Los indicadores son esenciales, pues nos ayudan a conocer mejor cual es el estado de un proyecto. Vamos a poner a Bitcoin como ejemplo, pero podría ser cualquier otro activo que esté a la venta, como las empresas cotizadas.
 
+Me encanta el dicho: "el que mucho abarca poco aprieta", por lo que estos son mis indicadores favoritos; <u>Técnicos</u> (**soportes y resistencias**, canales, triangulos, dobles techos, medias móviles, MACD, RSI, Dominancia de BTC). <u>Fundamentales</u> (**tipos de interés de la FED**, tasa de inflación y desempleo, variación del precio del US 10year Treasury Bond, tasa de morosidad en hipotecas, **variación de la dificultad de minado en BTC**, número y calidad de nodos en BTC, entradas y salidas en los ETF). <u>On-Chain</u> (número de nuevas direcciones, número de direcciones con más de 0.01 BTC, movimientos de ballenas, salidas o entradas de los exchanges y billeteras resucitadas).
+
 ## 1. Tipos de métricas <a name="1"></a>
 
 Los indicadores se puden dividir en 3 tipos atendiendo a:
 
-- <a id="referencia1" class="no-underline">métricas técnicas:</a> estas se basan fundamentalmente en la evolución histórica del precio de un activo. Cómo economista al principio renuncié a ellas, pues en la facultad prácticamente son irrelevantes. Sin embargo su utilidad es muy alta, pues se da la llamada profecía autocumplida, ya que muchos inversores tienen la incertidumbre de saber dónde comprar y vender cuando no tienen prisa, en este punto, el precio es una variable que da mucha información. Su punto positivo es que suelen funcionar muy bien, sin embargo, solo se suelen respetar "ceteris paribus" es decir, cuando no ocurre nada extraordinario.
+- <a id="referencia1" class="no-underline">métricas técnicas:</a> estas se basan fundamentalmente en la evolución histórica del precio de un activo. Cómo economista al principio renuncié a ellas, pues en la facultad prácticamente son irrelevantes. Sin embargo su utilidad es muy alta, pues se da la llamada profecía autocumplida, ya que muchos inversores tienen la incertidumbre de saber dónde comprar y vender cuando no tienen prisa, en este punto, el precio es una variable que da mucha información. Su punto positivo es que suelen funcionar muy bien, sin embargo, **solo se suelen respetar "ceteris paribus" es decir, cuando no ocurre nada extraordinario.**
 
 - <a id="referencia2" class="no-underline">métricas fundamentales:</a> siguen principalmente componentes macroeconómicos (tipos de interes, inflación, tasa de desempleo, precio de los bonos, prima de riesgo, etc), aunque también son esenciales los aspectos microeconómicos (whitepaper, tasa de emisión de la moneda, desbloqueos de tokens, confianza en los gestores del proyecto, competencia, avances significativos o mejoras técnologicas, etc).
 
 - <a id="referencia3" class="no-underline">métricas On-Chain:</a> a diferencia del sector tradicional, la inmensa mayoría de criptoactivos cuentan con una Blockchain, que en resumidas cuentas es un documento contable público (libro mayor distribuido). Por tanto, se pueden seguir los movimientos de las principales billeteras (ballenas), las cuales suponen grandes fuentes de oferta y demanda, aportando por tanto una grán información que condicionará los otros dos indicadores. También se pueden analizar el número de transacciones, número de direcciones, cantidad de fondos bloqueados (staking), etc.
 
 
-## 2. Métricas técnicas <a name="2"></a>
-
+## 2. Análisis técnico <a name="2"></a>
 
 <a href="#referencia1" class="font-bold text-black transition-colors duration-300 hover:text-transparent hover:bg-gradient-to-r hover:from-lime-300 hover:to-yellow-500 hover:bg-clip-text hover:animate-pulse">
     Explicación aquí!
 </a>
 
+Es importante conocerlos, pues aunque no sean garantía de nada, muchos inversores los tomarán como referencia para realizar sus operaciones.
 
-### 2.1 Soportes y resistencias:
+### 2.1. Soportes y resistencias:
+
+No es casualidad que este sea el primero de los indicadores técnicos, ya que la gran mayoría de medidores utilizan a su vez las zonas de soporte y resistencia para determinar como podrá ser el siguiente movimiento.
+
+Estas zonas extremas buscan la banda donde los precios más tiempo han estado historicamente, cuanto más tiempo haya tenido el activo ese precio aproximado, mayor peso tendra dicho soporte o resistencia.
+
+- **Soportes:** Son las zonas por debajo del precio donde este "debería tener dificultades para atravesarlo", pueden ser buenas zonas de compra, ya que se trata de un posible mínimo local o incluso absoluto. Si lo atraviesa sería una señal bajista de debilidad.
+
+- **Resistencias:** Son lo opuesto a los soportes, ya que debería de ser un lugar que limitase una posible subida del precio, pueden ser buenas zonas de ventas, aunque si el precio los supera, podría conducir a un movimiento alcista de subida en el precio.
+
+*(Cuando un soporte es atravesado, al precio encontrarse por debajo este se suele convertir en una resistencia más y viceversa.)*
+
+**A tener en cuenta:** al ser un indicador muy estático, no es capaz de contemplar la inflación. Tampoco son muy utiles en zonas sin registros historicos (Ahora que BTC ha llegado por primera vez a los 100K $ por ejemplo).
+
+### 2.2. Análisis estructural gráfico mediante soportes y resistencias
+
+- **Patrones gráficos:** de forma resumida destacar figuras como: **<u>Triángulos</u>** (son acotamientos del canal que fuerzan al precio a tomar una de las dos direcciones, indica futura volatilidad), **<u>el hombro cabeza hombro</u>** positivo (se trata de un posible signo de agotamiento en la tendencia, se observan dos máximos laterales muy similares y un máximo central más alto. También puede ser invertido en bajadas), **<u>máximos y/o mínimos crecientes</u>** (indican fortaleza), **<u>máximos y/o mínimos decrecientes</u>** (indican debilidad), **<u>dobles techos</u>** (riesgo de falta de fuerza), **<u>dobles suelos</u>** (el precio puede tener dificultades para bajar más), **<u>banderas y banderines</u>** (suelen ser patrones continuistas).
+
+- **Lineas de tendencia y canales:** las lineas de tendencia vienen dibujadas por los máximos y mínimos dentro de un canal ascendente o descendente. Será importante contemplar si el precio pierde el canal, en dicho caso podría verse un cambio de tendencia.
+
+**A continuación:** Del punto 2.3. al 2.6. se verán **análisis estadísticos.**
+
+### 2.3. Indicadores de tendencia:
+
+- **Media móvil (MA):** Según el plazo (50 o 200 días son mís preferidos), se recogen los datos del precio en todos aquellos, se suman y se dividen entre el total de días por lo que se obtiene una media para cada día y si unimos dichos valores obtendremos una linea de tendencia. De esta forma podemos suavizar los precios y estimar cuando el precio ha variado más de lo normal (pudiendo obtener una estimación no totalmente fiable de cuan distanciado está el precio de lo que sería normal o incluso observar un posible cambio de tendencia).
+
+- **Media móvil exponencial (EMA):** Funciona igual que la MA, sin embargo, los datos más recientes ejercen una mayor influencia sobre la media, por lo tanto la tendencia estará más condicionada al momento actual, aunque los datos antiguos siguen condicionando la media. En este caso su uso funciona mejor para 
+
+- **Media móvil de convergencia/divergencia (MACD):** Toma la diferencia entre EMAs de diferentes días. Sirve para "estimar" la pendiente (fuerza o cambio) en el precio. Cuando la linea MACD azul supera a la roja se intuye una señal de compra y si sucede lo contrario sería señal de venta. También es importante considerar las divergencias: Si hay una divergencia positiva (el precio alcanza mínimos, mientras que el MACD va en dirección contraria, se dice que es una señal de compra), mientras que si sucede lo contrario encontrariamos una divergencia negativa (el precio alcanza máximos, pero el MACD desciende, habría una señal bajista).
+
+![EMA y MACD](https://i.ibb.co/7Spqn0J/EMA-y-MACD.png)
+
+### 2.4. Indicadores de momentum:
+
+- **Indice de fuerza relativa (RSI):** Calcula la variación porcentual a la baja o al alza tomando los precios de cierre y se establece la EMA de subidas entre la EMA de bajadas y se convierte a un índice. La interpretación indica que si alcanza el nivel de 70 o superior, este podría ser una buena zona de venta y si se encuentra por 30 o más abajo, sería por el contrario una posible zona de compra.
+
+- **Oscilador estocástico:** Mide la divergencia entre el precio de cierre y los precios más altos y bajos de un periodo. Este indicador se mueve normalmente dentro de los valores 20 y 80, siendo el primero una señal de sobreventa (comprar) y el segundo señal de sobrecompra (vender).
+
+### 2.5. Indicadores de volatilidad:
+
+- **Desviación estándar:** Este indicador permite observar la volatilidad. Cuando la desviación es muy alta se incrementa la posibilidad de que el movimiento se esté agotando y pueda existir un cambio de tendencia que acerque el precio a la linea de tendencia.
+
+- **Bandas de Bollinger:** Se calcula a partir de la MA o EMA sobre el precio de cierre a la cual se le añaden dos bandas, para obtener el margen superior se añade (usualmente) el doble de la desviación estándar, mientras que para el margen inferior se detrae sicha desviación. Permite conocer si hay mucha volatilidad. Permite estimar si dentro de una jornada de negociación el precio se encuentra muy por encima o por debajo de lo normal.
+
+### 2.6. Retrocesos de Fibonacci:
+
+Una vez observada una clara tendencia alcista y comprobar que esta ha tenido un retroceso claro supongamos superior al primer nivel de Fibonacci (23.6%), tendriamos que considerar como posibles puntos de constinuación de la tendencia alcista en 38.2%, 61.8% y 76.8% de retroceso, que actuarían como zonas de soporte. También es válido en tendencias bajistas, los numeros serían los mismos, pero en vez de soportes nos encontrariamos ante resistencias. Quizás sea el que tiene un menor rigor.
+
+
+**A continuación:** Del punto 2.5. al 2.x. se verán **análisis gráfico crypto**
+
+
+
+### 2.4. Dominancia de Bitcoin (Crypto):
+### 2.5. Total 3 y Total 2 (Crypto):
+
+
 
 ## Bitcoin como reserva de valor
 
@@ -66,10 +124,17 @@ Quien almacena valor, generalmente trata de deshacerlo en algun momento para adq
 - **<u>Coste de dilución:</u>**
 Esta es una clara ventaja y una clara fuente de demanda de Bitcoin que actualmente cuenta con un incremento de unidades del 0,85% anual, pero que en 2033 será del 0,2% y en 2050 estará muy cerca del 0%. Las acciones por ejemplo tienen la capacidad de diluir al accionista cuando se emiten nuevas unidades de la nada. Las viviendas en los últimos años no sufren este problema en España, pues las nuevas construcciones en ciudades muy demandadas son bajas, pero en 2008 y años posteriores si fue un problema cuando había una alta competencia entre oferentes. El dinero tal como hablé en el blog de ¿Qué es realmente el dinero? sufre mucho sobretodo en periodos temporales largos debido a la oferta creciente. El oro aunque escaso, sigue siendo minado y la tasa de extracción es cercana al 2% anual y aunque también debería de disminuir ya que algunas estimaciones apuntan a que solamente queda un 30% por minar, la tecnología mejora y si sube mucho de precio, surgirán muchas empresas y nuevos métodos para aumentar la velocidad de extracción.
 
-## Métricas fundamentales
+## 3. Análisis fundamental <a name="3"></a>
+
 Claramente atesorar tus ahorros en bitcoin supone que evites pagar muchos costes anualmente, este coste parece insignificante, pero cuando sumas todos los años y tienes en cuenta el efecto del interés compuesto (del coste). Te das cuenta entonces de que esta solución permite que tu riqueza no disminuya en gran medida al menos.
 
 Otro aspecto fundamental es que si no hay prácticamente dilución y tiende a 0, entonces si la demanda no baja, serás capaz sin duda de mantener tu riqueza (sin contar obviamente cambios en la regulación fiscal), mientras que con el dinero obviamente esto no es así y se ve reflejado en la inflación, pero los otros activos también pecan de este problema y necesariamente necesitan de más demandantes para mantener la capacidad de compra real, sin embargo, Bitcoin no requiere de ello.
+
+
+
+## 4. Análisis On-Chain <a name="4"></a>
+
+
 - ### Inconvenientes y riesgos
 Obviamente aunque actualmente Bitcoin ocupe la posición séptima como activo más valioso del mundo por capitalización de mercado, todavía la demanda no está estabilizada y muchas personas compran para despues vender rápidamente, lo cual provoca fuertes movimientos que junto a la incertidumbre de la adopción futura o el surgimiento de mejores alternativas, hacen que su precio sea muy volatil, siendo un muy mal instrumento para individuos que tengan altas necesidades de liquidez o compromisos de pago cercanos (En los paises pobres Bitcoin sería una buena solució, pero no lo es porque no pueden ahorrar nada y viven al día). Tampoco se sabe como procederá su evolución, ya que a diferencia del oro tenemos registros de apenas 15 años y tampoco sabemos como reaccionarán los estados en cuanto a sistema impositivo y legislación.
 
