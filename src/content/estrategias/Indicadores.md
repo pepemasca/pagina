@@ -80,28 +80,45 @@ Estas zonas extremas buscan la banda donde los precios más tiempo han estado hi
 
 - **Media móvil (MA):** Según el plazo (50 o 200 días son mís preferidos), se recogen los datos del precio en todos aquellos, se suman y se dividen entre el total de días por lo que se obtiene una media para cada día y si unimos dichos valores obtendremos una linea de tendencia. De esta forma podemos suavizar los precios y estimar cuando el precio ha variado más de lo normal (pudiendo obtener una estimación no totalmente fiable de cuan distanciado está el precio de lo que sería normal o incluso observar un posible cambio de tendencia).
 
-- **Media móvil exponencial (EMA):** Funciona igual que la MA, sin embargo, los datos más recientes ejercen una mayor influencia sobre la media, por lo tanto la tendencia estará más condicionada al momento actual, aunque los datos antiguos siguen condicionando la media. En este caso su uso funciona mejor para 
+- **Media móvil exponencial (EMA) <a class= "text-blue-500 no-underline">(Línea azul)</a>:** Funciona igual que la MA, sin embargo, los datos más recientes ejercen una mayor influencia sobre la media, por lo tanto la tendencia estará más condicionada al momento actual, aunque los datos antiguos siguen condicionando la media. En este caso su uso funciona mejor para 
 
-- **Media móvil de convergencia/divergencia (MACD):** Toma la diferencia entre EMAs de diferentes días. Sirve para "estimar" la pendiente (fuerza o cambio) en el precio. Cuando la linea MACD azul supera a la roja se intuye una señal de compra y si sucede lo contrario sería señal de venta. También es importante considerar las divergencias: Si hay una divergencia positiva (el precio alcanza mínimos, mientras que el MACD va en dirección contraria, se dice que es una señal de compra), mientras que si sucede lo contrario encontrariamos una divergencia negativa (el precio alcanza máximos, pero el MACD desciende, habría una señal bajista).
+- **Media móvil de convergencia/divergencia (MACD) <a class= "text-yellow-300 no-underline">(AMARILLO)</a>:** Toma la diferencia entre EMAs de diferentes días. Sirve para "estimar" la pendiente (fuerza o cambio) en el precio. Cuando la linea MACD azul supera a la roja se intuye una señal de compra y si sucede lo contrario sería señal de venta. También es importante considerar las divergencias: Si hay una divergencia positiva (el precio alcanza mínimos, mientras que el MACD va en dirección contraria, se dice que es una señal de compra), mientras que si sucede lo contrario encontrariamos una divergencia negativa (el precio alcanza máximos, pero el MACD desciende, habría una señal bajista).
 
-![EMA y MACD](https://i.ibb.co/7Spqn0J/EMA-y-MACD.png)
+<div class="border-2 border-black p-2 inline-block">
+  <img src="https://i.ibb.co/7Spqn0J/EMA-y-MACD.png" alt="EMA y MACD" class="block mx-auto">
+  <a class="text-gray-500 text-justify text-xs no-underline block mt-2">* La línea de tendencia azul que acompaña a BTC es la EMA de 9 días, cuantos más días más tiende a la media histórica y menos a la local (La MA hubiera sido más parecida, aunque hubiera sido más representativa del pasado). Sobre el MACD (en el cuadro amarillo), podemos observar como se aprecia una ligera señal de venta y precisamente ha sido cuando el precio ha dejado de subir, sin embargo con el paso de los días puede que indique una señal más alcista.</a>
+</div>
 
 ### 2.4. Indicadores de momentum:
 
-- **Indice de fuerza relativa (RSI):** Calcula la variación porcentual a la baja o al alza tomando los precios de cierre y se establece la EMA de subidas entre la EMA de bajadas y se convierte a un índice. La interpretación indica que si alcanza el nivel de 70 o superior, este podría ser una buena zona de venta y si se encuentra por 30 o más abajo, sería por el contrario una posible zona de compra.
+- **Indice de fuerza relativa (RSI) <a class= "text-red-500 no-underline">(ROJO)</a>:** Calcula la variación porcentual a la baja o al alza tomando los precios de cierre y se establece la EMA de subidas entre la EMA de bajadas y se convierte a un índice. La interpretación indica que si alcanza el nivel de 70 o superior, este podría ser una buena zona de venta y si se encuentra por 30 o más abajo, sería por el contrario una posible zona de compra.
 
-- **Oscilador estocástico:** Mide la divergencia entre el precio de cierre y los precios más altos y bajos de un periodo. Este indicador se mueve normalmente dentro de los valores 20 y 80, siendo el primero una señal de sobreventa (comprar) y el segundo señal de sobrecompra (vender).
+- **Oscilador estocástico <a class= "text-blue-500 no-underline">(AZUL)</a>:** Mide la divergencia entre el precio de cierre y los precios más altos y bajos de un periodo. Este indicador se mueve normalmente dentro de los valores 20 y 80, siendo el primero una señal de sobreventa (comprar) y el segundo señal de sobrecompra (vender).
+
+<div class="border-2 border-black p-2 inline-block">
+  <img src="https://i.ibb.co/VgmRSzP/RSI-y-stochastic.png" alt="RSI y Stochastic" class="block mx-auto">
+  <a class="text-gray-500 text-justify text-xs no-underline block mt-2">* En esta imagen tras la reciente subida de BTC podemos observar el rsi en el cuadro rojo (en la zona de sobrecrompra el precio se frenó, aunque no considera el Halving entre otros sucesos fundamentales), algo parecido sucede con el estocástico (cuadro azul), aunque su estabilización es muy alcista para el precio dado el contexto actual.</a>
+</div>
 
 ### 2.5. Indicadores de volatilidad:
 
-- **Desviación estándar:** Este indicador permite observar la volatilidad. Cuando la desviación es muy alta se incrementa la posibilidad de que el movimiento se esté agotando y pueda existir un cambio de tendencia que acerque el precio a la linea de tendencia.
+- **Desviación estándar <a class= "text-green-500 no-underline">(VERDE)</a>:** Este indicador permite observar la volatilidad. Cuando la desviación es muy alta se incrementa la posibilidad de que el movimiento se esté agotando y pueda existir un cambio de tendencia que acerque el precio a la linea de tendencia.
 
 - **Bandas de Bollinger:** Se calcula a partir de la MA o EMA sobre el precio de cierre a la cual se le añaden dos bandas, para obtener el margen superior se añade (usualmente) el doble de la desviación estándar, mientras que para el margen inferior se detrae sicha desviación. Permite conocer si hay mucha volatilidad. Permite estimar si dentro de una jornada de negociación el precio se encuentra muy por encima o por debajo de lo normal.
+
+<div class="border-2 border-black p-2 inline-block">
+  <img src="https://i.ibb.co/74Xq415/desviaci-n.png" alt="SD y Bollinger" class="block mx-auto">
+  <a class="text-gray-500 text-justify text-xs no-underline block mt-2">* En esta imagen tras la reciente subida de BTC podemos observar las bandas de bolling en la parte superior (su estrechamiento indica una reducción en la volatilidad). La desviación estándar en el cuadro verde inferior (la disminución reciente permite ver una mayor estabilidad en el precio)</a>
+</div>
 
 ### 2.6. Retrocesos de Fibonacci:
 
 Una vez observada una clara tendencia alcista y comprobar que esta ha tenido un retroceso claro supongamos superior al primer nivel de Fibonacci (23.6%), tendriamos que considerar como posibles puntos de constinuación de la tendencia alcista en 38.2%, 61.8% y 76.8% de retroceso, que actuarían como zonas de soporte. También es válido en tendencias bajistas, los numeros serían los mismos, pero en vez de soportes nos encontrariamos ante resistencias. Quizás sea el que tiene un menor rigor.
 
+<div class="border-2 border-black p-2 inline-block">
+  <img src="https://i.ibb.co/5kxbqq5/Fibonacci.png" alt="Fibo" class="block mx-auto">
+  <a class="text-gray-500 text-justify text-xs no-underline block mt-2">* Como se aprecia, guiandonos en los retrocesos de Fibonacci (desde la subida de 59k $ hasta los 100k $) podemos ver como zonas interesantes los 90k (donde precisamente por unas horas corrigió el 05/12/24 para seguir subiendo), también los 84k, los79k, 74k, 67k y por último los propios 59k.</a>
+</div>
 
 **A continuación:** Del punto 2.5. al 2.x. se verán **análisis gráfico crypto**
 
@@ -111,20 +128,11 @@ Una vez observada una clara tendencia alcista y comprobar que esta ha tenido un 
 ### 2.5. Total 3 y Total 2 (Crypto):
 
 
-
-## Bitcoin como reserva de valor
-
-Algo que no se contempla muy bien cuando se compara Bitcoin con cualquier forma de ahorro es que mantener cualquier forma de ahorro en el tiempo tiene algún tipo de coste:
-- **<u>Coste de oportunidad:</u>**
-Dadas tus necesidades, puede que cualquier otra decisión hubiera sido más rentable
-- **<u>Coste de almacenamiento:</u>**
-Quien tiene acciones, necesariamente habrá de pasar por un broker quien anualmente cobre comisiones de mantenimiento o custodia. Quien tiene una vivienda deberá pagar IBI, contribuciones, reformas, derramas, etc. Quién tenga una materia prima deberá almacenarla cuidadosamente e implementar medidas de seguridad, lo cual tiene un coste. Siendo Bitcoin el claro ganador, ya que no tiene costes de mantenimiento, aunque si costes de tiempo por la indispensable formación para garantizar una mínima seguridad.
-- **<u>Costes de transacción:</u>**
-Quien almacena valor, generalmente trata de deshacerlo en algun momento para adquirir aquello que desea. Esta es una clara ventaja del dinero fiat, ya que estos costes son muy bajos. Pero las viviendas tienen costes elevados, como puedan ser el notario, la gestión hipotecaria y sobretodo los impuestos. El oro tiene un alto coste por la desconfianza de la veracidad del contenido y para bajas cantidades relativamente es muy alto. Con los isntrumentos estas comisiones son similares a bitcoin, pero no es tan bajo como el de euros o dolares.
-- **<u>Coste de dilución:</u>**
-Esta es una clara ventaja y una clara fuente de demanda de Bitcoin que actualmente cuenta con un incremento de unidades del 0,85% anual, pero que en 2033 será del 0,2% y en 2050 estará muy cerca del 0%. Las acciones por ejemplo tienen la capacidad de diluir al accionista cuando se emiten nuevas unidades de la nada. Las viviendas en los últimos años no sufren este problema en España, pues las nuevas construcciones en ciudades muy demandadas son bajas, pero en 2008 y años posteriores si fue un problema cuando había una alta competencia entre oferentes. El dinero tal como hablé en el blog de ¿Qué es realmente el dinero? sufre mucho sobretodo en periodos temporales largos debido a la oferta creciente. El oro aunque escaso, sigue siendo minado y la tasa de extracción es cercana al 2% anual y aunque también debería de disminuir ya que algunas estimaciones apuntan a que solamente queda un 30% por minar, la tecnología mejora y si sube mucho de precio, surgirán muchas empresas y nuevos métodos para aumentar la velocidad de extracción.
-
 ## 3. Análisis fundamental <a name="3"></a>
+
+<a href="#referencia2" class="font-bold text-black transition-colors duration-300 hover:text-transparent hover:bg-gradient-to-r hover:from-lime-300 hover:to-yellow-500 hover:bg-clip-text hover:animate-pulse">
+    Explicación aquí!
+</a>
 
 Claramente atesorar tus ahorros en bitcoin supone que evites pagar muchos costes anualmente, este coste parece insignificante, pero cuando sumas todos los años y tienes en cuenta el efecto del interés compuesto (del coste). Te das cuenta entonces de que esta solución permite que tu riqueza no disminuya en gran medida al menos.
 
@@ -134,6 +142,9 @@ Otro aspecto fundamental es que si no hay prácticamente dilución y tiende a 0,
 
 ## 4. Análisis On-Chain <a name="4"></a>
 
+<a href="#referencia3" class="font-bold text-black transition-colors duration-300 hover:text-transparent hover:bg-gradient-to-r hover:from-lime-300 hover:to-yellow-500 hover:bg-clip-text hover:animate-pulse">
+    Explicación aquí!
+</a>
 
 - ### Inconvenientes y riesgos
 Obviamente aunque actualmente Bitcoin ocupe la posición séptima como activo más valioso del mundo por capitalización de mercado, todavía la demanda no está estabilizada y muchas personas compran para despues vender rápidamente, lo cual provoca fuertes movimientos que junto a la incertidumbre de la adopción futura o el surgimiento de mejores alternativas, hacen que su precio sea muy volatil, siendo un muy mal instrumento para individuos que tengan altas necesidades de liquidez o compromisos de pago cercanos (En los paises pobres Bitcoin sería una buena solució, pero no lo es porque no pueden ahorrar nada y viven al día). Tampoco se sabe como procederá su evolución, ya que a diferencia del oro tenemos registros de apenas 15 años y tampoco sabemos como reaccionarán los estados en cuanto a sistema impositivo y legislación.
