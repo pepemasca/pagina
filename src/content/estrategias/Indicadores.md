@@ -24,6 +24,7 @@ tags: [Bitcoin, Activo real, Reserva de valor]
 0. [Introducción](#0)
 1. [Tipos de métricas](#1)
 2. [Análisis técnico](#2)
+2.1. [Soportes y resistencias](#21)
 3. [Análisis fundamental](#3)
 4. [Análisis On-Chain](#4)
 5. ....
@@ -54,7 +55,7 @@ Los indicadores se puden dividir en 3 tipos atendiendo a:
 
 Es importante conocerlos, pues aunque no sean garantía de nada, muchos inversores los tomarán como referencia para realizar sus operaciones.
 
-### 2.1. Soportes y resistencias:
+### 2.1. Soportes y resistencias <a name="21"></a>
 
 No es casualidad que este sea el primero de los indicadores técnicos, ya que la gran mayoría de medidores utilizan a su vez las zonas de soporte y resistencia para determinar como podrá ser el siguiente movimiento.
 
@@ -122,10 +123,12 @@ Una vez observada una clara tendencia alcista y comprobar que esta ha tenido un 
 
 **A continuación:** Del punto 2.5. al 2.x. se verán **análisis gráfico crypto**
 
-
-
 ### 2.4. Dominancia de Bitcoin (Crypto):
+
+
 ### 2.5. Total 3 y Total 2 (Crypto):
+
+
 
 
 ## 3. Análisis fundamental <a name="3"></a>
@@ -134,9 +137,6 @@ Una vez observada una clara tendencia alcista y comprobar que esta ha tenido un 
     Explicación aquí!
 </a>
 
-Claramente atesorar tus ahorros en bitcoin supone que evites pagar muchos costes anualmente, este coste parece insignificante, pero cuando sumas todos los años y tienes en cuenta el efecto del interés compuesto (del coste). Te das cuenta entonces de que esta solución permite que tu riqueza no disminuya en gran medida al menos.
-
-Otro aspecto fundamental es que si no hay prácticamente dilución y tiende a 0, entonces si la demanda no baja, serás capaz sin duda de mantener tu riqueza (sin contar obviamente cambios en la regulación fiscal), mientras que con el dinero obviamente esto no es así y se ve reflejado en la inflación, pero los otros activos también pecan de este problema y necesariamente necesitan de más demandantes para mantener la capacidad de compra real, sin embargo, Bitcoin no requiere de ello.
 
 
 
