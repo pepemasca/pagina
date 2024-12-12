@@ -15,6 +15,39 @@ tags: [Divisas, Oro, Mercancía]
 <div
  class="mx-auto prose prose-lg mt-6 max-w-3xl prose-h3:underline prose-p:text-justify text-justify">
 
+Gracias por la atención.
+
+Actualmente estamos centrados en las oportunidades de mercado y en proyectos personales que no tienen mucho que 
+ver con la gestión en criptoactivos. La seccción de blogs quedará sin cambios hasta Febrero de 2025 aproximadamente, se ha
+optado por dejar <a href="/blog/bitcoin-porqué" class="text-blue-500 underline">1 post sobre por qué Bitcoin con mucho contenido relevante</a>.
+
+## Contenido en construcción
+
+- **<u>1. Introducción qué es el dinero</u>**
+ * Cualquier cosa puede ser dinero (El dinero es una mercancia más)
+ * La liquidez es el mejor dinero y no al revés
+ * Contexto histórico cómo aprender de ello
+
+- **<u>2. La liquidez</u>**
+ * Ejemplo de liquidez y no liquidez
+ * El "dinero líquido" solo lo es cuando la liquidez se sustenta en el tiempo
+
+ - **<u>3. El dinero es deuda pública (garantía) y la deuda pública es dinero</u>**
+ * El dinero se crea emitiendo deuda pública principalmente (en segundo lugar se crea el dinero bancario)
+ * Deuda pública como dinero. El sistema se sustenta en esta pata
+ * La deuda pública está en máximos. Ello tiende a hacerla menos valiosa y por tanto a empeorar el dinero
+
+  - **<u>4. La temida inflación monetaria</u>**
+ * Nuestros gobernantes tienen incentivos a que haya inflación
+ * Para no impagar la deuda pública ayuda la inflación
+ * La inflación disminuye el desempleo
+
+ - **<u>5. Conclusiones</u>**
+ * No hay solo un dinero (aunque la ley diga lo contrario)
+ * El dinero político se sustenta en una deuda que parece cada vez mayor y de peor calidad (aumentan el respaldo, pero también la cantidad de dinero)
+ * No guardes billetes debajo del colchón. Los incentivos a inflación son muy poderosos, a largo plazo la liquidez (incluso bonos) pierde relevancia y gana sentido el deposito de valor y reserva de valor
+
+<!-- 
 ## Introducción para todos los públicos
 
 Mi intención no es comunicarme únicamente con un circulo de profesionales financieros, más bien transmitir este mensaje a cualquier persona independientemente de sus estudios y profesión. Ya que esto nos afecta a todos e inconscientemente seguidos por incentivos tomamos decisiones al respecto.
@@ -74,5 +107,7 @@ La política monetaria (bancos centrales) presumen de ser independientes y solo 
 Mi conclusión
 Personalmente creo que quienes deciden sobre la moneda en última instancia son muy cortoplacistas y quieren mantener una cierta estabilidad en el corto-medio plazo. Esto significa posiblemente que opten por inflaciones que no superen normalmente el 4~5% anual, aunque algunos años sea superior o inferior. Sin embargo esto esta muy alejado de ser el 2% “prometido”, realmente si midiéramos el tipo efectivo en 20 años nos encontraríamos con entre un 11 y un 13,2% anual promedio o un 219% a 265% acumulado. Para mi este es un escenario muy factible, ya que como se destaca en el segundo punto, la deuda puede atacar fuertemente a la oferta y a la demanda de dinero, los políticos no son las personas más serias en estos momentos
 Disyuntiva entre liquidez y deposito de valor, si eres una persona que suele encontrarse con la cuenta bancaria en mínimos y que tiene grandes dificultades para ahorrar, debes ir a por la liquidez que te va a permitir mayor estabilidad (aunque esta situación en el largo plazo no te permitirá crecer, pues difícilmente te permitirán endudarte y al no disponer de ahorros, te costará realizar proyectos vitales). Si estás planificando tu futuro y eres capaz de ahorrar holgadamente, tu prioridad será el deposito de valor, por lo que el dinero actual quizás no sea la mejor herramienta, una alternativa factible sería mantener una cartera diversificada con costes de transacción no muy altos (de esta manera consigues asegurar una cierta medida de liquidez)
+
+-->
 
 </div>

@@ -20,6 +20,8 @@ tags: [Bitcoin, Activo real, Reserva de valor]
 <a href="https://cryptopedia-com.web.app/madriguera" class="text-blue-500 underline">cryptopedia-com.web.app/madriguera</a>
 <a href="#referencia1" style="font-weight: bold; text-decoration: none;"><sup>[1]</sup></a></p>
 
+# Esta sección está todavía en construcción, este es un borrador del resultado final.
+
 ## **Índice**  
 0. [Introducción](#0)
 1. [Tipos de métricas](#1)

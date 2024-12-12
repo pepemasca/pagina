@@ -32,6 +32,9 @@ tags: [Gestión del riesgo, Flexibilidad, Largo plazo]
 6. [Toma de ganancias](#6)
 7. [Resumen y conclusiones](#7)
 
+La estrategia principal estará disponible a partir de Febrero de 2025. Por el momento, se puede acudir a la parte de operaciones, donde se encontrarán los movimientos realizados.
+
+<!--
 ## 0. Introducción sobre estrategias <a name="0"></a>
 Desde su creación y posterior lanzamiento en 2009, Bitcoin ha evolucionado constantemente, pues como cualquier otra técnologia, las mejoras son necesarias para mantener la seguridad y competitividad.
 
@@ -89,3 +92,4 @@ Por todo lo anterior y dado que yo valoro mucho el ahorro/inversión, tengo part
   <p id="referencia2">Referencia 2: <a href="https://satoshi.nakamotoinstitute.org/es/posts/p2pfoundation/3/" target="_blank">https://satoshi.nakamotoinstitute.org/<wbr>es/posts/p2pfoundation/3/</a></p>
 
 </section>
+-->

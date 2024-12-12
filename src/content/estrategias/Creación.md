@@ -20,18 +20,22 @@ tags: [Bitcoin, Activo real, Reserva de valor]
 <a href="https://cryptopedia-com.web.app/madriguera" class="text-blue-500 underline">cryptopedia-com.web.app/madriguera</a>
 <a href="#referencia1" style="font-weight: bold; text-decoration: none;"><sup>[1]</sup></a></p>
 
-1. Introducción
+### La creación de estrategias estará disponible a partir de Febrero de 2025. Por el momento, se puede acudir a la parte de operaciones, donde se encontrarán los movimientos realizados.
+
+## 1. Introducción
 La importancia de la estrategia. Si lo escibes ya tienes más posibilidades (ejemplo universidad estudiantes con ideas claras o no y exito), comprobar su coherencia, flexibilidad, no dejarse llevar por las emociones
-2. Conocer la tolerancia al riesgo
-3. Establecer un plazo mínimo sin trampas
+## 2. Conocer la tolerancia al riesgo
+## 3. Establecer un plazo mínimo sin trampas
 Conocer mis necesidades y ser conscientes de los ciclos
-3.1 No autoengañarse con los plazos
+### 3.1 No autoengañarse con los plazos
 Esperar no es suficiente, se debe escoger sabiamente
-4. La importancia de diversificar (riesgo de activo y riesgo temporal)
+## 4. La importancia de diversificar (riesgo de activo y riesgo temporal)
 No entrar de golpe, no apalancarse
-5. Adaptar la estrategia (chequeo propio y externo)
-¿Sigue coincidiendo con mi situación, la tendencia es favorable a lo planteado?
-6. Resumen y conclusiones
+## 5. Adaptar la estrategia (chequeo propio y externo)
+- ¿Sigue coincidiendo con mi situación, la tendencia es favorable a lo planteado?
+## 6. Resumen y conclusiones
+
+<!-- 
 
 ## Introducción
 Desde su creación y posterior lanzamiento en 2009, Bitcoin ha evolucionado constantemente, pues como cualquier otra técnologia, las mejoras son necesarias para mantener la seguridad y competitividad.
@@ -91,3 +95,5 @@ Por todo lo anterior y dado que yo valoro mucho el ahorro/inversión, tengo part
   <p id="referencia2">Referencia 2: <a href="https://satoshi.nakamotoinstitute.org/es/posts/p2pfoundation/3/" target="_blank">https://satoshi.nakamotoinstitute.org/<wbr>es/posts/p2pfoundation/3/</a></p>
 
 </section>
+
+-->

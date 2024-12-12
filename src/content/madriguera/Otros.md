@@ -15,7 +15,7 @@ tags: [Instrumentos financeros, Activos , Sistema bancario y financiero]
 <div
  class="mx-auto prose prose-lg mt-6 max-w-3xl prose-h3:underline prose-p:text-justify">
 
-## Próximos temas a comentar
+## Próximos temas a tratar
 
 - **<u>Web 3</u>**
 - **<u>Ciberseguridad</u>**

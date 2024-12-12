@@ -148,7 +148,7 @@ El acceso será completamente libre y gratuito; pues el conocimiento es poder
           En mi opinión el mejor canal de youtube en castellano sobre BTC
         </td>
       </tr>
-      <tr>
+<!--  <tr>
         <td class="border border-gray-300 px-4 py-2 text-[14px] sm:text-base">
           <a href="https:www.google.com" class="text-blue-500 hover:underline">.</a>
         </td>
@@ -156,7 +156,7 @@ El acceso será completamente libre y gratuito; pues el conocimiento es poder
         <td class="border border-gray-300 px-4 py-2 text-[14px] sm:text-base">
           .
         </td>
-      </tr>
+      </tr> -->
     </tbody>
   </table>
 </div>
@@ -326,7 +326,7 @@ El acceso será completamente libre y gratuito; pues el conocimiento es poder
           Video de Lunaticoin donde no se dice nada nuevo, pero si extraña quién lo dice.
         </td>
       </tr>
-      <tr>
+<!--  <tr>
         <td class="border border-gray-300 px-4 py-2 text-[14px] sm:text-base">
           <a href="https:www.google.com" class="text-blue-500 hover:underline">aa</a>
         </td>
@@ -334,7 +334,7 @@ El acceso será completamente libre y gratuito; pues el conocimiento es poder
         <td class="border border-gray-300 px-4 py-2 text-[14px] sm:text-base">
           aa
         </td>
-      </tr>
+      </tr>-->
     </tbody>
   </table>
 </div>
@@ -353,11 +353,11 @@ El acceso será completamente libre y gratuito; pues el conocimiento es poder
     <tbody>
       <tr>
         <td class="border border-gray-300 px-4 py-2 text-[14px] sm:text-base text-[11px] sm:text-base">
-          <a href="#" class="text-blue-500 hover:underline">Hola tío</a>
+          <a href="https://youtu.be/9b-uLXKBLlU?si=nR3HuUwpPYJh7d8N&t=811" class="text-blue-500 hover:underline">Privacidad y anonimato</a>
         </td>
-        <td class="border border-gray-300 px-4 py-2 text-[14px] sm:text-base text-[12px] sm:text-base">Web</td>
+        <td class="border border-gray-300 px-4 py-2 text-[14px] sm:text-base text-[12px] sm:text-base">Youtube</td>
         <td class="border border-gray-300 px-4 py-2 text-[14px] sm:text-base text-[10px] sm:text-base">
-          aa
+          A partir del minuto 13:30 se comenta la importancia de la identidad digital.
         </td>
       </tr>
     </tbody>
