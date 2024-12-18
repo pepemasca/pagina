@@ -34,6 +34,39 @@ tags: [Gestión del riesgo, Flexibilidad, Largo plazo]
 
 La estrategia principal estará disponible a partir de Febrero de 2025. Por el momento, se puede acudir a la parte de operaciones, donde se encontrarán los movimientos realizados.
 
+# Adelanto
+
+En esta comunidad somos conscientes de que hay que estar posicionados en los criptoactivos por el contexto actual y por su incertidumbre halagüeña.
+
+Por desgracia no puedo sustentar este argumento con pruebas consistentes, ya que las tengo pero requerirían de un tiempo de adaptación del cual no dispongo hasta Febrero.
+
+Una vez posicionados en altcoins y BTC y con la hipotesís (muy probable en mi opinión) de que BTC siga subiendo a niveles de precio por encima de los 150k $ en los próximos meses, procedemos a la estrategia:
+
+## Fase 1: Subida de la dominancia de BTC (Probabilidad incierta)
+
+Esta fase es muy especulativa y en parte un presentimiento personal.
+
+Se trata de una narrativa que apoye a Bitcoin destacando sus obvias cualidades con respecto al resto de altcoins. Este escenario es muy momentanio y podría agotarse en cualquier momento <a href="https://es.tradingview.com/symbols/BTC.D/" class="text-blue-500 underline">**(Máximos entorno al 59,11 y 70% según el gráfico de Tradingview)**</a>
+
+La acción a tomar sería acumular BTC (más arriesgado) o USD para poder adquirir altcoins que más potencial puedan tener, a mi me gustan LINK, BNB, ADA, CAKE, TRX, FET, UNI, KSM. 
+
+En realidad se pueden adquirir muchas otras, la clave es encontrar una buena diversificación para promediar el efecto de la Fase 2.
+
+
+## Fase 2: Gran bajada de la dominancia de BTC (Probabilidad muy alta si BTC sigue subiendo)
+
+Esta fase se sustenta en el hecho de que más alla de las bondades de BTC y su ventaja comparativa frente al resto de criptomonedas. Actualmente los poseedores de BTC son en se gran mayoría personas que se encuentran fuera del sistema financero y que han obtenido en algunos casos ganancias no realizadas exhorbitantes. Es por ello que estas personas moveran parte de sus ganancias en BTC hacía otras criptomonedas en busca de mayores rendimientos y aprovechando su mayor poder adquisitivo en vez de mover su dinero a la cuenta bancaria. 
+
+Dado este escenario histórico y muy factible, esperamos que <a href="https://es.tradingview.com/symbols/BTC.D/" class="text-blue-500 underline">**La dominancia de BTC cuando su precio sea mucho más alto, tienda a bajar entorno a los 51,5 y 33%, creando rentabilidades posiblemente irrepetibles dada la mayor capitalización futura.**</a>
+
+La acción a tomar sería desprendernos progresivamente (DCA) de las altcoins y acumulando de nuevo BTC para reducir el riesgo y parte en dolares para recuperar la inversión y disponer de liquidez para cualquier cambio de tendencia claro.
+
+## Fase 3: Ahorrar en BTC o tomar las ganancias.
+
+¿Venderiamos en 180k, en 250k, en 500k, en 1 millón de dolares?
+
+Ello dependerá de nuestras circunstancias personales, pero también se tratará en Febrero.
+
 <!--
 ## 0. Introducción sobre estrategias <a name="0"></a>
 Desde su creación y posterior lanzamiento en 2009, Bitcoin ha evolucionado constantemente, pues como cualquier otra técnologia, las mejoras son necesarias para mantener la seguridad y competitividad.
