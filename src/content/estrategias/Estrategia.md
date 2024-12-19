@@ -20,7 +20,7 @@ tags: [Gestión del riesgo, Flexibilidad, Largo plazo]
 <p>Si te interesa conocer más sobre bitcoin o no entiendes algo en esta publicación, puedes encontrar información en 
 <a target="_blank" href="https://cryptopedia-com.web.app/madriguera" class="text-blue-500 underline">cryptopedia-com.web.app/madriguera</a>.</p>
 
-La estrategia principal estará disponible a partir de Febrero de 2025. Por el momento, se puede acceder al [Adelanto](#ad) o acudir a la parte de <a target="_blank" href="https://cryptopedia-com.web.app/operaciones" class="text-blue-500 underline">operaciones</a>, donde se encontrarán los movimientos realizados.
+La estrategia principal **estará disponible a partir de Febrero de 2025**. Por el momento, **se puede acceder al [Adelanto](#ad)** o acudir a la parte de <a target="_blank" href="https://cryptopedia-com.web.app/operaciones" class="text-blue-500 underline">operaciones</a>, donde se encontrarán los movimientos realizados.
 
 ## **Índice**  
 0. [Adelanto](#ad)
@@ -57,7 +57,7 @@ La idea principal es aprovechar este posible aumento acumulando BTC o dólares (
 
 - **<u>1er Escalón (Dominancia entre el 58,75% - 60,42%):</u>** En este caso destinariamos un 25% de la liquidez mensual en altcoins del Top 20 de Market Cap. Ejemplos: BNB, ADA, SOL, LINK, SUI. De esta manera permitiría aún reaccionar y aprovechar los próximos escalones sin necesitar obligatoriamente dolares.
 
-- **<u>2º Escalón (Dominancia entre el 62,7% - 60,42%):</u>*** Asignar un 70% de la liquidez mensual (incluso usar un pequeño porcentaje de BTC si supera los 120,000 $) a altcoins del Top 20 al Top 150. Ejemplos: DOT, UNI, GRT, XMR, IOTA, CAKE, KSM, ROSE. La oportunidad radica en superar las rentabilidades de BTC dado un posible escenario alcista.
+- **<u>2º Escalón (Dominancia entre el 62,7% - 60,42%):</u>** Asignar un 70% de la liquidez mensual (incluso usar un pequeño porcentaje de BTC si supera los 120,000 $) a altcoins del Top 20 al Top 150. Ejemplos: DOT, UNI, GRT, XMR, IOTA, CAKE, KSM, ROSE. La oportunidad radica en superar las rentabilidades de BTC dado un posible escenario alcista.
 
 - **<u>3er Escalón (Dominancia entre el 67% - 70%):</u>** Invertir el 100% de la liquidez disponible (no cabe la austeridad en este rango), incluyendo hasta un 25% de las reservas de BTC, independientemente de su precio. Centrarse en altcoins ubicadas por encima del TOP 300 y monedas muy desconocidas. Ejemplos: API3, VRA, ROSS, CGPT, NKN, LITH, AGIX...
 

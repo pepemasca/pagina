@@ -18,19 +18,19 @@ tags: [Bitcoin, Activo real, Reserva de valor]
 
 <p>Si te interesa conocer más sobre bitcoin o no entiendes algo en esta publicación, puedes encontrar información en 
 <a href="https://cryptopedia-com.web.app/madriguera" class="text-blue-500 underline">cryptopedia-com.web.app/madriguera</a>
-<a href="#referencia1" style="font-weight: bold; text-decoration: none;"><sup>[1]</sup></a></p>
 
-### La creación de estrategias estará disponible a partir de Febrero de 2025. Por el momento, se puede acudir a la parte de operaciones, donde se encontrarán los movimientos realizados.
+### <a class= "text-red-500">La creación de estrategias estará disponible a partir de Febrero de 2025. Por el momento, se puede acudir a la parte de operaciones, donde se encontrarán los movimientos realizados.</a>
 
 ## 1. Introducción
 La importancia de la estrategia. Si lo escibes ya tienes más posibilidades (ejemplo universidad estudiantes con ideas claras o no y exito), comprobar su coherencia, flexibilidad, no dejarse llevar por las emociones
 ## 2. Conocer la tolerancia al riesgo
+¿Puedo soportar bajadas del 30%?¿Y subidas?
 ## 3. Establecer un plazo mínimo sin trampas
 Conocer mis necesidades y ser conscientes de los ciclos
 ### 3.1 No autoengañarse con los plazos
 Esperar no es suficiente, se debe escoger sabiamente
 ## 4. La importancia de diversificar (riesgo de activo y riesgo temporal)
-No entrar de golpe, no apalancarse
+No entrar de golpe, no apalancarse, no poner los huevos en la misma cesta.
 ## 5. Adaptar la estrategia (chequeo propio y externo)
 - ¿Sigue coincidiendo con mi situación, la tendencia es favorable a lo planteado?
 ## 6. Resumen y conclusiones

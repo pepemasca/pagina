@@ -18,10 +18,10 @@ tags: [Divisas, Oro, Mercancía]
 Gracias por la atención.
 
 Actualmente estamos centrados en las oportunidades de mercado y en proyectos personales que no tienen mucho que 
-ver con la gestión en criptoactivos. La seccción de blogs quedará sin cambios hasta Febrero de 2025 aproximadamente, se ha
+ver con la gestión en criptoactivos. **La seccción de blogs quedará sin cambios hasta Febrero de 2025 aproximadamente**, se ha
 optado por dejar <a href="/blog/bitcoin-porqué" class="text-blue-500 underline">1 post sobre por qué Bitcoin con mucho contenido relevante</a>.
 
-## Contenido en construcción
+## <a class= "text-red-500">Contenido en construcción</a>
 
 - **<u>1. Introducción qué es el dinero</u>**
  * Cualquier cosa puede ser dinero (El dinero es una mercancia más)

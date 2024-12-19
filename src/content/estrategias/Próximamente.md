@@ -18,13 +18,13 @@ tags: [Bitcoin, Activo real, Reserva de valor]
 Gracias por la atención.
 
 Actualmente estamos centrados en las oportunidades de mercado y en proyectos personales que no tienen mucho que 
-ver con la gestión en criptoactivos. La seccción de estrategias quedará sin cambios hasta Febrero de 2025 aproximadamente, se ha
+ver con la gestión en criptoactivos. **La seccción de estrategias quedará sin cambios hasta Febrero de 2025 aproximadamente**, se ha
 optado por dejar <a href="/estrategias" class="text-blue-500 underline">4 publicaciones con mucho contenido relevante</a> y enfocarse en este periodo de altas oportunidades que preveemos que será corto.
 
 Estas estrategias no son independientes, se pueden complementar entre sí y pueden enriquecer nuestras operaciones. Pero quería destacar 
 de forma exagerada como podría cambiar la estrategia principal si nos enfocamos en una de estas estrategias.
 
-## Próximos temas a comentar
+# <a class= "text-red-500">Próximos temas a comentar</a>
 
 ### **<u>Estrategia más ofensiva (B):</u>**
 - Colocar apalancamiento (x1.8 hasta x4)
