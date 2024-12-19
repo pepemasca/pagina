@@ -17,55 +17,98 @@ tags: [Gestión del riesgo, Flexibilidad, Largo plazo]
 
  <a class="text-red-500 text-bold no-underline">*DISCLAIMER: La información proporcionada en este sitio web no constituye asesoramiento sobre inversiones, asesoramiento financiero, asesoramiento comercial ni ningún otro tipo de asesoramiento y no debes tratar el contenido del sitio web como tal. Cryptopedia no te recomienda que compres ni vendas criptomonedas. Actúa según tu propio juicio y consulta con tu asesor financiero antes de tomar cualquier decisión sobre inversiones.</a>
 
-
 <p>Si te interesa conocer más sobre bitcoin o no entiendes algo en esta publicación, puedes encontrar información en 
-<a href="https://cryptopedia-com.web.app/madriguera" class="text-blue-500 underline">cryptopedia-com.web.app/madriguera</a>
-<a href="#referencia1" style="font-weight: bold; text-decoration: none;"><sup>[1]</sup></a></p>
+<a target="_blank" href="https://cryptopedia-com.web.app/madriguera" class="text-blue-500 underline">cryptopedia-com.web.app/madriguera</a>.</p>
 
-## **Índice**   
-0. [Introducción sobre estrategias](#0) 
-1. [Principiantes](#1)
-2. [Estrategia actual](#2)
-3. [Indicadores esenciales](#3)
-4. [Periodo temporal y puntos clave](#4)
-5. [Puntos de no retorno y vías de escape](#5)
-6. [Toma de ganancias](#6)
-7. [Resumen y conclusiones](#7)
+La estrategia principal estará disponible a partir de Febrero de 2025. Por el momento, se puede acceder al [Adelanto](#ad) o acudir a la parte de <a target="_blank" href="https://cryptopedia-com.web.app/operaciones" class="text-blue-500 underline">operaciones</a>, donde se encontrarán los movimientos realizados.
 
-La estrategia principal estará disponible a partir de Febrero de 2025. Por el momento, se puede acudir a la parte de operaciones, donde se encontrarán los movimientos realizados.
+## **Índice**  
+0. [Adelanto](#ad)
+    - 0.1. [Fase 1. Subida de la dominancia de BTC](#0-1)
+    - 0.2. [Fase 2. Bajada de la dominancia de BTC](#0-2)
+    - 0.3. [Fase 3. Toma de ganancias](#0-3)
+<!--1. [Introducción sobre estrategias](#1)
+2. [Principiantes](#2)
+3. [Estrategia actual](#3)
+4. [Indicadores esenciales](#4)
+5. [Periodo temporal y puntos clave](#5)
+6. [Puntos de no retorno y vías de escape](#6)
+7. [Toma de ganancias](#7)
+8. [Resumen y conclusiones](#8)-->
 
-# Adelanto
+# <u>Adelanto</u> <a name="ad"></a>
 
-En esta comunidad somos conscientes de que hay que estar posicionados en los criptoactivos por el contexto actual y por su incertidumbre halagüeña.
+En nuestra comunidad entendemos que, dado el contexto actual, es esencial tener una estrategia clara respecto a los criptoactivos. La incertidumbre en este mercado puede ser tan desafiante como sobretodo prometedora.
 
-Por desgracia no puedo sustentar este argumento con pruebas consistentes, ya que las tengo pero requerirían de un tiempo de adaptación del cual no dispongo hasta Febrero.
+Aunque no puedo proporcionar pruebas detalladas por falta de tiempo hasta febrero, mi experiencia me lleva a pensar que posicionarse estratégicamente en altcoins y BTC puede ser clave en el momento actual. Basándome en la hipótesis de que Bitcoin (BTC) podría superar los 150,000 $ en los próximos meses, aquí comparto una estrategia que puede servir como guía.
 
-Una vez posicionados en altcoins y BTC y con la hipotesís (muy probable en mi opinión) de que BTC siga subiendo a niveles de precio por encima de los 150k $ en los próximos meses, procedemos a la estrategia:
+## Fase 1: Aumento de la dominancia de BTC (Probabilidad incierta) <a name="0-1"></a>
 
-## Fase 1: Subida de la dominancia de BTC (Probabilidad incierta)
+Esta fase se basa en una hipótesis personal y especulativa: un aumento en la dominancia de Bitcoin. Esto implica una narrativa solamente temporal sobre que Bitcoin podría consolidarse como la opción principal frente a otras altcoins debido a todas sus ventajas.
 
-Esta fase es muy especulativa y en parte un presentimiento personal.
+La idea principal es aprovechar este posible aumento acumulando BTC o dólares (USD), para luego invertir en altcoins con alto potencial. Estas son algunas de mis favoritas: LINK, BNB, ADA, CAKE, TRX, FET, UNI, KSM. 
 
-Se trata de una narrativa que apoye a Bitcoin destacando sus obvias cualidades con respecto al resto de altcoins. Este escenario es muy momentanio y podría agotarse en cualquier momento <a href="https://es.tradingview.com/symbols/BTC.D/" class="text-blue-500 underline">**(Máximos entorno al 59,11 y 70% según el gráfico de Tradingview)**</a>
+* **Rango a vigilar:** <a target="_blank" href="https://es.tradingview.com/symbols/BTC.D/" class="text-blue-500 underline">**(Máximos entorno al 59,11 y 70% según el gráfico de Tradingview)**</a>
 
-La acción a tomar sería acumular BTC (más arriesgado) o USD para poder adquirir altcoins que más potencial puedan tener, a mi me gustan LINK, BNB, ADA, CAKE, TRX, FET, UNI, KSM. 
+-**Clave 1:** No es tan importante el token escogido, si lo es la diversificación (mínimo 5 tokens sin interconexión, máximo 25).
 
-En realidad se pueden adquirir muchas otras, la clave es encontrar una buena diversificación para promediar el efecto de la Fase 2.
+-**Clave 2:** Encontrar el momento adecuado de entrada en cada token con respecto a su precio en términos de BTC.
 
 
-## Fase 2: Gran bajada de la dominancia de BTC (Probabilidad muy alta si BTC sigue subiendo)
+- **<u>1er Escalón (Dominancia entre el 58,75% - 60,42%):</u>** En este caso destinariamos un 25% de la liquidez mensual en altcoins del Top 20 de Market Cap. Ejemplos: BNB, ADA, SOL, LINK, SUI. De esta manera permitiría aún reaccionar y aprovechar los próximos escalones sin necesitar obligatoriamente dolares.
 
-Esta fase se sustenta en el hecho de que más alla de las bondades de BTC y su ventaja comparativa frente al resto de criptomonedas. Actualmente los poseedores de BTC son en se gran mayoría personas que se encuentran fuera del sistema financero y que han obtenido en algunos casos ganancias no realizadas exhorbitantes. Es por ello que estas personas moveran parte de sus ganancias en BTC hacía otras criptomonedas en busca de mayores rendimientos y aprovechando su mayor poder adquisitivo en vez de mover su dinero a la cuenta bancaria. 
+- **<u>2º Escalón (Dominancia entre el 62,7% - 60,42%):</u>*** Asignar un 70% de la liquidez mensual (incluso usar un pequeño porcentaje de BTC si supera los 120,000 $) a altcoins del Top 20 al Top 150. Ejemplos: DOT, UNI, GRT, XMR, IOTA, CAKE, KSM, ROSE. La oportunidad radica en superar las rentabilidades de BTC dado un posible escenario alcista.
 
-Dado este escenario histórico y muy factible, esperamos que <a href="https://es.tradingview.com/symbols/BTC.D/" class="text-blue-500 underline">**La dominancia de BTC cuando su precio sea mucho más alto, tienda a bajar entorno a los 51,5 y 33%, creando rentabilidades posiblemente irrepetibles dada la mayor capitalización futura.**</a>
+- **<u>3er Escalón (Dominancia entre el 67% - 70%):</u>** Invertir el 100% de la liquidez disponible (no cabe la austeridad en este rango), incluyendo hasta un 25% de las reservas de BTC, independientemente de su precio. Centrarse en altcoins ubicadas por encima del TOP 300 y monedas muy desconocidas. Ejemplos: API3, VRA, ROSS, CGPT, NKN, LITH, AGIX...
 
-La acción a tomar sería desprendernos progresivamente (DCA) de las altcoins y acumulando de nuevo BTC para reducir el riesgo y parte en dolares para recuperar la inversión y disponer de liquidez para cualquier cambio de tendencia claro.
+Más allá del 70% toda compra de altcoin será de media rentable si BTC supera los 130k$ antes de 2026.
 
-## Fase 3: Ahorrar en BTC o tomar las ganancias.
+## Fase 2: Gran bajada de la dominancia de BTC (Escenario Altamente Probable si BTC sigue subiendo) <a name="0-2"></a>
 
-¿Venderiamos en 180k, en 250k, en 500k, en 1 millón de dolares?
+Esta fase se basa en un fenómeno observado históricamente: cuando el precio de BTC alcanza niveles altos, muchos inversores tienden a mover sus ganancias hacia altcoins en busca de mayores rendimientos. Esto ocurre porque:
 
-Ello dependerá de nuestras circunstancias personales, pero también se tratará en Febrero.
+-**Clave 3:** Los tenedores de BTC suelen ser personas fuera del sistema financiero tradicional.
+
+-**Clave 4:** Estas ganancias no realizadas pueden ser reinvertidas en altcoins, aprovechando su poder adquisitivo, en lugar de convertirlas a monedas fiat.
+
+ **Rango a vigilar:** Si BTC sigue subiendo, es muy probable que su dominancia en el mercado disminuya significativamente, oscilando entre <a target="_blank" href="https://es.tradingview.com/symbols/BTC.D/" class="text-blue-500 underline">**los 51,5 y 33%**</a>, creando rentabilidades posiblemente irrepetibles dada la mayor capitalización futura.
+
+-**Claves 1 y 2:** Se siguen cumpliendo como en la Fase 1, sin embargo la clave 2 tendría un sentido contrario en el precio.
+
+-**Clave 5:** Desprendernos progresivamente de altcoins (utilizando DCA, es decir, compras o ventas promediadas en el tiempo), acumulando BTC y dólares (USD). Esto reduce el riesgo y garantiza liquidez para aprovechar posibles cambios de tendencia.
+
+- **<u>1er Escalón (Dominancia entre el 51,5% - 49%):</u>** En este rango empezariamos a recuperar parte de la inversión (preferiblemente a cambio de BTC, no tanto dolares).
+
+- **<u>2º Escalón (Dominancia entre el 46,7% - 40,5%):</u>** Habríamos vendido al menos el 30% de la posición en altcoins, priorizando aquellas fuera del Top 20 y especialmente deshaciendonos de gran parte de las del Top 100 hacia abajo. Sería coherente asignar al menos un tercio de lo vendido a adquirir BTC y guarda el resto en USD.
+
+**Beneficio:** Protegerse ante una posible corrección mientras mantienes exposición a BTC, algo subjetivo pero prioritario en esta comunidad.
+
+- **<u>3er Escalón Dominancia entre el (39,5% - 33%):</u>** En este escenario poco esperado, apenas conservariamos altcoins. El enfoque principal sería acumular BTC y USD, minimizando riesgos.
+
+**📌 Nota Personal:** Yo optaría por guardar una parte de mis ETH, SOL, LINK y ADA, pero me desprendería completamente del resto.
+
+### Precaución Adicional
+
+<p class= "text-red-500 no-underline">No es recomendable guardar los criptoactivos en exchanges, sobretodo tras un ciclo alcista como el esperado. Aunque la regulación como <a target="_blank" href="https://www.pwc.es/es/auditoria/assets/impacto-regulatorio-mica-en%20los-criptoactivos.pdf" class="text-blue-500 underline text-bold">MiCA</a> aumenta la seguridad, los exchanges siguen estando expuestos a riesgos significativos. Utiliza wallets personales siempre que sea posible.</p>
+
+## Fase 3: Ahorrar en BTC o tomar las ganancias. <a name="0-3"></a>
+
+¿El momento de vender? Eso dependerá de tus circunstancias personales. Algunas posibles metas para considerar:
+
+- 180k $, 300k $, 500k $ o incluso 1 millón de dólares por BTC.
+
+Lo más importante es tener un plan claro y adaptarlo a tus necesidades. Este tema será tratado en mayor profundidad en febrero.
+
+### PRÓXIMAMENTE (Temas a tratar)
+
+1. [Introducción sobre estrategias](#1)
+2. [Principiantes](#2)
+3. [Estrategia actual](#3)
+4. [Indicadores esenciales](#4)
+5. [Periodo temporal y puntos clave](#5)
+6. [Puntos de no retorno y vías de escape](#6)
+7. [Toma de ganancias](#7)
+8. [Resumen y conclusiones](#8)
 
 <!--
 ## 0. Introducción sobre estrategias <a name="0"></a>
@@ -117,8 +160,6 @@ Obviamente hay que conocer sus riesgos y tener en cuenta que Bitcoin no ha vivid
 
 Por todo lo anterior y dado que yo valoro mucho el ahorro/inversión, tengo parte de mi riqueza en Bitcoin, pero cada uno debe analizar sus circunstancias, conocer su tolerancia a variaciones de precio y sobretodo su periodo temporal mínimo para dehacer sus ahorros para adquirir aquello que desean.
 
-</div>
-
 <section id="referencias">
   <h2>Referencias</h2>
   <p id="referencia1">Referencia 1: <a href="https://cryptopedia-com.web.app/madriguera" target="_blank">https://cryptopedia-com.web.app/madriguera</a></p>
@@ -126,3 +167,5 @@ Por todo lo anterior y dado que yo valoro mucho el ahorro/inversión, tengo part
 
 </section>
 -->
+
+</div>
