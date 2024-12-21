@@ -21,14 +21,28 @@ tags: [Bitcoin, Activo real, Reserva de valor]
 <a href="#referencia1" class="text-blue-500 text-black no-underline"><sup>[1]</sup></a></p>
 
 ## Introducción
-Desde su creación y posterior lanzamiento en 2009, Bitcoin ha evolucionado constantemente, pues como cualquier otra técnologia, las mejoras son necesarias para mantener la seguridad y competitividad.
 
-Sin embargo, también hay otra cuestión que ha ido evolucionando a lo largo del tiempo a medida que su adopción también ha ido creciendo (ya sea por moda, especulación o acumulación), nos centraremos en las dos últimas y analizaremos cuales han sido los motivos y estudiaremos su posible evolución.
+Desde su creación en 2009, Bitcoin ha evolucionado como tecnología para mantenerse seguro y competitivo. Al mismo tiempo, su adopción ha crecido, motivada principalmente por la especulación y la acumulación. En este artículo exploraremos estas razones y su posible evolución.
 
-El creador de una herramienta o instrumento, trata de resolver problemas, pero no puede decidir cual será el uso que las personas van a hacer de el (el microondas se utilizó por primera vez para luchar contra aviones de los Nazis, el papel de burbujas se ideó para colocarlo en las paredes de las viviendas), como mucho los creadores podrán intuir o incentivar uno o varios usos, peró será la sociedad quien encuentre la utilidad que generá mayor valor.
+-**Bitcoin; Más que una herramienta:** Los creadores de tecnologías suelen diseñarlas para resolver problemas concretos, pero el uso que la sociedad les da puede ser inesperado. Ejemplos clásicos son el microondas, inventado inicialmente para la guerra, o el plástico de burbujas, pensado para decoración de paredes. Lo mismo sucede con Bitcoin: fue creado con una visión específica, pero su utilidad final depende de sus usuarios que harán uso de la utilidad que les generá mayor valor bajo su percepción y el de la sociedad.
+
 
 ## La visión de Satoshi
-En este sentido, el Whitepaper de Bitcoin aunque no habla directamente de dinero, si que destaca su cualidad de efectivo digital entre personas (símil con los billetes, pero online), aunque Satoshi priorizó aspectos como la seguridad (De la red y de los activos de los propietarios mediante dilución tendiente a 0) y descentralización (Mediante un tamaño de bloque reducido), dejó a un lado la escalabilidad, pues pensaba que los otros dos atributos erán prioritarios. De hecho, el propio Satoshi ya era consciente del "problema" de establecer una oferta tan rígida, como argumentó ante la pregunta de una cantidad de Bitcoins fija y el número de usuarios creciente: "Es más típico de un metal precioso. En lugar de que la oferta cambie para mantener el valor igual, la oferta está predeterminada y el valor cambia. A medida que crece el número de usuarios, aumenta el valor por moneda."<a href="#referencia2" class="text-blue-500 text-black no-underline"><sup>[2]</sup></a> Dejando claro que para el no era tan importante el uso como dinero, como si lo era la calidad del activo.
+
+El Whitepaper de Bitcoin describe su función como efectivo digital (similar a monedas, pero de forma online) para transacciones entre personas, aunque no habla concretamente de dinero. Satoshi priorizó la seguridad y la descentralización, dejando en segundo plano la escalabilidad. Diseñó una oferta limitada y prefijada de monedas, similar a los metales preciosos, y <a target="_blank" href="https://satoshi.nakamotoinstitute.org/es/posts/p2pfoundation/3/" class="text-blue-500 underline">explicó</a> <a href="#referencia2" class="text-blue-500 text-black no-underline"><sup>[2]</sup></a> que el valor de Bitcoin aumentaría conforme creciera el número de usuarios: “Es más típico de un metal precioso. En lugar de que la oferta cambie para mantener el valor igual, la oferta está predeterminada y el valor cambia. A medida que crece el número de usuarios, aumenta el valor por moneda.”
+
+En resumen, para Satoshi, la calidad del activo era más importante que su adopción y uso como dinero en el día a día.
+
+
+## Único e irrepetible
+A parte, de que Bitcoin ha sido la criptomoneda precursora de la industria actual. Su diseño es algo realmente único en la história, ya que siendo su creador seudónimo (el desconocido o los desconocidos Satoshi Nakamoto), la confianza y solidez histórica no ha hecho más que crecer. 
+
+Hay que ser conscientes de que <a target="_blank" href="https://bitcoinuptime.com/" class="text-blue-500 underline">Bitcoin ha estado en funcionamiento el 99,989...% del tiempo</a> <a href="#referencia3" class="text-blue-500 text-black no-underline"><sup>[3]</sup></a>, esto supera con creces el tiempo de actividad de VISA y de cualquier otra empresa, de hecho lleva funcionando sin ningúna interrupción desde el 12 de marzo de 2013
+
+Estos hechos unidos a los efectos de red y todo el reconocimiento adquirido lo convierten en algo realmente único en el mundo y obviamente quien trate de competir directamente contra Bitcoin sin proponer soluciones añadidas y mejoradas lo tendrá realmente difícil, pero aún así deberá conseguir convencer a muchísimas personas para superar su adopción.
+
+Se llega por tanto a la conclusión de que en su ámbito concreto no tiene ningún tipo de competencia ni se le espera. Quizás aparezca un criptoactivo o técnología superior que logre tener una mayor demanda que Bitcoin, sin embargo esta será en todo caso una solución con una propuesta de valor claramente diferente y seguramente pase mucho tiempo hasta entonces (pues hay que recordar que BTC es de los más antiguos de su tipo indicando la dificultad de llegar a lo más alto).
+
 
 ## ¿Dónde está entonces el valor de Bitcoin?
 Cuando me he encontrado con personas que opinaban sobre Bitcoin, muchas eran las dudas y preocupaciones sobre su futuro. Las personas que conocian de técnicas de inversión como puedan ser Value investing argumentaban que el valor intrínseco de Bitcoin era 0, ya que a diferencia de cualquier negocio, Bitcoin no generaba flujos de caja (rentabilidad anual) y que por tanto su valor solamente se basaba en la esperanza de que subiera más y más. Pero cuando exponías que Bitcoin era más bien un activo real como el oro y que no era un activo financiero, respondian que el oro si que tenía una utilidad clara y es que su demanda iba a mantenerse por las necesidades de la industria y del sector joyero (aunque realmente casi toda la propiedad se concentra realmente en demandantes de valor refugio y garantistas como lo son los Bancos Centrales).
@@ -74,7 +88,8 @@ Por todo lo anterior y dado que yo valoro mucho el ahorro/inversión, tengo part
 
 <section id="referencias">
   <h2>Referencias</h2>
-  <p id="referencia1">Referencia 1: <a href="https://cryptopedia-com.web.app/madriguera" target="_blank">https://cryptopedia-com.web.app/madriguera</a></p>
-  <p id="referencia2">Referencia 2: <a href="https://satoshi.nakamotoinstitute.org/es/posts/p2pfoundation/3/" target="_blank">https://satoshi.nakamotoinstitute.org/<wbr>es/posts/p2pfoundation/3/</a></p>
+  <p id="referencia1">[1]: <a href="https://cryptopedia-com.web.app/madriguera" target="_blank">https://cryptopedia-com.web.app/madriguera</a></p>
+  <p id="referencia2">[2]: <a href="https://satoshi.nakamotoinstitute.org/es/posts/p2pfoundation/3/" target="_blank">https://satoshi.nakamotoinstitute.org/<wbr>es/posts/p2pfoundation/3/</a></p>
+  <p id="referencia3">[3]: <a href="https://bitcoinuptime.com/" target="_blank">https://bitcoinuptime.com/</a></p>
 
 </section>
