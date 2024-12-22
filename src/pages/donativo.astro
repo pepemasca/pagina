@@ -12,19 +12,34 @@ import { Icon } from "astro-icon/components";
       <Fragment slot="desc">Este mecenazgo será distribuido entre todos aquellos que realicen contribuciones.</Fragment>
     </Sectionhead>
 
-    <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-16">
+    <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-12">
       <div>
         <h2 class="font-medium text-2xl text-gray-800">Dirección de Bitcoin</h2>
         <div class="mt-5">
           <div class="flex items-center mt-2 space-x-2 text-gray-600">
-            <Icon class="text-gray-400 w-4 h-4" name="uil:bitcoin" />
-            <span>32sTZE86Bh2kRxN8zSmtDyeTn6vdXnhdR7</span>
+            <span id="bitcoin-address" class="font-bold text-black transition-colors duration-300 hover:text-transparent hover:bg-gradient-to-r hover:from-lime-300 hover:to-yellow-500 hover:bg-clip-text hover:animate-pulse">
+              32sTZE86Bh2kRxN8zSmtDyeTn6vdXnhdR7
+            </span>
+            <button 
+              onclick="copyToClipboard()" 
+              class="ml-2 flex items-center space-x-1 px-2 py-1 text-sm font-medium text-white bg-blue-500 rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
+              <a>Copiar</a>
+              <Icon class="text-white w-4 h-4" name="uil:bitcoin" />
+            </button>
           </div>
         </div>
-        <br> <h2 class="font-medium text-2xl text-gray-800">Dirección de Ethereum y EVM (Optimism, Arbitrum, Base...)</h2>
+        <h2 class="font-medium text-2xl text-gray-800 mt-10">Dirección de Ethereum y EVM</h2>
+        <h3 class="font-medium text-lg text-gray-800">(Optimism, Arbitrum, Base...)</h3>
         <div class="flex items-center mt-2 space-x-2 text-gray-600">
-          <Icon class="text-gray-400 w-4 h-4" name="uil:envelope" />
-          <span>0x26d197bB4ac8268285a93b86a03e498f29cF5ce4</span>
+          <span id="ethereum-address" class="font-bold text-black transition-colors duration-300 hover:text-transparent hover:bg-gradient-to-r hover:from-lime-300 hover:to-yellow-500 hover:bg-clip-text hover:animate-pulse">
+            0x26d197bB4ac8268285a93b86a03e498f29cF5ce4
+          </span>
+          <button 
+            onclick="copyToClipboard()" 
+            class="ml-2 flex items-center space-x-1 px-2 py-1 text-sm font-medium text-white bg-blue-500 rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
+            <a>Copiar</a>
+            <Icon class="text-white w-4 h-4" name="simple-icons:ethereum" />
+          </button>
         </div>
       </div>
     </div>

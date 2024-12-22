@@ -20,7 +20,7 @@ publishedEstrategiasEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data
 <Layout title="Estrategias" hideNavbar={true}>
   <!-- Navbar centrado con Astronav -->
   <Container>
-    <header class="flex justify-center items-center mt-10">
+    <header class="flex justify-center items-center mt-6 mb-6">
       <Astronav>
         <div class="flex w-full lg:w-auto items-center justify-center">
           <a href="/" class="text-2xl">
@@ -31,7 +31,7 @@ publishedEstrategiasEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data
       </Astronav>
     </header>
   </Container>
-  <main class="mt-16">
+  <main class="mt-6">
     <!-- Contenedor para el primer post, fuera del Container para ocupar toda la pantalla -->
     <div class="w-full">
       <ul class="w-full">
@@ -74,13 +74,15 @@ publishedEstrategiasEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data
       </ul>
     </div>
   </main>
-  
+
+<div class="mt-12 mb-6">
   <Sectionhead>
     <Fragment slot="title">Principios de estrategias</Fragment>
     <Fragment slot="desc">
       Es importante conocer las posibilidades disponibles.
     </Fragment>
   </Sectionhead>
+</div>
 
   <Container>
     <ul class="grid gap-16 max-w-6xl mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-2">
@@ -127,12 +129,10 @@ publishedEstrategiasEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data
     </ul>
   </Container>
 
-  <Sectionhead>
-    <Fragment slot="title">Estrategias de reserva</Fragment>
-    <Fragment slot="desc">
-      Es importante conocer las posibilidades disponibles.
-    </Fragment>
-  </Sectionhead>
+  <div class="text-center my-14">
+    <h2 class="text-4xl font-semibold">Estrategias de reserva</h2>
+    <p class="mt-4 text-gray-500 text-xl">Diferentes enfoques.</p>
+  </div>
 
   <Container>
     <ul class="grid gap-16 max-w-6xl mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-2">

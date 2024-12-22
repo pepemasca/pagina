@@ -19,16 +19,12 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
       <Fragment slot="desc">(Economista especializado en finanzas y ciberseguridad.)</Fragment>
     </Sectionhead>
 
-    <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16 prose-p:text-justify">
+    <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-8 prose-p:text-justify">
       <h2 class="font-bold text-3xl text-gray-800">
         Entusiasta de Bitcoin y de toda la tecnología que hay detrás
       </h2>
       <p class="text-lg leading-relaxed text-slate-500">
-        Como graduado en la carrera de Economía, he podido discernir mucho mejor que es el dinero. Y es que como apunté en mi TFG, nos econtramos en un cambio
-        de paradigma en muchos sectores, entre ellos especialmente el financiero. Llevo varios años de mi vida posicionandome a favor de las criptomonedas 
-        sin importarme la frontal oposición de amigos, familia, profesores (Doctores en Economía) y es que con el tiempo he comprendido 
-        que de nada sirve hablar. Lo importante es formarse y poder comprender las ventajas y desventajas de aquello de lo que hablamos. 
-        Haciendo referencia a uno de mis inversores favoritos, Emérito Quintana, "Duermo mucho más tranquilo con Bitcoin en cartera".
+        Como graduado en Economía, he aprendido a comprender mejor el concepto del dinero. En mi TFG analicé el cambio de paradigma que atraviesan sectores como el financiero, destacando las criptomonedas. Durante años, he defendido su potencial pese a la oposición de amigos, familia y profesores (doctores en economía). Con el tiempo, entendí que lo esencial es formarse para evaluar objetivamente ventajas y desventajas en vez de hablar o informarse en la prensa. Parafraseando a mi inversor favorito, Emérito Quintana: "Duermo más tranquilo con Bitcoin en cartera".
       </p>
     </div>
     <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-12">
@@ -43,7 +39,7 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
                   sizes="(max-width: 800px) 100vw, 400px"
                   width={400}
                   height={100}
-                  class="w-full rounded-md rounded transition group-hover:-translate-y-1 group-hover:shadow-xl bg-white object-cover object-center aspect-square"
+                  class="w-full h-auto rounded-md rounded transition group-hover:-translate-y-1 group-hover:shadow-xl bg-white object-cover object-center"
                 />
               </div>
               <div class="mt-4 text-center">
@@ -56,26 +52,25 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
           ))
         }
       </div>
-      <div class="grid grid-rows-3 gap-3 mx-auto max-w-4xl mt-16 prose-p:text-justify margin-top">
-        <div class="row-span-1"> 
+      <div class="grid grid-rows-3 gap-3 mx-auto max-w-4xl prose-p:text-justify margin-top">
+        <div class="row-span-1 mt-4"> 
           <h2 class="text-lg font-bold text-slate-700 flex items-center">
             <Icon class="w-6 h-6 mr-2" name="bx:link-alt" />
             La digitalización de las finanzas
           </h2>
-          <p class="text-lg leading-relaxed text-slate-500">En mi trabajo final de grado 
-          "La digitalización de las finanzas" abordo algunas de las disrupciones que este sector debe abordar haciendo hincapíe en
-          el territorio europeo y español. <a href="https://drive.google.com/file/d/1PZgw57VIDadEfAjpiY4aKSt0DPe2mo6v/view?usp=sharing"
-          class="text-blue-500 underline">Aquí se puede encontrar el PDF</a></p>
+          <p class="text-lg leading-relaxed text-slate-500 mt-2">En mi TFG <i>"La digitalización de las finanzas"</i>, abordo las disrupciones del sector financiero, con énfasis en la situación de Europa y España. <a href="https://drive.google.com/file/d/1PZgw57VIDadEfAjpiY4aKSt0DPe2mo6v/view?usp=sharing"
+          class="text-blue-500 underline">Aquí puedes consultar el PDF.</a></p>
+
         </div>
-        <div class="row-span-2">
+        <div class="row-s mt-4pan-2 mt-4">
           <h2 class="text-lg font-bold text-slate-700 flex items-center">
             <Icon class="w-6 h-6 mr-2" name="simple-icons:linkedin" />
             LinkedIn
           </h2>
-          <p class="text-lg leading-relaxed text-slate-500">
+          <p class="text-lg leading-relaxed text-slate-500 mt-2">
             También aprovecho para compartir mi 
             <a href="https://www.linkedin.com/in/javier-mascarell/" class="text-blue-500 underline">
-              perfil en LinkedIn</a>, donde se pueden ver otros trabajos que he realizado y la formación que he superado.
+              perfil en LinkedIn</a>, donde detallo mi formación y proyectos. Mi pasión son las finanzas, y busco integrarlas con la energía y la ciberseguridad.
           </p>
         </div>
       </div>

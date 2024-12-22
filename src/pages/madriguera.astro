@@ -20,7 +20,7 @@ publishedMadrigueraEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data.
 <Layout title="Madriguera" hideNavbar={true}>
   <!-- Navbar centrado con Astronav -->
   <Container>
-    <header class="flex justify-center items-center mt-10">
+    <header class="flex justify-center items-center mt-6 mb-6">
       <Astronav>
         <div class="flex w-full lg:w-auto items-center justify-center">
           <a href="/" class="text-2xl">
@@ -32,7 +32,7 @@ publishedMadrigueraEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data.
     </header>
   </Container>
 
-  <main class="mt-16">
+  <main class="mt-6">
     <!-- Contenedor para el primer post, fuera del Container para ocupar toda la pantalla -->
     <div class="w-full">
       <ul class="w-full">
@@ -75,12 +75,14 @@ publishedMadrigueraEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data.
       </ul>
     </div>
 
+  <div class="mt-12">
     <Sectionhead>
       <Fragment slot="title">La madriguera de Cryptopedia</Fragment>
       <Fragment slot="desc">
         Fuentes de información sobre temas relevantes para la gestión de criptoactivos.
       </Fragment>
     </Sectionhead>  
+  </div>
 
     <!-- Texto de separación entre los primeros 6 y el resto -->
     <div class="text-center my-12">
@@ -133,8 +135,8 @@ publishedMadrigueraEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data.
     </Container>
 
     <!-- Texto de separación para los posts restantes -->
-    <div class="text-center my-12">
-      <h2 class="text-xl font-semibold">Explora más artículos</h2>
+    <div class="text-center my-14">
+      <h2 class="text-3xl font-semibold">Explora más artículos</h2>
       <p class="mt-4 text-gray-500">Aquí encontrarás más contenido sobre criptoactivos.</p>
     </div>
 
