@@ -58,6 +58,8 @@ Y no, bitcoin no genera rentabilidades periodicas ni tampoco se usa para la indu
 
 Es decir, muchas personas pagan e intermediarios para poder ahorrar su dinero en instrumentos financieros o protección y mantenimiento de la propiedad a lo largo de varios años y reduciendo la incertidumbre futura de su bienestar adquisitivo o capacidad de realizar proyectos deseados.
 
+<!--
+
 aaa
 
 Cuando surge la pregunta sobre el valor de Bitcoin, suelen aparecer dudas y preocupaciones respecto a su futuro. Algunos expertos en inversión, especialmente en enfoques como el value investing, sostienen que el valor intrínseco de Bitcoin es cero. Alegan que, a diferencia de un negocio, Bitcoin no genera flujos de caja ni rentabilidad anual, y que su precio depende únicamente de la expectativa de que suba. Ante la comparación con activos reales como el oro, argumentan que este último tiene una utilidad concreta debido a su demanda en la industria y la joyería. Sin embargo, gran parte del oro es atesorado como valor refugio por actores como los Bancos Centrales.
@@ -69,6 +71,8 @@ Mi posición es clara: actualmente, Bitcoin no cumple con los requisitos para se
 Sin embargo, Bitcoin no necesita generar rentabilidad periódica ni ser útil en la industria para justificar su existencia. Su valor radica en una funcionalidad mucho más significativa: servir como reserva de valor. Este atributo, una de las propiedades esenciales del dinero, suele ser desatendido. En muchos países, las personas ahorran para metas a largo plazo, como la jubilación o la educación de sus hijos. Este proceso alimenta una industria financiera global gigantesca que gestiona y protege los ahorros, reduciendo la incertidumbre sobre el futuro económico de las personas.
 
 En esencia, Bitcoin representa una alternativa para almacenar y transferir valor en el tiempo, eliminando la necesidad de intermediarios y ofreciendo una forma de ahorro accesible y resistente a las restricciones externas. Aunque no sustituye al dinero convencional, su papel como activo de resguardo lo sitúa en una posición única dentro del sistema financiero global.
+
+-->
 
 ## Bitcoin como reserva de valor
 
@@ -82,6 +86,7 @@ Quien almacena valor, generalmente trata de deshacerlo en algun momento para adq
 - **<u>Coste de dilución:</u>**
 Esta es una clara ventaja y una clara fuente de demanda de Bitcoin que actualmente cuenta con un incremento de unidades del 0,85% anual, pero que en 2033 será del 0,2% y en 2050 estará muy cerca del 0%. Las acciones por ejemplo tienen la capacidad de diluir al accionista cuando se emiten nuevas unidades de la nada. Las viviendas en los últimos años no sufren este problema en España, pues las nuevas construcciones en ciudades muy demandadas son bajas, pero en 2008 y años posteriores si fue un problema cuando había una alta competencia entre oferentes. El dinero tal como hablé en el blog de ¿Qué es realmente el dinero? sufre mucho sobretodo en periodos temporales largos debido a la oferta creciente. El oro aunque escaso, sigue siendo minado y la tasa de extracción es cercana al 2% anual y aunque también debería de disminuir ya que algunas estimaciones apuntan a que solamente queda un 30% por minar, la tecnología mejora y si sube mucho de precio, surgirán muchas empresas y nuevos métodos para aumentar la velocidad de extracción.
 
+<!--
 aaa
 
 Un aspecto poco considerado al comparar Bitcoin con otras formas de ahorro es que conservar valor en el tiempo siempre implica algún tipo de coste. Estos pueden clasificarse en diferentes categorías:
@@ -116,6 +121,8 @@ Oro: A pesar de ser escaso, se sigue extrayendo a una tasa cercana al 2% anual. 
 Conclusión
 Bitcoin, aunque no es perfecto, presenta ventajas claras frente a otras formas de ahorro, especialmente en términos de coste de almacenamiento y resistencia a la dilución. Si bien aún enfrenta retos como su volatilidad y costes de transacción moderados, su naturaleza descentralizada, limitada emisión y capacidad de almacenamiento seguro le otorgan un lugar único en el panorama financiero.
 
+--> 
+
 - ### Ventajas 
 Claramente atesorar tus ahorros en bitcoin supone que evites pagar muchos costes anualmente, este coste parece insignificante, pero cuando sumas todos los años y tienes en cuenta el efecto del interés compuesto (del coste). Te das cuenta entonces de que esta solución permite que tu riqueza no disminuya en gran medida al menos.
 
@@ -125,8 +132,8 @@ Obviamente aunque actualmente Bitcoin ocupe la posición séptima como activo m�
 
 Por otro lado encontramos que aunque la seguridad de Bitcoin es de las más altas que hay en internet, no se libra de ciertos peligros como pueda ser un ataque a la descentralización, un ataque a los nodos, etc. Pero sin duda el mayor riesgo lo encontramos en su sistema de incentivos y es que la seguridad de bitcoin se sustenta en los ajustes de dificultad y estos a su vez dependen de la competencia de los mineros. Se podría provocar una espiral bajista hasta 0$ (cada vez más dificil a medida que el precio suba durante años), ya que si el precio baja, cada vez menos mineros podrían participar y bajaría la dificultad, esto a su vez haría que algunos cautos vendieran por no querer asumir el riesgo de seguridad, esto incrementaría el problema de los mineros y se podría llegar a un punto de dificultad tan baja que alguien con una inversion billonaria podría secuestrar la red de Bitcoin y controlarla a su antojo, perdiendo Bitcoin toda seguridad y por tanto dejando de cumplir una de sus utilidades imprescindibles.
 
+<!--
 aaa
-
 
 Ventajas
 Ahorrar en Bitcoin tiene varias ventajas destacables:
@@ -159,6 +166,7 @@ Los gobiernos aún están definiendo cómo regular Bitcoin. Cambios en la legisl
 
 Reflexión final
 Bitcoin representa una opción innovadora para preservar valor y evitar muchos de los costes asociados a formas tradicionales de ahorro. Sin embargo, su éxito depende de que supere desafíos importantes, como estabilizar su demanda, garantizar su seguridad en el tiempo y enfrentar la incertidumbre regulatoria. A pesar de estos riesgos, su naturaleza única y su diseño descentralizado le confieren un papel relevante en la evolución del sistema financiero global.
+-->
 
 ## Conclusiones
 

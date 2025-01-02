@@ -118,7 +118,7 @@ El acceso será completamente libre y gratuito; pues el conocimiento es poder
         </td>
         <td class="border border-gray-300 px-4 py-2 text-[14px] sm:text-base">PDF</td>
         <td class="border border-gray-300 px-4 py-2 text-[14px] sm:text-base">
-          Posiblemente la comunidad española más influyente en España.
+          Documento donde Satoshi publicó el ¿cómo? y ¿por qué? de Bitcoin. Algo así como una guía de instrucciones resumida.
         </td>
       </tr>
       <tr>
