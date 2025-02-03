@@ -57,7 +57,7 @@ La idea principal es aprovechar este posible aumento acumulando BTC o dólares (
 
 - **<u>1er Escalón (Dominancia entre el 58,75% - 60,42%):</u>** En este caso destinariamos un 25% de la liquidez mensual en altcoins del Top 20 de Market Cap. Ejemplos: BNB, ADA, SOL, LINK, SUI. De esta manera permitiría aún reaccionar y aprovechar los próximos escalones sin necesitar obligatoriamente dolares.
 
-- **<u>2º Escalón (Dominancia entre el 62,7% - 60,42%):</u>** Asignar un 70% de la liquidez mensual (incluso usar un pequeño porcentaje de BTC si supera los 120,000 $) a altcoins del Top 20 al Top 150. Ejemplos: DOT, UNI, GRT, XMR, IOTA, CAKE, KSM, ROSE. La oportunidad radica en superar las rentabilidades de BTC dado un posible escenario alcista.
+- **<u>2º Escalón (Dominancia entre el 60,42% - 65,2%):</u>** Asignar un 70% de la liquidez mensual (incluso usar un pequeño porcentaje de BTC si supera los 120,000 $) a altcoins del Top 20 al Top 150. Ejemplos: DOT, UNI, GRT, XMR, IOTA, CAKE, KSM, ROSE. La oportunidad radica en superar las rentabilidades de BTC dado un posible escenario alcista.
 
 - **<u>3er Escalón (Dominancia entre el 67% - 70%):</u>** Invertir el 100% de la liquidez disponible (no cabe la austeridad en este rango), incluyendo hasta un 25% de las reservas de BTC, independientemente de su precio. Centrarse en altcoins ubicadas por encima del TOP 300 y monedas muy desconocidas. Ejemplos: API3, VRA, ROSS, CGPT, NKN, LITH, AGIX...
 
