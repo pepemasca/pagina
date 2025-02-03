@@ -59,7 +59,7 @@ La idea principal es aprovechar este posible aumento acumulando BTC o dólares (
 
 - **<u>2º Escalón (Dominancia entre el 60,42% - 65,2%):</u>** Asignar un 70% de la liquidez mensual (incluso usar un pequeño porcentaje de BTC si supera los 120,000 $) a altcoins del Top 20 al Top 150. Ejemplos: DOT, UNI, GRT, XMR, IOTA, CAKE, KSM, ROSE. La oportunidad radica en superar las rentabilidades de BTC dado un posible escenario alcista.
 
-- **<u>3er Escalón (Dominancia entre el 67% - 70%):</u>** Invertir el 100% de la liquidez disponible (no cabe la austeridad en este rango), incluyendo hasta un 25% de las reservas de BTC, independientemente de su precio. Centrarse en altcoins ubicadas por encima del TOP 300 y monedas muy desconocidas. Ejemplos: API3, VRA, ROSS, CGPT, NKN, LITH, AGIX...
+- **<u>3er Escalón (Dominancia entre el 67,9% - 72,1%):</u>** Invertir el 100% de la liquidez disponible (no cabe la austeridad en este rango), incluyendo hasta un 25% de las reservas de BTC, independientemente de su precio. Centrarse en altcoins ubicadas por encima del TOP 300 y monedas muy desconocidas. Ejemplos: API3, VRA, ROSS, CGPT, NKN, LITH, AGIX...
 
 Más allá del 70% toda compra de altcoin será de media rentable si BTC supera los 130k$ antes de 2026.
 
