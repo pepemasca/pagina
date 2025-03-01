@@ -20,16 +20,21 @@ export const colors = [
   { color: "c-new text-pink-400", text: "Publicado hace menos de 10 días" },
 ];
 
+export const invest = [
+  { MES: "02/25", ENTRADAS: "16,07%", SALIDAS: "0%", INVERTIDO: "16,07%" },
+  { MES: "01/25", ENTRADAS: "3,56%", SALIDAS: "0,19%", INVERTIDO: "3,37%" },
+  { MES: "12/24", ENTRADAS: "19,55%", SALIDAS: "3,42%", INVERTIDO: "16,13%" },
+  { MES: "11/24", ENTRADAS: "12,76%", SALIDAS: "3,86%", INVERTIDO: "8,9%" },
+];
+
 export const orders = [
-  { token: "UNI", amount: "2.7 UNI", pair: "UNI/USDC", operation: "op-compra", price: "1 UNI = 7.41 USDC", color: "c-new c-blue" },
+  { token: "SOL", amount: "0.157 SOL", pair: "SOL/USDC", operation: "op-compra", price: "1 SOL = 127.59 USDC", color: "c-new c-blue" },
 
-  { token: "VET", amount: "72 VET", pair: "VET/USDC", operation: "op-compra", price: "1 VET = 0.279 USDC", color: "c-new c-blue" },
+  { token: "  LINK", amount: "2.6 LINK", pair: "LINK/USDC", operation: "op-compra", price: "1 LINK = 11.57 USDC", color: "c-new c-blue" },
 
-  { token: "SUI", amount: "7.7 SUI", pair: "SUI/USDC", operation: "op-compra", price: "1 SUI = 2.66 USDC", color: "c-new c-blue" },
+  { token: "ETH", amount: "0.0274 ETH", pair: "ETH/USDC", operation: "op-compra", price: "1 ETH = 1826 USDC", color: "c-new c-violet" },
 
   { token: "ADA", amount: "110 ADA", pair: "ADA/USDC", operation: "op-compra", price: "1 ADA = 0.478 USDC", color: "c-new c-violet" },
-
-  { token: "ONDO", amount: "22 ONDO", pair: "ONDO/USDC", operation: "op-compra", price: "1 ONDO = 0.937 USDC", color: "c-new c-blue" },
 
   { token: "FET", amount: "36 FET", pair: "FET/USDC", operation: "op-compra", price: "1 FET = 0.57 USDC", color: "c-new c-blue" },
 
@@ -53,33 +58,41 @@ export const orders = [
 ];
 
 export const operations = [
-  { date: "03/02/2025", token: "NKN", amount: "180 NKN", pair: "NKN/USDC", operation: "op-compra", price: "1 NKN = 0.0557 USDC", details: "Este proyecto aunque ha sido muy castigado por el mercado, es histórico y tiene una capitalización muy baja, por lo que es arriesgado pero a su vez una oportunidad.", color: "c-new c-green" },
+  { date: "28/02/2025", token: "UNI", amount: "2.7 UNI", pair: "UNI/USDC", operation: "op-compra", price: "1 UNI = 7.41 USDC", color: "c-new c-blue"  },
 
-  { date: "03/02/2025", token: "SYS", amount: "150 SYS", pair: "SYS/USDC", operation: "op-compra", price: "1 SYS = 0.0677 USDC", details: "Este proyecto aunque ha sido muy castigado por el mercado, es histórico y reconocido por aquellos que entraron hace muchos años.", color: "c-new c-green" },
+  { date: "28/02/2025", token: "VET", amount: "72 VET", pair: "VET/USDC", operation: "op-compra", price: "1 VET = 0.279 USDC", color: "c-new c-blue"  },
 
-  { date: "03/02/2025", token: "BAT", amount: "55 BAT", pair: "BAT/USDC", operation: "op-compra", price: "1 BAT = 0.1835 USDC", details: "Navegador con muchisimos usuarios", color: "c-new c-green" },
+  { date: "25/02/2025", token: "SUI", amount: "7.7 SUI", pair: "SUI/USDC", operation: "op-compra", price: "1 SUI = 2.66 USDC", color: "c-new c-blue" },
 
-  { date: "03/02/2025", token: "DOT", amount: "4.1 DOT", pair: "DOT/USDC", operation: "op-compra", price: "1 DOT = 4.9 USDC", details: "Aprovechando la volatilidad por el dia de la investidura de Trump, he creído y así lo avisé que podríamos ver precios extremos. Finalmente China con Deep Seek ha provocado este movimiento negativo en el mercado (no es casualidad la llegada a la presidencia de Trump).", color: "c-new c-blue" },
+  { date: "25/02/2025", token: "ONDO", amount: "22 ONDO", pair: "ONDO/USDC", operation: "op-compra", price: "1 ONDO = 0.937 USDC", color: "c-new c-blue" },
 
-  { date: "02/02/2025", token: "KSM", amount: "1 KSM", pair: "KSM/USDC", operation: "op-compra", price: "1 KSM = 21.56 USDC", details: "Aprovechando la volatilidad por el dia de la investidura de Trump, creo que podemos ver precios extremos.", color: "c-new c-blue" },
+  { date: "03/02/2025", token: "NKN", amount: "180 NKN", pair: "NKN/USDC", operation: "op-compra", price: "1 NKN = 0.0557 USDC", details: "Este proyecto aunque ha sido muy castigado por el mercado, es histórico y tiene una capitalización muy baja, por lo que es arriesgado pero a su vez una oportunidad.", color: "c-normal c-green" },
 
-  { date: "02/02/2025", token: "AVAX", amount: "0.5 AVAX", pair: "AVAX/BTC", operation: "op-compra", price: "1 AVAX = 0.000309 BTC", details: "Operación que no estaba en las ordenes pendientes. Es el mínimo contra BTC desde 2021, cuando se acababa de crear el proyecto que hoy en día ocupa la posición 14ª.", color: "c-new c-green" },
+  { date: "03/02/2025", token: "SYS", amount: "150 SYS", pair: "SYS/USDC", operation: "op-compra", price: "1 SYS = 0.0677 USDC", details: "Este proyecto aunque ha sido muy castigado por el mercado, es histórico y reconocido por aquellos que entraron hace muchos años.", color: "c-normal c-green" },
 
-  { date: "02/02/2025", token: "FLOKI", amount: "65K FLOKI", pair: "FLOKI/BTC", operation: "op-compra", price: "1 FLOKI = 0.0(^8)1177 BTC", details: "Dentro de la especulación como memecoin, Floki ha demostrado una cierta fortaleza cuando no hay grandes movimientos.", color: "c-new c-green" },
+  { date: "03/02/2025", token: "BAT", amount: "55 BAT", pair: "BAT/USDC", operation: "op-compra", price: "1 BAT = 0.1835 USDC", details: "Navegador con muchisimos usuarios", color: "c-normal c-green" },
 
-  { date: "27/01/2025", token: "ADA", amount: "23 ADA", pair: "ADA/USDC", operation: "op-compra", price: "1 ADA = 0.881 USDC", details: "Aprovechando la volatilidad por el dia de la investidura de Trump, he creído y así lo avisé que podríamos ver precios extremos. Finalmente China con Deep Seek ha provocado este movimiento negativo en el mercado (no es casualidad la llegada a la presidencia de Trump).", color: "c-new c-blue" },
+  { date: "03/02/2025", token: "DOT", amount: "4.1 DOT", pair: "DOT/USDC", operation: "op-compra", price: "1 DOT = 4.9 USDC", details: "Aprovechando la volatilidad por el dia de la investidura de Trump, he creído y así lo avisé que podríamos ver precios extremos. Finalmente China con Deep Seek ha provocado este movimiento negativo en el mercado (no es casualidad la llegada a la presidencia de Trump).", color: "c-normal c-blue" },
+
+  { date: "02/02/2025", token: "KSM", amount: "1 KSM", pair: "KSM/USDC", operation: "op-compra", price: "1 KSM = 21.56 USDC", details: "Aprovechando la volatilidad por el dia de la investidura de Trump, creo que podemos ver precios extremos.", color: "c-normal c-blue" },
+
+  { date: "02/02/2025", token: "AVAX", amount: "0.5 AVAX", pair: "AVAX/BTC", operation: "op-compra", price: "1 AVAX = 0.000309 BTC", details: "Operación que no estaba en las ordenes pendientes. Es el mínimo contra BTC desde 2021, cuando se acababa de crear el proyecto que hoy en día ocupa la posición 14ª.", color: "c-normal c-green" },
+
+  { date: "02/02/2025", token: "FLOKI", amount: "65K FLOKI", pair: "FLOKI/BTC", operation: "op-compra", price: "1 FLOKI = 0.0(^8)1177 BTC", details: "Dentro de la especulación como memecoin, Floki ha demostrado una cierta fortaleza cuando no hay grandes movimientos.", color: "c-normal c-green" },
+
+  { date: "27/01/2025", token: "ADA", amount: "23 ADA", pair: "ADA/USDC", operation: "op-compra", price: "1 ADA = 0.881 USDC", details: "Aprovechando la volatilidad por el dia de la investidura de Trump, he creído y así lo avisé que podríamos ver precios extremos. Finalmente China con Deep Seek ha provocado este movimiento negativo en el mercado (no es casualidad la llegada a la presidencia de Trump).", color: "c-normal c-blue" },
   
-  { date: "22/01/2025", token: "Thena", amount: "17 Thena", pair: "THE/USDC", operation: "op-compra", price: "1 THE = 0.845 USDC", details: "Operación que estaba pendiente desde hace mucho tiempo. Es bastante especulativa", color: "c-new c-green" },
+  { date: "22/01/2025", token: "Thena", amount: "17 Thena", pair: "THE/USDC", operation: "op-compra", price: "1 THE = 0.845 USDC", details: "Operación que estaba pendiente desde hace mucho tiempo. Es bastante especulativa", color: "c-normal c-green" },
 
-  { date: "22/01/2025", token: "ROSS", amount: "8500 ROSS", pair: "ROSS/SOL", operation: "op-compra", price: "1 ROSS = 0.0000177 SOL", details: "Ya ha sido liberado ROSS!! Trump ha cumplido su promesa, pero el precio ha seguido el movimiento contrario. Hacemos esta operación muy arriesgada con la esperanza de que Ross vaya al programa de Joe Rogan", color: "c-new c-blue" },
+  { date: "22/01/2025", token: "ROSS", amount: "8500 ROSS", pair: "ROSS/SOL", operation: "op-compra", price: "1 ROSS = 0.0000177 SOL", details: "Ya ha sido liberado ROSS!! Trump ha cumplido su promesa, pero el precio ha seguido el movimiento contrario. Hacemos esta operación muy arriesgada con la esperanza de que Ross vaya al programa de Joe Rogan", color: "c-normal c-blue" },
 
-  { date: "19/01/2025", token: "ROSS", amount: "1000 ROSS", pair: "ROSS/SOL", operation: "op-venta", price: "1 ROSS = 0.00015 SOL", details: "Esta venta se ha realizado con el objetivo de recuperar toda la inversión inicial en $. Hemos vendido el 20% del ROSS comprado y hemos podido recuperar los $ gastados. El resto lo dejamos por si hay una gran subida", color: "c-new c-blue" },
+  { date: "19/01/2025", token: "ROSS", amount: "1000 ROSS", pair: "ROSS/SOL", operation: "op-venta", price: "1 ROSS = 0.00015 SOL", details: "Esta venta se ha realizado con el objetivo de recuperar toda la inversión inicial en $. Hemos vendido el 20% del ROSS comprado y hemos podido recuperar los $ gastados. El resto lo dejamos por si hay una gran subida", color: "c-normal c-blue" },
 
-  { date: "19/01/2025", token: "SOL", amount: "0.07 SOL", pair: "SOL/BTC", operation: "op-venta", price: "1 SOL = 0.0027 BTC", details: "SOL esta luchando por superar el marketcap de XRP, lo que proyectaría el precio desde los 290$ actuales hasta los 369$ sin embargo debido a la alta especulación, siempre está bien asegurarse algo de BTC", color: "c-new c-blue" },
+  { date: "19/01/2025", token: "SOL", amount: "0.07 SOL", pair: "SOL/BTC", operation: "op-venta", price: "1 SOL = 0.0027 BTC", details: "SOL esta luchando por superar el marketcap de XRP, lo que proyectaría el precio desde los 290$ actuales hasta los 369$ sin embargo debido a la alta especulación, siempre está bien asegurarse algo de BTC", color: "c-normal c-blue" },
 
-  { date: "13/01/2025", token: "ROSS", amount: "1300 ROSS", pair: "ROSS/SOL", operation: "op-venta", price: "1 ROSS = 0.00016 SOL", details: "Creo que todavía puede subir mucho más, es por ello que solamente he vendido el 10% de la posición aprox, recuperando casi 1/3 de la inversión. También conseguimos bajar el precio de equilibrio hasta los 0.0(4)31 SOL o lo que es lo mismo, ahora debería de bajar un 75% el precio para empezar a tener perdidas.", color: "c-new c-blue" },
+  { date: "13/01/2025", token: "ROSS", amount: "1300 ROSS", pair: "ROSS/SOL", operation: "op-venta", price: "1 ROSS = 0.00016 SOL", details: "Creo que todavía puede subir mucho más, es por ello que solamente he vendido el 10% de la posición aprox, recuperando casi 1/3 de la inversión. También conseguimos bajar el precio de equilibrio hasta los 0.0(4)31 SOL o lo que es lo mismo, ahora debería de bajar un 75% el precio para empezar a tener perdidas.", color: "c-normal c-blue" },
 
-  { date: "13/01/2025", token: "SOL", amount: "0.06 SOL", pair: "SOL/USDC", operation: "op-compra", price: "1 SOL = 170.56", color: "c-new c-green" },
+  { date: "13/01/2025", token: "SOL", amount: "0.06 SOL", pair: "SOL/USDC", operation: "op-compra", price: "1 SOL = 170.56 USDC", color: "c-normal c-green" },
 
   { date: "20/12/2024", token: "FET", amount: "6 FET", pair: "FET/BTC", operation: "op-compra", price: "1 FET = 0.0(^4)1284 BTC", details: "Narrativa de IA (en nuestra opinión este sector va a sostener a la economía en los próximos años).", color: "c-normal c-green" },
 
@@ -179,7 +192,35 @@ export function ColorTable() {
   );
 }
 
-
+export function InvestmentTable() {
+  return (
+    <div class="flex justify-center">
+      <table class="w-full border-separate border-zinc-950 border-2 rounded">
+        <caption class="caption-top">
+          <h1 class="text-3xl font-bold text-center tracking-wide">Inversiones (Sobre el total disponible mensual)</h1>
+        </caption>
+        <thead class="bg-gray-100">
+          <tr>
+            <th class="c-titles">MES</th>
+            <th class="c-titles">ENTRADAS</th>
+            <th class="c-titles">SALIDAS</th>
+            <th class="c-titles">INVERTIDO</th>
+          </tr>
+        </thead>
+        <tbody>
+          {invest.map(({ MES, ENTRADAS, SALIDAS, INVERTIDO }) => (
+            <tr key={MES}>
+              <td class="c-normal">{MES}</td>
+              <td class="c-normal text-green-600">{`+${ENTRADAS}`}</td>
+              <td class="c-normal text-red-600">{`-${SALIDAS}`}</td>
+              <td class="c-normal text-green-600 bg-yellow-100">{`+${INVERTIDO}`}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
 
 export function OrderTable() {
   return (
@@ -226,6 +267,57 @@ export function OrderTable() {
 }
 
 export function OperationTable() {
+  // Función para extraer el mes a partir de la fecha (formato DD/MM/YYYY)
+  const getMonthYear = (dateStr) => {
+    const parts = dateStr.split('/');
+    if (parts.length === 3) {
+      const month = parts[1];
+      const year = parts[2];
+      return `${month}/${year}`;
+    }
+    return dateStr; // Retorna la fecha original si no se puede parsear
+  };
+
+  // Agrupar operaciones por mes
+  const groupedOperations = [];
+  let currentMonth = null;
+
+  operations.forEach((operation) => {
+    const operationMonth = getMonthYear(operation.date);
+    
+    // Si cambiamos de mes, añadimos un separador
+    if (operationMonth !== currentMonth) {
+      currentMonth = operationMonth;
+      
+      // Convertir el formato de mes/año a un formato más legible
+      let monthName;
+      switch (currentMonth.split('/')[0]) {
+        case '01': monthName = 'ENERO'; break;
+        case '02': monthName = 'FEBRERO'; break;
+        case '03': monthName = 'MARZO'; break;
+        case '04': monthName = 'ABRIL'; break;
+        case '05': monthName = 'MAYO'; break;
+        case '06': monthName = 'JUNIO'; break;
+        case '07': monthName = 'JULIO'; break;
+        case '08': monthName = 'AGOSTO'; break;
+        case '09': monthName = 'SEPTIEMBRE'; break;
+        case '10': monthName = 'OCTUBRE'; break;
+        case '11': monthName = 'NOVIEMBRE'; break;
+        case '12': monthName = 'DICIEMBRE'; break;
+        default: monthName = currentMonth;
+      }
+      
+      // Añadir un objeto especial para el separador de mes
+      groupedOperations.push({
+        isMonthlySeparator: true,
+        monthLabel: `${monthName} ${currentMonth.split('/')[1]}`
+      });
+    }
+    
+    // Añadir la operación actual
+    groupedOperations.push(operation);
+  });
+
   return (
     <div class="flex justify-center -mt-6">
       <table class="w-full border-separate border-zinc-950 border-2 rounded">
@@ -247,28 +339,42 @@ export function OperationTable() {
           </tr>
         </thead>
         <tbody>
-          {operations.map(({ date, token, amount, pair, operation, price, details, color }) => (
-            <tr>
-              <td class="c-normal c-underline">{date}</td>
-              <td class={`${color}`}>
-                {details ? (
-                  <details class="group">
-                    <summary class="cursor-pointer">{token}</summary>
-                    <p class="mt-2 text-[9px] sm:text-base text-gray-600">{details}</p>
-                  </details>
-                ) : (
-                  token
-                )}
-              </td>
-              <td class="c-normal">{amount}</td>
-              <td class="c-normal">{pair}</td>
-              <td class={`c-normal ${operation}`}></td>
-              <td class="c-normal-left">{price}</td>
-            </tr>
-          ))}
+          {groupedOperations.map((item, index) => {
+            // Si es un separador de mes, renderizamos una fila especial
+            if (item.isMonthlySeparator) {
+              return (
+                <tr key={`month-${index}`} class="bg-gray-100">
+                  <td colSpan="6" class="text-center font-bold py-2 border-b border-t border-zinc-950">
+                    {item.monthLabel}
+                  </td>
+                </tr>
+              );
+            }
+            
+            // Si es una operación normal, renderizamos como antes
+            const { date, token, amount, pair, operation, price, details, color } = item;
+            return (
+              <tr key={`op-${index}`}>
+                <td class="c-normal c-underline">{date}</td>
+                <td class={`${color}`}>
+                  {details ? (
+                    <details class="group">
+                      <summary class="cursor-pointer">{token}</summary>
+                      <p class="mt-2 text-[9px] sm:text-base text-gray-600">{details}</p>
+                    </details>
+                  ) : (
+                    token
+                  )}
+                </td>
+                <td class="c-normal">{amount}</td>
+                <td class="c-normal">{pair}</td>
+                <td class={`c-normal ${operation}`}></td>
+                <td class="c-normal-left">{price}</td>
+              </tr>
+            );
+          })}
         </tbody>
       </table>
     </div>
   );
 }
-
