@@ -21,6 +21,7 @@ export const colors = [
 ];
 
 export const invest = [
+  { MES: "03/25", ENTRADAS: "13,1%", SALIDAS: "0%", INVERTIDO: "13,10%" },
   { MES: "02/25", ENTRADAS: "16,07%", SALIDAS: "0%", INVERTIDO: "16,07%" },
   { MES: "01/25", ENTRADAS: "3,56%", SALIDAS: "0,19%", INVERTIDO: "3,37%" },
   { MES: "12/24", ENTRADAS: "19,55%", SALIDAS: "3,42%", INVERTIDO: "16,13%" },
@@ -28,17 +29,13 @@ export const invest = [
 ];
 
 export const orders = [
-  { token: "LINK", amount: "6.12 LINK", pair: "LINK/USDC", operation: "op-compra", price: "1 LINK = 8.17 USDC", color: "c-new c-violet" },
+  { token: "ETH", amount: "0.072 ETH", pair: "ETH/USDC", operation: "op-compra", price: "1 ETH = 1252 USDC", color: "c-new c-orange" },
 
-  { token: "ETH", amount: "0.03072 ETH", pair: "ETH/USDC", operation: "op-compra", price: "1 ETH = 1628 USDC", color: "c-new c-violet" },
+  { token: "LINK", amount: "6.12 LINK", pair: "LINK/USDC", operation: "op-compra", price: "1 LINK = 8.17 USDC", color: "c-normal c-violet" },
 
-  { token: "SOL", amount: "0.2823 SOL", pair: "SOL/USDC", operation: "op-compra", price: "1 SOL = 106.25 USDC", color: "c-new c-blue" },
+  { token: "FET", amount: "122 FET", pair: "FET/USDC", operation: "op-compra", price: "1 FET = 0.33 USDC", color: "c-normal c-blue" },
 
-  { token: "FET", amount: "122 FET", pair: "FET/USDC", operation: "op-compra", price: "1 FET = 0.33 USDC", color: "c-new c-blue" },
-
-  { token: "BTC", amount: "0.000436 BTC", pair: "BTC/USDC", operation: "op-compra", price: "1 BTC = 68821 USDC", color: "c-new c-blue" },
-
-  { token: "LINK", amount: "2.6 LINK", pair: "LINK/USDC", operation: "op-compra", price: "1 LINK = 11.57 USDC", color: "c-normal c-blue" },
+  { token: "BTC", amount: "0.000436 BTC", pair: "BTC/USDC", operation: "op-compra", price: "1 BTC = 68821 USDC", color: "c-normal c-blue" },
 
   { token: "ADA", amount: "110 ADA", pair: "ADA/USDC", operation: "op-compra", price: "1 ADA = 0.478 USDC", color: "c-normal c-violet" },
 
@@ -56,17 +53,23 @@ export const orders = [
 ];
 
 export const operations = [
-  { date: "11/03/2025", token: "ETH", amount: "0.0274 ETH", pair: "ETH/USDC", operation: "op-compra", price: "1 ETH = 1826 USDC", color: "c-new c-violet" },
+  { date: "06/04/2025", token: "ETH", amount: "0.03072 ETH", pair: "ETH/USDC", operation: "op-compra", price: "1 ETH = 1628 USDC", color: "c-new c-violet" },
 
-  { date: "11/03/2025", token: "SEI", amount: "57 SEI", pair: "SEI/USDC", operation: "op-compra", price: "1 SEI = 0.178 USDC", color: "c-new c-green" },
+  { date: "06/04/2025", token: "SOL", amount: "0.2823 SOL", pair: "SOL/USDC", operation: "op-compra", price: "1 SOL = 106.25 USDC", color: "c-new c-blue" },
 
-  { date: "10/03/2025", token: "SOL", amount: "0.157 SOL", pair: "SOL/USDC", operation: "op-compra", price: "1 SOL = 127.59 USDC", color: "c-new c-blue" },
+  { date: "06/04/2025", token: "LINK", amount: "2.6 LINK", pair: "LINK/USDC", operation: "op-compra", price: "1 LINK = 11.57 USDC", color: "c-normal c-blue" },
 
-  { date: "09/03/2025", token: "ARB", amount: "57 ARB", pair: "ARB/USDC", operation: "op-compra", price: "1 ARB = 0.356 USDC", details: "Si has prestado atención al mercado habrás observado que ETH ha corregido mucho contra BTC en los últimos meses, quizás esta opción correlacionada tenga más sentido. Otras opciones similares serían: OP = 0,761$, POL = 0.248$", color: "c-new c-blue" },
+  { date: "11/03/2025", token: "ETH", amount: "0.0274 ETH", pair: "ETH/USDC", operation: "op-compra", price: "1 ETH = 1826 USDC", color: "c-normal c-violet" },
 
-  { date: "09/03/2025", token: "FET", amount: "36 FET", pair: "FET/USDC", operation: "op-compra", price: "1 FET = 0.57 USDC", color: "c-new c-blue" },
+  { date: "11/03/2025", token: "SEI", amount: "57 SEI", pair: "SEI/USDC", operation: "op-compra", price: "1 SEI = 0.178 USDC", color: "c-normal c-green" },
 
-  { date: "09/03/2025", token: "TON", amount: "3.7 TON", pair: "TON/USDC", operation: "op-compra", price: "1 TON = 2.7 USDC", color: "c-new c-green" },
+  { date: "10/03/2025", token: "SOL", amount: "0.157 SOL", pair: "SOL/USDC", operation: "op-compra", price: "1 SOL = 127.59 USDC", color: "c-normal c-blue" },
+
+  { date: "09/03/2025", token: "ARB", amount: "57 ARB", pair: "ARB/USDC", operation: "op-compra", price: "1 ARB = 0.356 USDC", details: "Si has prestado atención al mercado habrás observado que ETH ha corregido mucho contra BTC en los últimos meses, quizás esta opción correlacionada tenga más sentido. Otras opciones similares serían: OP = 0,761$, POL = 0.248$", color: "c-normal c-blue" },
+
+  { date: "09/03/2025", token: "FET", amount: "36 FET", pair: "FET/USDC", operation: "op-compra", price: "1 FET = 0.57 USDC", color: "c-normal c-blue" },
+
+  { date: "09/03/2025", token: "TON", amount: "3.7 TON", pair: "TON/USDC", operation: "op-compra", price: "1 TON = 2.7 USDC", color: "c-normal c-green" },
   
   { date: "28/02/2025", token: "UNI", amount: "2.7 UNI", pair: "UNI/USDC", operation: "op-compra", price: "1 UNI = 7.41 USDC", color: "c-normal c-blue" },
 
