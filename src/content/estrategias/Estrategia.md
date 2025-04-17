@@ -40,9 +40,11 @@ La estrategia principal **estará disponible a partir de Febrero de 2025**. Por 
 
 En nuestra comunidad entendemos que, dado el contexto actual, es esencial tener una estrategia clara respecto a los criptoactivos. La incertidumbre en este mercado puede ser tan desafiante como sobretodo prometedora.
 
-Aunque no puedo proporcionar pruebas detalladas por falta de tiempo hasta febrero, mi experiencia me lleva a pensar que posicionarse estratégicamente en altcoins y BTC puede ser clave en el momento actual. Basándome en la hipótesis de que Bitcoin (BTC) podría superar los 150,000 $ en los próximos meses, aquí comparto una estrategia que puede servir como guía.
+Aunque no puedo proporcionar pruebas detalladas por falta de tiempo hasta febrero, mi experiencia me lleva a pensar que posicionarse estratégicamente en altcoins y BTC puede ser clave en el momento actual. Basándome en la hipótesis de que Bitcoin (BTC) podría superar los 150,000 $ en los próximos meses, aquí comparto una estrategia que puede servir como guía. 
 
-## Fase 1: Aumento de la dominancia de BTC (Probabilidad incierta) <a name="0-1"></a>
+<a name="0-1"></a>
+
+## Fase 1: Aumento de la dominancia de BTC (Probabilidad incierta) 
 
 Esta fase se basa en una hipótesis personal y especulativa: un aumento en la dominancia de Bitcoin. Esto implica una narrativa solamente temporal sobre que Bitcoin podría consolidarse como la opción principal frente a otras altcoins debido a todas sus ventajas.
 
@@ -50,20 +52,27 @@ La idea principal es aprovechar este posible aumento acumulando BTC o dólares (
 
 * **Rango a vigilar:** <a target="_blank" href="https://es.tradingview.com/symbols/BTC.D/" class="text-blue-500 underline">**(Máximos entorno al 59,11 y 70% según el gráfico de Tradingview)**</a>
 
--**Clave 1:** No es tan importante el token escogido, si lo es la diversificación (mínimo 5 tokens sin interconexión, máximo 25).
+-**Clave 1:** No es tan importante el token escogido, si lo es la diversificación (mínimo 5 tokens sin interconexión, máximo 25). 
 
--**Clave 2:** Encontrar el momento adecuado de entrada en cada token con respecto a su precio en términos de BTC.
+-**Clave 2:** Encontrar el momento adecuado de entrada en cada token con respecto a su precio en términos de BTC. 
 
+<a name="f1escalon1"></a>
 
-- **<u>1er Escalón (Dominancia entre el 58,75% - 60,42%):</u>** En este caso destinariamos un 25% de la liquidez mensual en altcoins del Top 20 de Market Cap. Ejemplos: BNB, ADA, SOL, LINK, SUI. De esta manera permitiría aún reaccionar y aprovechar los próximos escalones sin necesitar obligatoriamente dolares.
+- **<u>1er Escalón (Dominancia entre el 58,75% - 60,42%):</u>** En este caso destinariamos un 25% de la liquidez mensual en altcoins del Top 20 de Market Cap. Ejemplos: BNB, ADA, SOL, LINK, SUI. De esta manera permitiría aún reaccionar y aprovechar los próximos escalones sin necesitar obligatoriamente dolares. 
 
-- **<u>2º Escalón (Dominancia entre el 60,42% - 65,2%):</u>** Asignar un 70% de la liquidez mensual (incluso usar un pequeño porcentaje de BTC si supera los 120,000 $) a altcoins del Top 20 al Top 150. Ejemplos: DOT, UNI, GRT, XMR, IOTA, CAKE, KSM, ROSE. La oportunidad radica en superar las rentabilidades de BTC dado un posible escenario alcista.
+<a name="f1escalon2"></a>
+
+- **<u>2º Escalón (Dominancia entre el 60,42% - 65,2%):</u>** Asignar un 70% de la liquidez mensual (incluso usar un pequeño porcentaje de BTC si supera los 120,000 $) a altcoins del Top 20 al Top 150. Ejemplos: DOT, UNI, GRT, XMR, IOTA, CAKE, KSM, ROSE. La oportunidad radica en superar las rentabilidades de BTC dado un posible escenario alcista. 
+
+<a name="f1escalon3"></a>
 
 - **<u>3er Escalón (Dominancia entre el 67,9% - 72,1%):</u>** Invertir el 100% de la liquidez disponible (no cabe la austeridad en este rango), incluyendo hasta un 25% de las reservas de BTC, independientemente de su precio. Centrarse en altcoins ubicadas por encima del TOP 300 y monedas muy desconocidas. Ejemplos: API3, VRA, ROSS, CGPT, NKN, LITH, AGIX...
 
-Más allá del 70% toda compra de altcoin será de media rentable si BTC supera los 130k$ antes de 2026.
+Más allá del 70% toda compra de altcoin será de media rentable si BTC supera los 130k$ antes de 2026. 
 
-## Fase 2: Gran bajada de la dominancia de BTC (Escenario Altamente Probable si BTC sigue subiendo) <a name="0-2"></a>
+<a name="0-2"></a>
+
+## Fase 2: Gran bajada de la dominancia de BTC (Escenario Altamente Probable si BTC sigue subiendo) 
 
 Esta fase se basa en un fenómeno observado históricamente: cuando el precio de BTC alcanza niveles altos, muchos inversores tienden a mover sus ganancias hacia altcoins en busca de mayores rendimientos. Esto ocurre porque:
 
@@ -75,13 +84,19 @@ Esta fase se basa en un fenómeno observado históricamente: cuando el precio de
 
 -**Claves 1 y 2:** Se siguen cumpliendo como en la Fase 1, sin embargo la clave 2 tendría un sentido contrario en el precio.
 
--**Clave 5:** Desprendernos progresivamente de altcoins (utilizando DCA, es decir, compras o ventas promediadas en el tiempo), acumulando BTC y dólares (USD). Esto reduce el riesgo y garantiza liquidez para aprovechar posibles cambios de tendencia.
+-**Clave 5:** Desprendernos progresivamente de altcoins (utilizando DCA, es decir, compras o ventas promediadas en el tiempo), acumulando BTC y dólares (USD). Esto reduce el riesgo y garantiza liquidez para aprovechar posibles cambios de tendencia. 
 
-- **<u>1er Escalón (Dominancia entre el 51,5% - 49%):</u>** En este rango empezariamos a recuperar parte de la inversión (preferiblemente a cambio de BTC, no tanto dolares).
+<a name="f2escalon1"></a>
+
+- **<u>1er Escalón (Dominancia entre el 51,5% - 49%):</u>** En este rango empezariamos a recuperar parte de la inversión (preferiblemente a cambio de BTC, no tanto dolares). 
+
+<a name="f2escalon2"></a>
 
 - **<u>2º Escalón (Dominancia entre el 46,7% - 40,5%):</u>** Habríamos vendido al menos el 30% de la posición en altcoins, priorizando aquellas fuera del Top 20 y especialmente deshaciendonos de gran parte de las del Top 100 hacia abajo. Sería coherente asignar al menos un tercio de lo vendido a adquirir BTC y guarda el resto en USD.
 
-**Beneficio:** Protegerse ante una posible corrección mientras mantienes exposición a BTC, algo subjetivo pero prioritario en esta comunidad.
+**Beneficio:** Protegerse ante una posible corrección mientras mantienes exposición a BTC, algo subjetivo pero prioritario en esta comunidad. 
+
+<a name="f2escalon3"></a>
 
 - **<u>3er Escalón Dominancia entre el (39,5% - 33%):</u>** En este escenario poco esperado, apenas conservariamos altcoins. El enfoque principal sería acumular BTC y USD, minimizando riesgos.
 

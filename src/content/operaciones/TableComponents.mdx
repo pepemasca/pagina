@@ -26,10 +26,20 @@ export const invest = [
   { MES: "01/25", ENTRADAS: "3,56%", SALIDAS: "0,19%", INVERTIDO: "3,37%" },
   { MES: "12/24", ENTRADAS: "19,55%", SALIDAS: "3,42%", INVERTIDO: "16,13%" },
   { MES: "11/24", ENTRADAS: "12,76%", SALIDAS: "3,86%", INVERTIDO: "8,9%" },
+  { MES: "Promedio", ENTRADAS: "13%", SALIDAS: "1,86%", INVERTIDO: "14,4%" },
+  { MES: "Acumulado", ENTRADAS: "Es la suma de", SALIDAS: "lo no invertido", INVERTIDO: "442,4%" },
 ];
 
 export const orders = [
-  { token: "ETH", amount: "0.072 ETH", pair: "ETH/USDC", operation: "op-compra", price: "1 ETH = 1252 USDC", color: "c-new c-orange" },
+  { token: "ETH", amount: "? 30/04", pair: "ETH/USDC", operation: "op-compra", price: "1 ETH = ? USDC", color: "c-new c-blue" },
+
+  { token: "BTC", amount: "? 30/04", pair: "BTC/USDC", operation: "op-compra", price: "1 BTC = ? USDC", color: "c-new c-violet" },
+
+  { token: "BTC", amount: "? 25/04", pair: "BTC/USDC", operation: "op-compra", price: "1 BTC = ? USDC", color: "c-new c-violet" },
+
+  { token: "BTC", amount: "? 20/04", pair: "BTC/USDC", operation: "op-compra", price: "1 BTC = ? USDC", color: "c-new c-violet" },
+
+  { token: "ETH", amount: "0.072 ETH", pair: "ETH/USDC", operation: "op-compra", price: "1 ETH = 1252 USDC", color: "c-normal c-orange" },
 
   { token: "LINK", amount: "6.12 LINK", pair: "LINK/USDC", operation: "op-compra", price: "1 LINK = 8.17 USDC", color: "c-normal c-violet" },
 
@@ -53,9 +63,13 @@ export const orders = [
 ];
 
 export const operations = [
-  { date: "06/04/2025", token: "ETH", amount: "0.03072 ETH", pair: "ETH/USDC", operation: "op-compra", price: "1 ETH = 1628 USDC", color: "c-new c-violet" },
+  { date: "15/04/2025", token: "BTC", amount: "0.00072 BTC", pair: "BTC/USDC", operation: "op-compra", price: "1 BTC = 83900 USDC", color: "c-new c-violet" },
 
-  { date: "06/04/2025", token: "SOL", amount: "0.2823 SOL", pair: "SOL/USDC", operation: "op-compra", price: "1 SOL = 106.25 USDC", color: "c-new c-blue" },
+  { date: "15/04/2025", token: "ETH", amount: "0.01572 ETH", pair: "ETH/USDC", operation: "op-compra", price: "1 ETH = 1590 USDC", color: "c-new c-blue" },
+
+  { date: "06/04/2025", token: "ETH", amount: "0.03072 ETH", pair: "ETH/USDC", operation: "op-compra", price: "1 ETH = 1628 USDC", color: "c-normal c-violet" },
+
+  { date: "06/04/2025", token: "SOL", amount: "0.2823 SOL", pair: "SOL/USDC", operation: "op-compra", price: "1 SOL = 106.25 USDC", color: "c-normal c-blue" },
 
   { date: "06/04/2025", token: "LINK", amount: "2.6 LINK", pair: "LINK/USDC", operation: "op-compra", price: "1 LINK = 11.57 USDC", color: "c-normal c-blue" },
 
@@ -210,7 +224,9 @@ export function InvestmentTable() {
     <div class="flex justify-center">
       <table class="w-full border-separate border-zinc-950 border-2 rounded">
         <caption class="caption-top">
-          <h1 class="text-3xl font-bold text-center tracking-wide">Inversiones (Sobre el total disponible mensual)</h1>
+          <h1 class="text-3xl font-bold text-center tracking-wide">
+            Inversiones sobre el total disponible mensual (No se puede pedir prestado)
+          </h1>
         </caption>
         <thead class="bg-gray-100">
           <tr>
@@ -221,12 +237,31 @@ export function InvestmentTable() {
           </tr>
         </thead>
         <tbody>
-          {invest.map(({ MES, ENTRADAS, SALIDAS, INVERTIDO }) => (
+          {/** 1) Primeras filas normales */}
+          {invest.slice(0, invest.length - 2).map(({ MES, ENTRADAS, SALIDAS, INVERTIDO }) => (
             <tr key={MES}>
               <td class="c-normal">{MES}</td>
               <td class="c-normal text-green-600">{`+${ENTRADAS}`}</td>
               <td class="c-normal text-red-600">{`-${SALIDAS}`}</td>
               <td class="c-normal text-green-600 bg-yellow-100">{`+${INVERTIDO}`}</td>
+            </tr>
+          ))}
+
+          {/** 2) Separador antes de las dos últimas */}
+          <tr>
+            <td colSpan={4} class="border-t-2 border-zinc-950 p-0"></td>
+          </tr>
+
+          {/** 3) Últimas dos filas, destacando solo la última */}
+          {invest.slice(-2).map(({ MES, ENTRADAS, SALIDAS, INVERTIDO }) => (
+            <tr
+              key={MES}
+              class="bg-blue-50 text-blue-700 font-semibold"
+            >
+              <td class="c-normal">{MES}</td>
+              <td class="c-normal text-black">{`+${ENTRADAS}`}</td>
+              <td class="c-normal text-black">{`-${SALIDAS}`}</td>
+              <td class="c-normal text-black bg-yellow-300">{`+${INVERTIDO}`}</td>
             </tr>
           ))}
         </tbody>

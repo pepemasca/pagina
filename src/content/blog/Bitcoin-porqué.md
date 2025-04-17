@@ -54,6 +54,8 @@ Por el contrario cuando hablabas con otras personas mucho más prácticas, argum
 
 Mi respuesta en este post es clara al respecto: Bitcoin a día de hoy no tiene las capacidades para convertirse en dinero, el principal problema es que la velocidad, los costes por operación y la inestabilidad en el precio lo convierten en un mal dinero, sobretodo para aquellos que tengan altas necesidades de liquidez en su vida diaria (o incapacidad de ahorro en el tiempo).
 
+<a name="reserva"></a>
+
 Y no, bitcoin no genera rentabilidades periodicas ni tampoco se usa para la industria o la joyería. Pero los ciudadanos si que le han encontrado una funcionalidad mucho más valiosa y que es uno de los negocios más rentables del mundo, esta funcionalidad se basa en almacenar y transmitir valor a lo largo del tiempo (reserva de valor, quizás una de las propiedades del dinero más descuidada) y es que si lo pensamos, en otros paises con sistemas de ahorro privados, las personas deben ahorrar periodicamente parte de sus ingresos para cuando se jubilen, o unos padres ahorran para la educación o la vivienda que tendrán sus hijos hijos recién nacidos cuando alcancen la adultez y detrás de ello existe una industria trillonaria como lo es el sector financiero que emplea a millones de personas y que es muy influyente en la sociedad mundial.
 
 Es decir, muchas personas pagan e intermediarios para poder ahorrar su dinero en instrumentos financieros o protección y mantenimiento de la propiedad a lo largo de varios años y reduciendo la incertidumbre futura de su bienestar adquisitivo o capacidad de realizar proyectos deseados.
