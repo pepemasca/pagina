@@ -21,21 +21,32 @@ export const colors = [
 ];
 
 export const invest = [
+  { MES: "04/25", ENTRADAS: "41%", SALIDAS: "0%", INVERTIDO: "41%" },
   { MES: "03/25", ENTRADAS: "13,1%", SALIDAS: "0%", INVERTIDO: "13,10%" },
   { MES: "02/25", ENTRADAS: "16,07%", SALIDAS: "0%", INVERTIDO: "16,07%" },
   { MES: "01/25", ENTRADAS: "3,56%", SALIDAS: "0,19%", INVERTIDO: "3,37%" },
   { MES: "12/24", ENTRADAS: "19,55%", SALIDAS: "3,42%", INVERTIDO: "16,13%" },
   { MES: "11/24", ENTRADAS: "12,76%", SALIDAS: "3,86%", INVERTIDO: "8,9%" },
-  { MES: "Promedio", ENTRADAS: "13%", SALIDAS: "1,49%", INVERTIDO: "11,51%" },
-  { MES: "Acumulado", ENTRADAS: "Es la suma de", SALIDAS: "lo no invertido", INVERTIDO: "442,4%" },
+  { MES: "Promedio", ENTRADAS: "17,67%", SALIDAS: "1,245%", INVERTIDO: "11,51%" },
+  { MES: "Acumulado", ENTRADAS: "Es la suma de", SALIDAS: "lo no invertido", INVERTIDO: "501,4%" },
 ];
 
 export const orders = [
-  { token: "ETH", amount: "? 30/04", pair: "ETH/USDC", operation: "op-compra", price: "1 ETH = ? USDC", color: "c-new c-blue" },
+  { token: "ETH", amount: "? 30/05", pair: "ETH/USDC", operation: "op-compra", price: "1 ETH = ? USDC", color: "c-new c-blue" },
 
-  { token: "BTC", amount: "? 30/04", pair: "BTC/USDC", operation: "op-compra", price: "1 BTC = ? USDC", color: "c-new c-violet" },
+  { token: "BTC", amount: "? 30/05", pair: "BTC/USDC", operation: "op-compra", price: "1 BTC = ? USDC", color: "c-new c-violet" },
 
-  { token: "BTC", amount: "? 25/04", pair: "BTC/USDC", operation: "op-compra", price: "1 BTC = ? USDC", color: "c-new c-violet" },
+  { token: "BTC", amount: "? 25/05", pair: "BTC/USDC", operation: "op-compra", price: "1 BTC = ? USDC", color: "c-new c-violet" },
+
+  { token: "BTC", amount: "? 20/05", pair: "BTC/USDC", operation: "op-compra", price: "1 BTC = ? USDC", color: "c-new c-violet" },
+
+  { token: "ETH", amount: "? 15/05", pair: "ETH/USDC", operation: "op-compra", price: "1 ETH = ? USDC", color: "c-new c-blue" },
+
+  { token: "BTC", amount: "? 15/05", pair: "BTC/USDC", operation: "op-compra", price: "1 BTC = ? USDC", color: "c-new c-violet" },
+
+  { token: "BTC", amount: "? 10/05", pair: "BTC/USDC", operation: "op-compra", price: "1 BTC = ? USDC", color: "c-new c-violet" },
+
+  { token: "BTC", amount: "? 05/05", pair: "BTC/USDC", operation: "op-compra", price: "1 BTC = ? USDC", color: "c-new c-violet" },
 
   { token: "ETH", amount: "0.072 ETH", pair: "ETH/USDC", operation: "op-compra", price: "1 ETH = 1252 USDC", color: "c-normal c-orange" },
 
@@ -61,11 +72,17 @@ export const orders = [
 ];
 
 export const operations = [
+  { date: "30/04/2025", token: "ETH", amount: "0.01695 ETH", pair: "ETH/USDC", operation: "op-compra", price: "1 ETH = 1770 USDC", details: "Conforme a la actualización del 16/04, previa a la reciente subida del 16% de BTC, la estrategia de Cryptopedia es aumentar el volumen de compras. Estaré ausente durante mayo y regresaré en junio, por lo que he dejado órdenes pendientes configuradas. Salvo eventos extraordinarios, estas órdenes seguirán ejecutándose y para que no se cancelen se requiere que el precio de BTC se mantenga por debajo de $85k si el oro cae bajo los $2,900; por debajo de $100k si el oro baja de $3,100; y que no supere los $112k mientras el precio del oro no haya excedido los $3,700.", color: "c-new c-blue" },
+
+  { date: "30/04/2025", token: "BTC", amount: "0.000635 BTC", pair: "BTC/USDC", operation: "op-compra", price: "1 BTC = 94260 USDC", color: "c-new c-violet" },
+
+  { date: "25/04/2025", token: "BTC", amount: "0.000639 BTC", pair: "BTC/USDC", operation: "op-compra", price: "1 BTC = 93820 USDC", color: "c-new c-violet" },
+
   { date: "20/04/2025", token: "BTC", amount: "0.000711 BTC", pair: "BTC/USDC", operation: "op-compra", price: "1 BTC = 84357 USDC", color: "c-new c-violet" },
 
-  { date: "15/04/2025", token: "BTC", amount: "0.00072 BTC", pair: "BTC/USDC", operation: "op-compra", price: "1 BTC = 83900 USDC", color: "c-new c-violet" },
-
   { date: "15/04/2025", token: "ETH", amount: "0.01572 ETH", pair: "ETH/USDC", operation: "op-compra", price: "1 ETH = 1590 USDC", color: "c-new c-blue" },
+
+  { date: "15/04/2025", token: "BTC", amount: "0.00072 BTC", pair: "BTC/USDC", operation: "op-compra", price: "1 BTC = 83900 USDC", color: "c-new c-violet" },
 
   { date: "06/04/2025", token: "ETH", amount: "0.03072 ETH", pair: "ETH/USDC", operation: "op-compra", price: "1 ETH = 1628 USDC", color: "c-normal c-violet" },
 
