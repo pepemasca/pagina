@@ -12,13 +12,11 @@ author: "Charles North"
 tags: [mdx, astro, blog]
 ---
 
-import { ColorTable, InvestmentTable, OrderTable, OperationTable } from './TableComponents.mdx';
-
 <h1 class= "text-5xl font-bold text-center tracking-wide">Operaciones</h1>
 
 <div class="mx-auto prose prose-lg mt-6 max-w-3xl prose-h3:underline prose-p:text-justify text-justify">
 
-<p class="text-red-500 no-underline tracking-tighter text-lg/6">*DISCLAIMER: La información proporcionada en este sitio web no constituye asesoramiento sobre inversiones, asesoramiento financiero, asesoramiento comercial ni ningún otro tipo de asesoramiento y no debes tratar el contenido del sitio web como tal. Cryptopedia no te recomienda que compres ni vendas criptomonedas. Actúa según tu propio juicio y consulta con tu asesor financiero antes de tomar cualquier decisión sobre inversiones.</p>
+<p class="text-red-500 no-underline tracking-tighter text-lg/6">*DISCLAIMER: La información proporcionada en este sitio web no constituye asesoramiento sobre inversiones, asesoramiento financiero, asesoramiento comercial ni ningún otro tipo de asesoramiento y no debes tratar el contenido del sitio web como tal. Cryptopedia no te recomienda que compres ni vendas criptomonedas. Actúa según tu propio juicio y consulta con tu asesor financiero antes de tomar cualquier decisión sobre inversiones.</p>
 
 <p class="tracking-tight text-lg/6">Las siguientes operaciones están basadas en <a href="/estrategias" class="text-blue-500 underline">las estrategias.</a> Es recomendable echarle una ojeada para comprender por qué se realiza cada movimiento o se establece cierta orden. Todos los parámetros que se salgan de <a href="/estrategias/estrategia" class="text-blue-500 underline">la estrategia</a>, serán explicados abajo de cada tabla. Dichos movimientos realizados quedarán fijos, ya que se busca ofrecer transparencia y calcular la rentabilidad real para aprender de los errores.</p>
 
@@ -26,9 +24,11 @@ import { ColorTable, InvestmentTable, OrderTable, OperationTable } from './Table
 
 <p class="tracking-tight text-lg/6">En cada token encontraréis el icono “►", si pulsáis en él, se puede apreciar una pequeña explicación de por qué se ha decidido invertir.</p>
 
-<ColorTable />
+{/* Las tablas se migraron a la página de ejemplo (src/pages/example.astro) y son renderizadas desde Astro DB. */}
 
-<InvestmentTable />
+<a name="colors"></a>
+
+<a name="investments"></a>
 
 <details class="mb-2">
   <summary class="cursor-pointer text-red-500 text-lg font-semibold items-center ml-2 text-left">👉 Actualización IMPORTANTE de situación (16/04/2025)</summary>
@@ -38,7 +38,7 @@ import { ColorTable, InvestmentTable, OrderTable, OperationTable } from './Table
 
     ⚠️ ***Nos encontramos ante un punto de inflexión en los mercados:*** La estrategia sigue siendo válida, pero <a target="_blank" href="https://x.com/DegenerateNews/status/1911481171453575231?t=V92aNWvL-5JekDazpsxjhQ&s=09" class="text-blue-500 underline">el nuevo paradigma de guerra de divisas está "redefiniendo las reglas del juego"</a>.
 
-    Estamos entrando en una fase donde las divisas **pierden protagonismo frente a la necesidad urgente de proteger las industrias locales**. No es casualidad que el oro esté escalando con semejante agresividad.´
+  Estamos entrando en una fase donde las divisas **pierden protagonismo frente a la necesidad urgente de proteger las industrias locales**. No es casualidad que el oro esté escalando con semejante agresividad.
 
     Nuestra respuesta será **aumentar la frecuencia de compras**, iniciando un proceso de acumulación más intensivo este mes. Sin embargo, lo haremos **con criterio y prudencia**, adaptándonos a las señales del mercado.
 
@@ -182,12 +182,12 @@ import { ColorTable, InvestmentTable, OrderTable, OperationTable } from './Table
     El siguiente objetivo es aprovechar la volatilidad para esperar que con suerte ETH vuelva a testear los 2.400 $. Aunque no esperamos que en los próximos días se situe en <a href="/estrategias/estrategia#f1escalon3" class="text-blue-500 underline">el tercer escalón</a> de compras, si que se pueden dar precios extraordinarios durante pequeños periodos de tiempo, dando una pequeña ventana de oportunidad a que las nuevas ordenes pendientes se ejecuten.
   </p>
 </div>
-</details>
+  </details>
 
-<OrderTable />
+<a name="orders"></a>
 
-<a name="examenes"></a> 
+<a name="examenes"></a>
 
-<OperationTable />
+<a name="operations"></a>
 
 </div>

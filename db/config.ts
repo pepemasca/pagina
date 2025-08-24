@@ -1,18 +1,54 @@
 import { defineDb, defineTable, column } from 'astro:db';
 
-// Definimos la tabla "personas" con sus columnas
-const Personas = defineTable({
+const Colors = defineTable({
   columns: {
-    // Columna id: número único que se incrementa automáticamente
     id: column.number({ primaryKey: true }),
-    // Columna nombre: texto obligatorio
-    nombre: column.text(),
-    // Columna edad: número obligatorio
-    edad: column.number(),
+    color: column.text(),
+    text: column.text(),
+    details: column.text({ optional: true }),
   }
 });
 
-// Exportamos la configuración de la base de datos
+const Invest = defineTable({
+  columns: {
+    id: column.number({ primaryKey: true }),
+    mes: column.text(),
+    entradas: column.text(),
+    salidas: column.text(),
+    invertido: column.text(),
+  }
+});
+
+const Orders = defineTable({
+  columns: {
+    id: column.number({ primaryKey: true }),
+    token: column.text(),
+    amount: column.text(),
+    pair: column.text(),
+    operation: column.text(),
+    price: column.text(),
+    color: column.text(),
+  }
+});
+
+// Nueva tabla Operations SIN IDs manuales
+const Operations = defineTable({
+  columns: {
+    // ID se auto-incrementa automáticamente
+    id: column.number({ primaryKey: true }),
+    // Agregamos un campo de timestamp para ordenar
+    created_at: column.date({ default: new Date() }),
+    date: column.text(),
+    token: column.text(),
+    amount: column.text(),
+    pair: column.text(),
+    operation: column.text(),
+    price: column.text(),
+    color: column.text(),
+    details: column.text({ optional: true }),
+  }
+});
+
 export default defineDb({
-  tables: { Personas }
+  tables: { Orders, Operations, Colors, Invest },
 });
