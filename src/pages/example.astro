@@ -19,18 +19,20 @@ const invest = await db.select().from(Invest);
   <Container class="py-8">
     <div class="mx-auto max-w-4xl">
     
-    <!-- Contenido textual de `op.mdx` (introducción, disclaimers y anclas) -->
-    <section class="mb-8">
-      <OperacionesContent />
+    <!-- Contenido textual de `op.mdx` -->
+    <section class="space-y-6 mb-16">
+      <div class="prose prose-lg max-w-none">
+        <OperacionesContent />
+      </div>
     </section>
 
     <!-- Sección de Tabla de Colores -->
     <section class="space-y-6 mb-16">
       <Sectionhead>
         <Fragment slot="title">
-          <h1 class="text-3xl font-bold text-center tracking-wide">Tabla de colores</h1>
+          <h1 class="text-[27px] sm:text-3xl md:text-3xl font-bold text-center tracking-wide">Tabla de colores</h1>
         </Fragment>
-        <Fragment slot="desc">Referencia de colores utilizados en las tablas</Fragment>
+        <Fragment slot="desc"></Fragment>
       </Sectionhead>
       <div class="flex justify-center">
         <div class="w-full overflow-x-auto">
@@ -76,7 +78,7 @@ const invest = await db.select().from(Invest);
     <section class="space-y-6 mb-16">
       <Sectionhead>
         <Fragment slot="title">
-          <h1 class="text-3xl font-bold text-center tracking-wide">Tabla de inversiones</h1>
+          <h1 class="text-[27px] sm:text-3xl md:text-3xl font-bold text-center tracking-wide">Tabla de inversiones</h1>
         </Fragment>
         <Fragment slot="desc">Inversiones sobre el total disponible mensual (No se puede pedir prestado)</Fragment>
       </Sectionhead>
@@ -129,9 +131,9 @@ const invest = await db.select().from(Invest);
     <section class="space-y-6 mb-16">
       <Sectionhead>
         <Fragment slot="title">
-          <h1 class="text-3xl font-bold text-center tracking-wide">Órdenes Pendientes</h1>
+          <h1 class="text-[27px] sm:text-3xl md:text-3xl font-bold text-center tracking-wide">Órdenes Pendientes</h1>
         </Fragment>
-        <Fragment slot="desc">Listado de órdenes pendientes de ejecución.</Fragment>
+        <Fragment slot="desc"></Fragment>
       </Sectionhead>
       
       <div class="flex justify-center">
@@ -172,9 +174,9 @@ const invest = await db.select().from(Invest);
     <section class="space-y-6">
       <Sectionhead>
         <Fragment slot="title">
-          <h1 class="text-3xl font-bold text-center tracking-wide">Órdenes Realizadas</h1>
+          <h1 class="text-[27px] sm:text-3xl md:text-3xl font-bold text-center tracking-wide">Operaciones completadas</h1>
         </Fragment>
-        <Fragment slot="desc">Historial de operaciones completadas</Fragment>
+        <Fragment slot="desc"></Fragment>
       </Sectionhead>
       
       <div class="flex justify-center">
