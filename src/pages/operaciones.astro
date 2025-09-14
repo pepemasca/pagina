@@ -1,21 +1,298 @@
 ---
+// example.astro - Versión refactorizada con tablas migradas
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
-import Content from "../content/operaciones/op.mdx";
+import OperacionesContent from "../content/operaciones/op.mdx";
+
+// Importamos la base de datos y las tablas
+import { db, Orders, Operations, Colors, Invest } from 'astro:db';
+
+// Obtenemos todos los registros de las tablas
+const orders = await db.select().from(Orders);
+const operations = await db.select().from(Operations);
+const colors = await db.select().from(Colors);
+const invest = await db.select().from(Invest);
 ---
 
-<Layout title="Operaciones">
-  <Container>
-    <div class="hidden">
-      <Sectionhead title="Operaciones" />
+<Layout title="Ejemplo de Tablas con Astro DB">
+  <Container class="py-8">
+    <div class="mx-auto max-w-4xl">
+    
+    <!-- Contenido textual de `op.mdx` -->
+    <section class="space-y-6 mb-16">
+      <div class="prose prose-lg max-w-none">
+        <OperacionesContent />
+      </div>
+    </section>
+
+    <!-- Sección de Tabla de Colores -->
+    <section class="space-y-6 mb-16">
+      <Sectionhead>
+        <Fragment slot="title">
+          <h1 class="text-[27px] sm:text-3xl md:text-3xl font-bold text-center tracking-wide">Tabla de colores</h1>
+        </Fragment>
+        <Fragment slot="desc"></Fragment>
+      </Sectionhead>
+      <div class="flex justify-center">
+        <div class="w-full overflow-x-auto">
+          <table class="w-full border-separate border-zinc-950 border-2 rounded">
+            <caption class="caption-top">
+              <a name="colors"></a>
+            </caption>
+            <thead class="bg-gray-100">
+              <tr>
+                <th class="c-titles">COLOR</th>
+                <th class="c-titles">SIGNIFICADO</th>
+              </tr>
+            </thead>
+            <tbody>
+              {colors.map((colorItem) => (
+                <tr>
+                  {/* Columna COLOR */}
+                  <td class={`c-normal ${colorItem.color}`}>
+                    {colorItem.color === "c-new text-pink-400" 
+                      ? "BORDE ROSA = NUEVO" 
+                      : colorItem.color === "c-green"
+                      ? "VERDE"
+                      : colorItem.color === "c-blue" 
+                      ? "AZUL"
+                      : colorItem.color === "c-violet"
+                      ? "VIOLETA"
+                      : colorItem.color === "c-orange"
+                      ? "NARANJA"
+                      : colorItem.color === "c-yellow"
+                      ? "AMARILLO"
+                      : ""
+                    }
+                  </td>
+                  {/* Columna SIGNIFICADO */}
+                  <td class="c-normal">
+                    {colorItem.color === "c-new text-pink-400"
+                      ? "Publicado hace menos de 10 días"
+                      : colorItem.details ? (
+                          <details class="group">
+                            <summary class="cursor-pointer">{colorItem.text}</summary>
+                            <p class="mt-2 text-[9px] sm:text-base text-gray-600">{colorItem.details}</p>
+                          </details>
+                        ) : (
+                          colorItem.text
+                        )}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Tabla de Inversiones -->
+    <section class="space-y-6 mb-16">
+      <Sectionhead>
+        <Fragment slot="title">
+          <h1 class="text-[27px] sm:text-3xl md:text-3xl font-bold text-center tracking-wide">Tabla de inversiones</h1>
+        </Fragment>
+        <Fragment slot="desc">Inversiones sobre el total disponible mensual (No se puede pedir prestado)</Fragment>
+      </Sectionhead>
+      <div class="flex justify-center">
+        <div class="w-full overflow-x-auto">
+          <table class="w-full border-separate border-zinc-950 border-2 rounded">
+            <caption class="caption-top">
+              <span class="sr-only">Inversiones sobre el total disponible mensual (No se puede pedir prestado)</span>
+            </caption>
+            <thead class="bg-gray-100">
+              <tr>
+                <th class="c-titles">MES</th>
+                <th class="c-titles">ENTRADAS</th>
+                <th class="c-titles">SALIDAS</th>
+                <th class="c-titles">INVERTIDO</th>
+              </tr>
+            </thead>
+            <tbody>
+              {/* 1) Primeras filas normales */}
+              {invest.slice(0, invest.length - 2).map((investItem) => (
+                <tr>
+                  <td class="c-normal">{investItem.mes}</td>
+                  <td class="c-normal text-green-600">{`+${investItem.entradas}`}</td>
+                  <td class="c-normal text-red-600">{`-${investItem.salidas}`}</td>
+                  <td class="c-normal text-green-600 bg-yellow-100">{`+${investItem.invertido}`}</td>
+                </tr>
+              ))}
+
+              {/* 2) Separador antes de las dos últimas */}
+              <tr>
+                <td colspan="4" class="border-t-2 border-zinc-950 p-0"></td>
+              </tr>
+
+              {/* 3) Últimas dos filas, destacando */}
+              {invest.slice(-2).map((investItem) => (
+                <tr class="bg-blue-50 text-blue-700 font-semibold">
+                  <td class="c-normal">{investItem.mes}</td>
+                  <td class="c-normal text-black">{`+${investItem.entradas}`}</td>
+                  <td class="c-normal text-black">{`-${investItem.salidas}`}</td>
+                  <td class="c-normal text-black bg-yellow-300">{`+${investItem.invertido}`}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Órdenes de Trading -->
+    <section class="space-y-6 mb-16">
+      <Sectionhead>
+        <Fragment slot="title">
+          <h1 class="text-[27px] sm:text-3xl md:text-3xl font-bold text-center tracking-wide">Órdenes Pendientes</h1>
+        </Fragment>
+        <Fragment slot="desc"></Fragment>
+      </Sectionhead>
+      
+      <div class="flex justify-center">
+        <div class="w-full overflow-x-auto">
+          <table class="w-full border-separate border-zinc-950 border-2 rounded">
+            <thead class="bg-gray-100">
+              <tr>
+                <th class="c-titles">TOKEN</th>
+                <th class="c-titles">CANTIDAD</th>
+                <th class="c-titles">PAR</th>
+                <th class="c-titles">OPERACIÓN</th>
+                <th class="c-titles">Precio y moneda</th>
+              </tr>
+            </thead>
+            <tbody>
+              {orders.map((order) => (
+                <tr>
+                  <td class={`${order.color}`}>
+                    {order.token}
+                  </td>
+                  <td class="c-normal">{order.amount}</td>
+                  <td class="c-normal">{order.pair}</td>
+                  <td class={`c-normal ${order.operation}`}></td>
+                  <td class="c-normal-left">{order.price}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!-- Nota: explicación de los colores justo debajo de la tabla -->
+      <div class="mt-2 text-sm">
+        <p><a href="#colors" class="text-[12px] sm:text-sm md:text-base text-blue-600 hover:text-blue-800">📌 Explicación de los colores</a></p>
+      </div>
+    </section>
+
+    <!-- Sección de Operaciones Históricas -->
+    <section class="space-y-6">
+      <Sectionhead>
+        <Fragment slot="title">
+          <h1 class="text-[27px] sm:text-3xl md:text-3xl font-bold text-center tracking-wide">Operaciones completadas</h1>
+        </Fragment>
+        <Fragment slot="desc"></Fragment>
+      </Sectionhead>
+      
+      <div class="flex justify-center">
+        <div class="w-full overflow-x-auto">
+          <table class="w-full border-separate border-zinc-950 border-2 rounded">
+            <thead class="bg-gray-100">
+              <tr>
+                <th class="c-titles text-[8px] sm:text-sm md:text-base">FECHA</th>
+                <th class="c-titles text-[8px] sm:text-sm md:text-base">TOKEN</th>
+                <th class="c-titles text-[8px] sm:text-sm md:text-base">CANTIDAD</th>
+                <th class="c-titles text-[8px] sm:text-sm md:text-base">PAR</th>
+                <th class="c-titles text-[8px] sm:text-sm md:text-base">OPERACIÓN</th>
+                <th class="c-titles text-[8px] sm:text-sm md:text-base">Precio y moneda</th>
+              </tr>
+            </thead>
+            <tbody>
+              {operations.length > 0 && (() => {
+                // Función para extraer el mes a partir de la fecha (formato DD/MM/YYYY)
+                const getMonthYear = (dateStr: string) => {
+                  const parts = dateStr.split('/');
+                  return parts.length === 3 ? `${parts[1]}/${parts[2]}` : dateStr;
+                };
+
+                // Función para convertir número de mes a nombre
+                const getMonthName = (monthNum: string) => {
+                  const months: { [key: string]: string } = {
+                    '01': 'ENERO', '02': 'FEBRERO', '03': 'MARZO',
+                    '04': 'ABRIL', '05': 'MAYO', '06': 'JUNIO',
+                    '07': 'JULIO', '08': 'AGOSTO', '09': 'SEPTIEMBRE',
+                    '10': 'OCTUBRE', '11': 'NOVIEMBRE', '12': 'DICIEMBRE'
+                  };
+                  return months[monthNum] || monthNum;
+                };
+
+                // Agrupar operaciones por mes primero
+                const operationsByMonth = operations.reduce((groups: { [key: string]: any[] }, operation) => {
+                  const operationMonth = getMonthYear(operation.date);
+                  if (!groups[operationMonth]) {
+                    groups[operationMonth] = [];
+                  }
+                  groups[operationMonth].push(operation);
+                  return groups;
+                }, {});
+
+                // Crear el array final con un separador por mes y todas sus operaciones
+                const processedOperations = Object.entries(operationsByMonth).flatMap(([monthKey, monthOperations]) => {
+                  const monthParts = monthKey.split('/');
+                  return [
+                    {
+                      type: 'separator',
+                      monthId: monthKey,
+                      monthLabel: `${getMonthName(monthParts[0])} ${monthParts[1]}`
+                    },
+                    ...monthOperations.map(operation => ({
+                      type: 'operation',
+                      ...operation
+                    }))
+                  ];
+                });
+
+                // Renderizar las filas
+                return processedOperations.map((item: any, index: number) => {
+                  if (item.type === 'separator') {
+                    return (
+                      <tr class="bg-gray-100">
+                        <td colspan="6" class="text-center font-bold py-2 border-b border-t border-zinc-950">
+                          {item.monthLabel}
+                        </td>
+                      </tr>
+                    );
+                  }
+                  
+                  return (
+                    <tr>
+                      <td class="c-normal c-underline text-[7.5px] sm:text-sm md:text-base">{item.date}</td>
+                      <td class={`${item.color} text-[7.5px] sm:text-sm md:text-base`}>
+                        {item.details ? (
+                          <details class="group">
+                            <summary class="cursor-pointer">{item.token}</summary>
+                            <p class="mt-2 text-[9px] sm:text-base text-gray-600">{item.details}</p>
+                          </details>
+                        ) : (
+                          item.token
+                        )}
+                      </td>
+                      <td class="c-normal text-[7.5px] sm:text-sm md:text-base">{item.amount}</td>
+                      <td class="c-normal text-[7.5px] sm:text-sm md:text-base">{item.pair}</td>
+                      <td class={`c-normal ${item.operation} text-[7.5px] sm:text-sm md:text-base`}></td>
+                      <td class="c-normal-left text-[7.5px] sm:text-sm md:text-base">{item.price}</td>
+                    </tr>
+                  );
+                });
+              })()}
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!-- Nota: explicación de los colores justo debajo de la tabla de operaciones históricas -->
+      <div class="mt-2 text-sm">
+        <p><a href="#colors" class="text-[12px] sm:text-sm md:text-base text-blue-600 hover:text-blue-800">📌 Explicación de los colores</a></p>
+      </div>
+    </section>
+    
     </div>
-    <Content />
   </Container>
 </Layout>
-
-<style>
-  .hidden {
-    display: none; /* Oculta completamente el componente */
-  }
-</style>
