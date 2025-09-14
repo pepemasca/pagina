@@ -19,9 +19,13 @@ const Invest = defineTable({
   }
 });
 
+// Tabla Orders usando created_at para ordenamiento cronológico
 const Orders = defineTable({
   columns: {
+    // ID se auto-incrementa automáticamente
     id: column.number({ primaryKey: true }),
+    // Campo de timestamp para ordenar cronológicamente (más reciente primero)
+    created_at: column.date({ default: new Date() }),
     token: column.text(),
     amount: column.text(),
     pair: column.text(),
@@ -31,12 +35,12 @@ const Orders = defineTable({
   }
 });
 
-// Nueva tabla Operations SIN IDs manuales
+// Tabla Operations usando created_at para ordenamiento cronológico
 const Operations = defineTable({
   columns: {
     // ID se auto-incrementa automáticamente
     id: column.number({ primaryKey: true }),
-    // Agregamos un campo de timestamp para ordenar
+    // Campo de timestamp para ordenar cronológicamente (más reciente primero)
     created_at: column.date({ default: new Date() }),
     date: column.text(),
     token: column.text(),

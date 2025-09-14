@@ -7,10 +7,13 @@ import OperacionesContent from "../content/operaciones/op.mdx";
 
 // Importamos la base de datos y las tablas
 import { db, Orders, Operations, Colors, Invest } from 'astro:db';
+import { desc } from 'astro:db';
 
 // Obtenemos todos los registros de las tablas
-const orders = await db.select().from(Orders);
-const operations = await db.select().from(Operations);
+// Ordenamos las órdenes por created_at descendente (más recientes primero)
+const orders = await db.select().from(Orders).orderBy(desc(Orders.created_at));
+// Ordenamos las operaciones por created_at descendente (más recientes primero)
+const operations = await db.select().from(Operations).orderBy(desc(Operations.created_at));
 const colors = await db.select().from(Colors);
 const invest = await db.select().from(Invest);
 ---
@@ -131,7 +134,7 @@ const invest = await db.select().from(Invest);
                   <td class="c-normal">{investItem.mes}</td>
                   <td class="c-normal text-black">{`+${investItem.entradas}`}</td>
                   <td class="c-normal text-black">{`-${investItem.salidas}`}</td>
-                  <td class="c-normal text-black bg-yellow-300">{`+${investItem.invertido}`}</td>
+                  <td class="c-normal text-black bg-lime-300">{`+${investItem.invertido}`}</td>
                 </tr>
               ))}
             </tbody>

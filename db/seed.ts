@@ -86,20 +86,20 @@ export default async function seed() {
       mes: "Promedio", 
       entradas: "17,67%", 
       salidas: "1,245%", 
-      invertido: "11,51%" 
+      invertido: "16,43%" 
     },
     { 
       id: 8,
       mes: "Acumulado", 
       entradas: "Es la suma de", 
       salidas: "lo no invertido", 
-      invertido: "501,4%" 
+      invertido: "98,57%" 
     }
   ]);
 
   await db.insert(Orders).values([
     { 
-      id: 1,
+      created_at: new Date('2025-09-14T10:00:00'),
       token: "ADA",
       amount: "20 ADA",
       pair: "ADA/USDC",
@@ -108,7 +108,7 @@ export default async function seed() {
       color: "c-normal c-blue"
     },
     { 
-      id: 2,
+      created_at: new Date('2025-09-14T09:45:00'),
       token: "ADA",
       amount: "25 ADA",
       pair: "ADA/BTC",
@@ -117,7 +117,7 @@ export default async function seed() {
       color: "c-normal c-violet"
     },
     { 
-      id: 3,
+      created_at: new Date('2025-09-14T09:30:00'),
       token: "LINK",
       amount: "1 LINK",
       pair: "LINK/BTC",
@@ -126,7 +126,7 @@ export default async function seed() {
       color: "c-normal c-blue"
     },
     { 
-      id: 4,
+      created_at: new Date('2025-09-14T09:15:00'),
       token: "SOL",
       amount: "0.2 SOL",
       pair: "SOL/BTC",
@@ -135,7 +135,7 @@ export default async function seed() {
       color: "c-normal c-violet"
     },
     { 
-      id: 5,
+      created_at: new Date('2025-09-14T09:00:00'),
       token: "GRT",
       amount: "92 GRT",
       pair: "GRT/BTC",
@@ -145,10 +145,10 @@ export default async function seed() {
     }
   ]);
 
-  // Insertamos todas las operaciones históricas
+  // Insertamos todas las operaciones históricas con fechas manuales completas
   await db.insert(Operations).values([
     {
-      id: 1,
+      created_at: new Date('2025-08-15T10:30:00'),
       date: "15/08/25",
       token: "ETH",
       amount: "0.005648 ETH",
@@ -158,7 +158,7 @@ export default async function seed() {
       color: "c-new c-blue"
     },
     {
-      id: 2,
+      created_at: new Date('2025-08-15T09:15:00'),
       date: "15/08/25",
       token: "BTC",
       amount: "0.000511 BTC",
@@ -168,7 +168,7 @@ export default async function seed() {
       color: "c-new c-violet"
     },
     {
-      id: 3,
+      created_at: new Date('2025-08-10T14:20:00'),
       date: "10/08/25",
       token: "BTC",
       amount: "0.000503 BTC",
@@ -178,7 +178,7 @@ export default async function seed() {
       color: "c-new c-violet"
     },
     {
-      id: 4,
+      created_at: new Date('2025-08-05T16:45:00'),
       date: "05/08/25",
       token: "BTC",
       amount: "0.000526 BTC",
@@ -188,7 +188,7 @@ export default async function seed() {
       color: "c-new c-violet"
     },
     {
-      id: 5,
+      created_at: new Date('2025-07-30T11:30:00'),
       date: "30/07/25",
       token: "ETH",
       amount: "0.006567 ETH",
@@ -198,7 +198,7 @@ export default async function seed() {
       color: "c-new c-blue"
     },
     {
-      id: 6,
+      created_at: new Date('2025-07-30T10:15:00'),
       date: "30/07/25",
       token: "BTC",
       amount: "0.000509 BTC",
@@ -208,7 +208,7 @@ export default async function seed() {
       color: "c-new c-violet"
     },
     {
-      id: 7,
+      created_at: new Date('2025-07-25T13:45:00'),
       date: "25/07/25",
       token: "BTC",
       amount: "0.000510 BTC",
@@ -218,7 +218,7 @@ export default async function seed() {
       color: "c-new c-violet"
     },
     {
-      id: 8,
+      created_at: new Date('2025-07-20T15:20:00'),
       date: "20/07/25",
       token: "BTC",
       amount: "0.000511 BTC",
@@ -228,7 +228,7 @@ export default async function seed() {
       color: "c-new c-violet"
     },
     {
-      id: 9,
+      created_at: new Date('2025-07-15T12:10:00'),
       date: "15/07/25",
       token: "ETH",
       amount: "0.007980 ETH",
@@ -238,7 +238,7 @@ export default async function seed() {
       color: "c-new c-blue"
     },
     {
-      id: 10,
+      created_at: new Date('2025-07-15T11:55:00'),
       date: "15/07/25",
       token: "BTC",
       amount: "0.000510 BTC",
@@ -248,7 +248,7 @@ export default async function seed() {
       color: "c-new c-violet"
     },
     {
-      id: 11,
+      created_at: new Date('2025-07-10T09:30:00'),
       date: "10/07/25",
       token: "BTC",
       amount: "0.000518 BTC",
@@ -258,7 +258,7 @@ export default async function seed() {
       color: "c-new c-violet"
     },
     {
-      id: 12,
+      created_at: new Date('2025-07-05T14:15:00'),
       date: "05/07/25",
       token: "BTC",
       amount: "0.000554 BTC",
@@ -268,7 +268,7 @@ export default async function seed() {
       color: "c-new c-violet"
     },
     {
-      id: 13,
+      created_at: new Date('2025-06-30T16:45:00'),
       date: "30/06/25",
       token: "ETH",
       amount: "0.010043 ETH",
@@ -278,7 +278,7 @@ export default async function seed() {
       color: "c-new c-blue"
     },
     {
-      id: 14,
+      created_at: new Date('2025-06-30T16:30:00'),
       date: "30/06/25",
       token: "BTC",
       amount: "0.000560 BTC",
@@ -288,7 +288,7 @@ export default async function seed() {
       color: "c-new c-violet"
     },
     {
-      id: 15,
+      created_at: new Date('2025-06-25T11:20:00'),
       date: "25/06/25",
       token: "BTC",
       amount: "0.000559 BTC",
@@ -298,7 +298,7 @@ export default async function seed() {
       color: "c-new c-violet"
     },
     {
-      id: 16,
+      created_at: new Date('2025-06-20T13:45:00'),
       date: "20/06/25",
       token: "BTC",
       amount: "0.000581 BTC",
@@ -308,7 +308,7 @@ export default async function seed() {
       color: "c-new c-violet"
     },
     {
-      id: 17,
+      created_at: new Date('2025-06-15T15:30:00'),
       date: "15/06/25",
       token: "ETH",
       amount: "0.009809 ETH",
@@ -318,7 +318,7 @@ export default async function seed() {
       color: "c-new c-blue"
     },
     {
-      id: 18,
+      created_at: new Date('2025-06-15T15:15:00'),
       date: "15/06/25",
       token: "BTC",
       amount: "0.000568 BTC",
@@ -328,7 +328,7 @@ export default async function seed() {
       color: "c-new c-violet"
     },
     {
-      id: 19,
+      created_at: new Date('2025-06-10T10:45:00'),
       date: "10/06/25",
       token: "BTC",
       amount: "0.000544 BTC",
@@ -338,7 +338,7 @@ export default async function seed() {
       color: "c-new c-violet"
     },
     {
-      id: 20,
+      created_at: new Date('2025-06-05T12:30:00'),
       date: "05/06/25",
       token: "BTC",
       amount: "0.000590 BTC",
@@ -348,7 +348,7 @@ export default async function seed() {
       color: "c-new c-violet"
     },
     {
-      id: 21,
+      created_at: new Date('2025-05-30T12:30:00'),
       date: "30/05/25",
       token: "ETH",
       amount: "0.009885 ETH",
@@ -358,7 +358,7 @@ export default async function seed() {
       color: "c-new c-blue"
     },
     {
-      id: 22,
+      created_at: new Date('2025-05-30T12:15:00'),
       date: "30/05/25",
       token: "BTC",
       amount: "0.000577 BTC",
@@ -368,7 +368,7 @@ export default async function seed() {
       color: "c-new c-violet"
     },
     {
-      id: 23,
+      created_at: new Date('2025-05-25T14:45:00'),
       date: "25/05/25",
       token: "BTC",
       amount: "0.000550 BTC",
@@ -378,7 +378,7 @@ export default async function seed() {
       color: "c-new c-violet"
     },
     {
-      id: 24,
+      created_at: new Date('2025-05-20T16:20:00'),
       date: "20/05/25",
       token: "BTC",
       amount: "0.000562 BTC",
@@ -388,7 +388,7 @@ export default async function seed() {
       color: "c-new c-violet"
     },
     {
-      id: 25,
+      created_at: new Date('2025-05-15T11:30:00'),
       date: "15/05/25",
       token: "ETH",
       amount: "0.009815 ETH",
@@ -398,7 +398,7 @@ export default async function seed() {
       color: "c-new c-blue"
     },
     {
-      id: 26,
+      created_at: new Date('2025-05-15T11:15:00'),
       date: "15/05/25",
       token: "BTC",
       amount: "0.000578 BTC",
@@ -408,7 +408,7 @@ export default async function seed() {
       color: "c-new c-violet"
     },
     {
-      id: 27,
+      created_at: new Date('2025-05-10T13:45:00'),
       date: "10/05/25",
       token: "BTC",
       amount: "0.000575 BTC",
@@ -418,7 +418,7 @@ export default async function seed() {
       color: "c-new c-violet"
     },
     {
-      id: 28,
+      created_at: new Date('2025-05-05T15:30:00'),
       date: "05/05/25",
       token: "BTC",
       amount: "0.000633 BTC",
@@ -428,7 +428,7 @@ export default async function seed() {
       color: "c-new c-violet"
     },
     {
-      id: 29,
+      created_at: new Date('2025-04-30T10:45:00'),
       date: "30/04/25",
       token: "ETH",
       amount: "0.01695 ETH",
@@ -439,7 +439,7 @@ export default async function seed() {
       details: "Conforme a la actualización del 16/04, previa a la reciente subida del 16% de BTC, la estrategia de Cryptopedia es aumentar el volumen de compras. Estaré ausente durante mayo y regresaré en junio, por lo que he dejado órdenes pendientes configuradas. Salvo eventos extraordinarios, estas órdenes seguirán ejecutándose y para que no se cancelen se requiere que el precio de BTC se mantenga por debajo de $85k si el oro cae bajo los $2,900; por debajo de $100k si el oro baja de $3,100; y que no supere los $112k mientras el precio del oro no haya excedido los $3,700."
     },
     {
-      id: 30,
+      created_at: new Date('2025-04-30T10:30:00'),
       date: "30/04/25",
       token: "BTC",
       amount: "0.000635 BTC",
@@ -449,7 +449,7 @@ export default async function seed() {
       color: "c-new c-violet"
     },
     {
-      id: 31,
+      created_at: new Date('2025-04-25T12:45:00'),
       date: "25/04/25",
       token: "BTC",
       amount: "0.000639 BTC",
@@ -459,7 +459,7 @@ export default async function seed() {
       color: "c-new c-violet"
     },
     {
-      id: 32,
+      created_at: new Date('2025-04-20T14:30:00'),
       date: "20/04/25",
       token: "BTC",
       amount: "0.000711 BTC",
@@ -469,7 +469,7 @@ export default async function seed() {
       color: "c-new c-violet"
     },
     {
-      id: 33,
+      created_at: new Date('2025-04-15T16:15:00'),
       date: "15/04/25",
       token: "ETH",
       amount: "0.01572 ETH",
@@ -479,7 +479,7 @@ export default async function seed() {
       color: "c-new c-blue"
     },
     {
-      id: 34,
+      created_at: new Date('2025-04-15T16:00:00'),
       date: "15/04/25",
       token: "BTC",
       amount: "0.00072 BTC",
@@ -489,7 +489,7 @@ export default async function seed() {
       color: "c-new c-violet"
     },
     {
-      id: 35,
+      created_at: new Date('2025-04-06T11:30:00'),
       date: "06/04/25",
       token: "ETH",
       amount: "0.03072 ETH",
@@ -499,7 +499,7 @@ export default async function seed() {
       color: "c-normal c-violet"
     },
     {
-      id: 36,
+      created_at: new Date('2025-04-06T11:15:00'),
       date: "06/04/25",
       token: "SOL",
       amount: "0.2823 SOL",
@@ -509,7 +509,7 @@ export default async function seed() {
       color: "c-normal c-blue"
     },
     {
-      id: 37,
+      created_at: new Date('2025-04-06T11:00:00'),
       date: "06/04/25",
       token: "LINK",
       amount: "2.6 LINK",
@@ -519,7 +519,7 @@ export default async function seed() {
       color: "c-normal c-blue"
     },
     {
-      id: 38,
+      created_at: new Date('2025-03-11T13:45:00'),
       date: "11/03/25",
       token: "ETH",
       amount: "0.0274 ETH",
@@ -529,7 +529,7 @@ export default async function seed() {
       color: "c-normal c-violet"
     },
     {
-      id: 39,
+      created_at: new Date('2025-03-11T13:30:00'),
       date: "11/03/25",
       token: "SEI",
       amount: "57 SEI",
@@ -539,7 +539,7 @@ export default async function seed() {
       color: "c-normal c-green"
     },
     {
-      id: 40,
+      created_at: new Date('2025-03-10T15:20:00'),
       date: "10/03/25",
       token: "SOL",
       amount: "0.157 SOL",
@@ -549,7 +549,7 @@ export default async function seed() {
       color: "c-normal c-blue"
     },
     {
-      id: 41,
+      created_at: new Date('2025-03-09T10:30:00'),
       date: "09/03/25",
       token: "ARB",
       amount: "57 ARB",
@@ -560,7 +560,7 @@ export default async function seed() {
       details: "Si has prestado atención al mercado habrás observado que ETH ha corregido mucho contra BTC en los últimos meses, quizás esta opción correlacionada tenga más sentido. Otras opciones similares serían: OP = 0,761$, POL = 0.248$"
     },
     {
-      id: 42,
+      created_at: new Date('2025-03-09T10:15:00'),
       date: "09/03/25",
       token: "FET",
       amount: "36 FET",
@@ -570,7 +570,7 @@ export default async function seed() {
       color: "c-normal c-blue"
     },
     {
-      id: 43,
+      created_at: new Date('2025-03-09T10:00:00'),
       date: "09/03/25",
       token: "TON",
       amount: "3.7 TON",
@@ -580,7 +580,7 @@ export default async function seed() {
       color: "c-normal c-green"
     },
     {
-      id: 44,
+      created_at: new Date('2025-02-28T14:45:00'),
       date: "28/02/25",
       token: "UNI",
       amount: "2.7 UNI",
@@ -590,7 +590,7 @@ export default async function seed() {
       color: "c-normal c-blue"
     },
     {
-      id: 45,
+      created_at: new Date('2025-02-28T14:30:00'),
       date: "28/02/25",
       token: "VET",
       amount: "72 VET",
@@ -600,7 +600,7 @@ export default async function seed() {
       color: "c-normal c-blue"
     },
     {
-      id: 46,
+      created_at: new Date('2025-02-25T12:20:00'),
       date: "25/02/25",
       token: "SUI",
       amount: "7.7 SUI",
@@ -610,7 +610,7 @@ export default async function seed() {
       color: "c-normal c-blue"
     },
     {
-      id: 47,
+      created_at: new Date('2025-02-25T12:05:00'),
       date: "25/02/25",
       token: "ONDO",
       amount: "22 ONDO",
@@ -620,7 +620,7 @@ export default async function seed() {
       color: "c-normal c-blue"
     },
     {
-      id: 48,
+      created_at: new Date('2025-02-03T16:30:00'),
       date: "03/02/25",
       token: "NKN",
       amount: "180 NKN",
@@ -631,7 +631,7 @@ export default async function seed() {
       details: "Este proyecto aunque ha sido muy castigado por el mercado, es histórico y tiene una capitalización muy baja, por lo que es arriesgado pero a su vez una oportunidad."
     },
     {
-      id: 49,
+      created_at: new Date('2025-02-03T16:15:00'),
       date: "03/02/25",
       token: "SYS",
       amount: "150 SYS",
@@ -642,7 +642,7 @@ export default async function seed() {
       details: "Este proyecto aunque ha sido muy castigado por el mercado, es histórico y reconocido por aquellos que entraron hace muchos años."
     },
     {
-      id: 50,
+      created_at: new Date('2025-02-03T16:00:00'),
       date: "03/02/25",
       token: "BAT",
       amount: "55 BAT",
@@ -653,7 +653,7 @@ export default async function seed() {
       details: "Navegador con muchisimos usuarios"
     },
     {
-      id: 51,
+      created_at: new Date('2025-02-03T15:45:00'),
       date: "03/02/25",
       token: "DOT",
       amount: "4.1 DOT",
@@ -664,7 +664,7 @@ export default async function seed() {
       details: "Aprovechando la volatilidad por el dia de la investidura de Trump, he creído y así lo avisé que podríamos ver precios extremos. Finalmente China con Deep Seek ha provocado este movimiento negativo en el mercado (no es casualidad la llegada a la presidencia de Trump)."
     },
     {
-      id: 52,
+      created_at: new Date('2025-02-02T14:30:00'),
       date: "02/02/25",
       token: "KSM",
       amount: "1 KSM",
@@ -675,7 +675,7 @@ export default async function seed() {
       details: "Aprovechando la volatilidad por el dia de la investidura de Trump, creo que podemos ver precios extremos."
     },
     {
-      id: 53,
+      created_at: new Date('2025-02-02T14:15:00'),
       date: "02/02/25",
       token: "AVAX",
       amount: "0.5 AVAX",
@@ -686,7 +686,7 @@ export default async function seed() {
       details: "Operación que no estaba en las ordenes pendientes. Es el mínimo contra BTC desde 2021, cuando se acababa de crear el proyecto que hoy en día ocupa la posición 14ª."
     },
     {
-      id: 54,
+      created_at: new Date('2025-02-02T14:00:00'),
       date: "02/02/25",
       token: "FLOKI",
       amount: "65K FLOKI",
@@ -697,7 +697,7 @@ export default async function seed() {
       details: "Dentro de la especulación como memecoin, Floki ha demostrado una cierta fortaleza cuando no hay grandes movimientos."
     },
     {
-      id: 55,
+      created_at: new Date('2025-01-27T16:45:00'),
       date: "27/01/25",
       token: "ADA",
       amount: "23 ADA",
@@ -708,7 +708,7 @@ export default async function seed() {
       details: "Aprovechando la volatilidad por el dia de la investidura de Trump, he creído y así lo avisé que podríamos ver precios extremos. Finalmente China con Deep Seek ha provocado este movimiento negativo en el mercado (no es casualidad la llegada a la presidencia de Trump)."
     },
     {
-      id: 56,
+      created_at: new Date('2025-01-22T12:30:00'),
       date: "22/01/25",
       token: "Thena",
       amount: "17 Thena",
@@ -719,7 +719,7 @@ export default async function seed() {
       details: "Operación que estaba pendiente desde hace mucho tiempo. Es bastante especulativa"
     },
     {
-      id: 57,
+      created_at: new Date('2025-01-22T12:15:00'),
       date: "22/01/25",
       token: "ROSS",
       amount: "8500 ROSS",
@@ -730,7 +730,7 @@ export default async function seed() {
       details: "Ya ha sido liberado ROSS!! Trump ha cumplido su promesa, pero el precio ha seguido el movimiento contrario. Hacemos esta operación muy arriesgada con la esperanza de que Ross vaya al programa de Joe Rogan"
     },
     {
-      id: 58,
+      created_at: new Date('2025-01-19T15:30:00'),
       date: "19/01/25",
       token: "ROSS",
       amount: "1000 ROSS",
@@ -741,7 +741,7 @@ export default async function seed() {
       details: "Esta venta se ha realizado con el objetivo de recuperar toda la inversión inicial en $. Hemos vendido el 20% del ROSS comprado y hemos podido recuperar los $ gastados. El resto lo dejamos por si hay una gran subida"
     },
     {
-      id: 59,
+      created_at: new Date('2025-01-19T15:15:00'),
       date: "19/01/25",
       token: "SOL",
       amount: "0.07 SOL",
@@ -752,7 +752,7 @@ export default async function seed() {
       details: "SOL esta luchando por superar el marketcap de XRP, lo que proyectaría el precio desde los 290$ actuales hasta los 369$ sin embargo debido a la alta especulación, siempre está bien asegurarse algo de BTC"
     },
     {
-      id: 60,
+      created_at: new Date('2025-01-13T11:45:00'),
       date: "13/01/25",
       token: "ROSS",
       amount: "1300 ROSS",
@@ -763,7 +763,7 @@ export default async function seed() {
       details: "Creo que todavía puede subir mucho más, es por ello que solamente he vendido el 10% de la posición aprox, recuperando casi 1/3 de la inversión. También conseguimos bajar el precio de equilibrio hasta los 0.0(4)31 SOL o lo que es lo mismo, ahora debería de bajar un 75% el precio para empezar a tener perdidas."
     },
     {
-      id: 61,
+      created_at: new Date('2025-01-13T11:30:00'),
       date: "13/01/25",
       token: "SOL",
       amount: "0.06 SOL",
@@ -773,7 +773,7 @@ export default async function seed() {
       color: "c-normal c-green"
     },
     {
-      id: 62,
+      created_at: new Date('2024-12-20T14:45:00'),
       date: "20/12/24",
       token: "FET",
       amount: "6 FET",
@@ -784,7 +784,7 @@ export default async function seed() {
       details: "Narrativa de IA (en nuestra opinión este sector va a sostener a la economía en los próximos años)."
     },
     {
-      id: 63,
+      created_at: new Date('2024-12-20T14:30:00'),
       date: "20/12/24",
       token: "CELO",
       amount: "16 CELO",
@@ -795,7 +795,7 @@ export default async function seed() {
       details: "Me parece interesante esta operación."
     },
     {
-      id: 64,
+      created_at: new Date('2024-12-20T14:15:00'),
       date: "20/12/24",
       token: "KSM",
       amount: "0.27 KSM",
@@ -806,7 +806,7 @@ export default async function seed() {
       details: "Red de pruebas de Polkadot."
     },
     {
-      id: 65,
+      created_at: new Date('2024-12-19T16:30:00'),
       date: "19/12/24",
       token: "Simon's CAT",
       amount: "250K CAT",
@@ -817,7 +817,7 @@ export default async function seed() {
       details: "Disponible en pocos exchanges, es una memecoin."
     },
     {
-      id: 66,
+      created_at: new Date('2024-12-19T16:15:00'),
       date: "19/12/24",
       token: "SOL",
       amount: "0.05 SOL",
@@ -827,7 +827,7 @@ export default async function seed() {
       color: "c-normal c-green"
     },
     {
-      id: 67,
+      created_at: new Date('2024-12-19T16:00:00'),
       date: "19/12/24",
       token: "CAKE",
       amount: "3 CAKE",
@@ -838,7 +838,7 @@ export default async function seed() {
       details: "Se trata del principal DEX de Binance Smart Chain."
     },
     {
-      id: 68,
+      created_at: new Date('2024-12-09T15:45:00'),
       date: "09/12/24",
       token: "SQUID2",
       amount: "47B SQUID2",
@@ -849,7 +849,7 @@ export default async function seed() {
       details: "Se trata de recoger parte de la inversión inicial. Lleva un x4 casi y creo que podría llegar un x10 o más, por lo que dejo gran parte de la cantidad comprada."
     },
     {
-      id: 69,
+      created_at: new Date('2024-12-09T15:30:00'),
       date: "09/12/24",
       token: "FET",
       amount: "5.6 FET",
@@ -860,7 +860,7 @@ export default async function seed() {
       details: "FET tiene potencial y no ha subido apenas dentro de su rango de competidores en Marketcap (1.92$ ACTUAL, NO ES MAL PRECIO)."
     },
     {
-      id: 70,
+      created_at: new Date('2024-12-09T15:15:00'),
       date: "09/12/24",
       token: "JUP",
       amount: "8 JUP",
@@ -871,7 +871,7 @@ export default async function seed() {
       details: "JUP tiene potencial y no ha subido apenas dentro de su rango de competidores en Marketcap (1.35$ ACTUAL, NO ES MAL PRECIO)."
     },
     {
-      id: 71,
+      created_at: new Date('2024-12-05T12:30:00'),
       date: "05/12/24",
       token: "Retardio",
       amount: "90 Retardio",
@@ -882,7 +882,7 @@ export default async function seed() {
       details: "En Raydium se puede comprar con SOL, contrato: 6ogzHhzdrQr9Pgv6hZ2MNze7UrzBMAFyBBWUYp1Fhitx."
     },
     {
-      id: 72,
+      created_at: new Date('2024-12-05T12:15:00'),
       date: "05/12/24",
       token: "ARKM",
       amount: "4.11 ARKM",
@@ -893,7 +893,7 @@ export default async function seed() {
       details: "ARKM tiene potencial y no ha subido apenas dentro de su rango de competidores en Marketcap (Precio actual 2.43 cerca de resistencia)."
     },
     {
-      id: 73,
+      created_at: new Date('2024-12-04T16:45:00'),
       date: "04/12/24",
       token: "TRX",
       amount: "108 TRX",
@@ -904,7 +904,7 @@ export default async function seed() {
       details: "Operación realizada siguiendo la estrategia de ventas escalonadas VS BTC."
     },
     {
-      id: 74,
+      created_at: new Date('2024-12-04T16:30:00'),
       date: "04/12/24",
       token: "SQUID2",
       amount: "311B SQUID2",
@@ -915,7 +915,7 @@ export default async function seed() {
       details: "Memecoin sobre la serie 'El juego del calamar'"
     },
     {
-      id: 75,
+      created_at: new Date('2024-12-04T16:15:00'),
       date: "04/12/24",
       token: "XMR",
       amount: "0.05 XMR",
@@ -925,7 +925,7 @@ export default async function seed() {
       color: "c-normal c-yellow"
     },
     {
-      id: 76,
+      created_at: new Date('2024-12-04T16:00:00'),
       date: "04/12/24",
       token: "EWT",
       amount: "5.13 EWT",
@@ -935,7 +935,7 @@ export default async function seed() {
       color: "c-normal c-yellow"
     },
     {
-      id: 77,
+      created_at: new Date('2024-12-04T15:45:00'),
       date: "04/12/24",
       token: "KLV",
       amount: "1.755 KLV",
@@ -945,7 +945,7 @@ export default async function seed() {
       color: "c-normal c-yellow"
     },
     {
-      id: 78,
+      created_at: new Date('2024-12-04T15:30:00'),
       date: "04/12/24",
       token: "VARA",
       amount: "645 VARA",
@@ -955,7 +955,7 @@ export default async function seed() {
       color: "c-normal c-yellow"
     },
     {
-      id: 79,
+      created_at: new Date('2024-12-04T15:15:00'),
       date: "04/12/24",
       token: "CGPT",
       amount: "90 CGPT",
@@ -965,7 +965,7 @@ export default async function seed() {
       color: "c-normal c-yellow"
     },
     {
-      id: 80,
+      created_at: new Date('2024-12-04T15:00:00'),
       date: "04/12/24",
       token: "API3",
       amount: "7.9 API3",
@@ -975,7 +975,7 @@ export default async function seed() {
       color: "c-normal c-yellow"
     },
     {
-      id: 81,
+      created_at: new Date('2024-12-04T14:45:00'),
       date: "04/12/24",
       token: "LITH",
       amount: "47K LITH",
@@ -985,7 +985,7 @@ export default async function seed() {
       color: "c-normal c-yellow"
     },
     {
-      id: 82,
+      created_at: new Date('2024-12-04T14:30:00'),
       date: "04/12/24",
       token: "VRA",
       amount: "2.590 VRA",
@@ -995,7 +995,7 @@ export default async function seed() {
       color: "c-normal c-yellow"
     },
     {
-      id: 83,
+      created_at: new Date('2024-11-22T12:30:00'),
       date: "22/11/24",
       token: "ADA",
       amount: "25 ADA",
@@ -1005,7 +1005,7 @@ export default async function seed() {
       color: "c-normal c-blue"
     },
     {
-      id: 84,
+      created_at: new Date('2024-11-16T14:15:00'),
       date: "16/11/24",
       token: "ADA",
       amount: "20 ADA",
@@ -1015,7 +1015,7 @@ export default async function seed() {
       color: "c-normal c-green"
     },
     {
-      id: 85,
+      created_at: new Date('2024-11-16T14:00:00'),
       date: "16/11/24",
       token: "ROSS",
       amount: "10833 ROSS",
@@ -1025,7 +1025,7 @@ export default async function seed() {
       color: "c-normal c-orange"
     },
     {
-      id: 86,
+      created_at: new Date('2024-11-15T13:30:00'),
       date: "15/11/24",
       token: "OP",
       amount: "10 OP",
@@ -1035,7 +1035,7 @@ export default async function seed() {
       color: "c-normal c-green"
     },
     {
-      id: 87,
+      created_at: new Date('2024-11-14T16:45:00'),
       date: "14/11/24",
       token: "XMR",
       amount: "0.07 XMR",
@@ -1045,7 +1045,7 @@ export default async function seed() {
       color: "c-normal c-green"
     },
     {
-      id: 88,
+      created_at: new Date('2024-11-14T16:30:00'),
       date: "14/11/24",
       token: "ROSS",
       amount: "2000 ROSS",
