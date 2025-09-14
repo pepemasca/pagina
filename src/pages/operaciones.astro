@@ -169,7 +169,7 @@ const invest = await db.select().from(Invest);
                   </td>
                   <td class="c-normal">{order.amount}</td>
                   <td class="c-normal">{order.pair}</td>
-                  <td class={`c-normal ${order.operation}`}></td>
+                  <td class={`c-normal ${order.operation === 'COMPRA' ? 'op-compra' : order.operation === 'VENTA' ? 'op-venta' : ''}`}></td>
                   <td class="c-normal-left">{order.price}</td>
                 </tr>
               ))}
@@ -277,7 +277,7 @@ const invest = await db.select().from(Invest);
                       </td>
                       <td class="c-normal text-[7.5px] sm:text-sm md:text-base">{item.amount}</td>
                       <td class="c-normal text-[7.5px] sm:text-sm md:text-base">{item.pair}</td>
-                      <td class={`c-normal ${item.operation} text-[7.5px] sm:text-sm md:text-base`}></td>
+                      <td class={`c-normal ${item.operation === 'COMPRA' ? 'op-compra' : item.operation === 'VENTA' ? 'op-venta' : ''} text-[7.5px] sm:text-sm md:text-base`}></td>
                       <td class="c-normal-left text-[7.5px] sm:text-sm md:text-base">{item.price}</td>
                     </tr>
                   );

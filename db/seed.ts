@@ -103,7 +103,7 @@ export default async function seed() {
       token: "ADA",
       amount: "20 ADA",
       pair: "ADA/USDC",
-      operation: "op-venta",
+      operation: "VENTA",
       price: "1 ADA = 1.4186 USDC",
       color: "c-normal c-blue"
     },
@@ -112,7 +112,7 @@ export default async function seed() {
       token: "ADA",
       amount: "25 ADA",
       pair: "ADA/BTC",
-      operation: "op-venta",
+      operation: "VENTA",
       price: "1 ADA = 0.00002164 BTC",
       color: "c-normal c-violet"
     },
@@ -121,7 +121,7 @@ export default async function seed() {
       token: "LINK",
       amount: "1 LINK",
       pair: "LINK/BTC",
-      operation: "op-venta",
+      operation: "VENTA",
       price: "1 LINK = 0.0003872 BTC",
       color: "c-normal c-blue"
     },
@@ -130,7 +130,7 @@ export default async function seed() {
       token: "SOL",
       amount: "0.2 SOL",
       pair: "SOL/BTC",
-      operation: "op-venta",
+      operation: "VENTA",
       price: "1 SOL = 0.00354 BTC",
       color: "c-normal c-violet"
     },
@@ -139,7 +139,7 @@ export default async function seed() {
       token: "GRT",
       amount: "92 GRT",
       pair: "GRT/BTC",
-      operation: "op-venta",
+      operation: "VENTA",
       price: "1 GRT = 0.00000396 BTC",
       color: "c-normal c-blue"
     }
@@ -153,7 +153,7 @@ export default async function seed() {
       token: "ETH",
       amount: "0.005648 ETH",
       pair: "ETH/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 ETH = 4426 USDC",
       color: "c-new c-blue"
     },
@@ -163,7 +163,7 @@ export default async function seed() {
       token: "BTC",
       amount: "0.000511 BTC",
       pair: "BTC/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BTC = 117324 USDC",
       color: "c-new c-violet"
     },
@@ -173,7 +173,7 @@ export default async function seed() {
       token: "BTC",
       amount: "0.000503 BTC",
       pair: "BTC/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BTC = 119309 USDC",
       color: "c-new c-violet"
     },
@@ -183,7 +183,7 @@ export default async function seed() {
       token: "BTC",
       amount: "0.000526 BTC",
       pair: "BTC/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BTC = 114148 USDC",
       color: "c-new c-violet"
     },
@@ -193,7 +193,7 @@ export default async function seed() {
       token: "ETH",
       amount: "0.006567 ETH",
       pair: "ETH/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 ETH = 3807 USDC",
       color: "c-new c-blue"
     },
@@ -203,7 +203,7 @@ export default async function seed() {
       token: "BTC",
       amount: "0.000509 BTC",
       pair: "BTC/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BTC = 117857 USDC",
       color: "c-new c-violet"
     },
@@ -213,7 +213,7 @@ export default async function seed() {
       token: "BTC",
       amount: "0.000510 BTC",
       pair: "BTC/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BTC = 117595 USDC",
       color: "c-new c-violet"
     },
@@ -223,7 +223,7 @@ export default async function seed() {
       token: "BTC",
       amount: "0.000511 BTC",
       pair: "BTC/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BTC = 117344 USDC",
       color: "c-new c-violet"
     },
@@ -233,7 +233,7 @@ export default async function seed() {
       token: "ETH",
       amount: "0.007980 ETH",
       pair: "ETH/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 ETH = 3133 USDC",
       color: "c-new c-blue"
     },
@@ -243,7 +243,7 @@ export default async function seed() {
       token: "BTC",
       amount: "0.000510 BTC",
       pair: "BTC/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BTC = 117685 USDC",
       color: "c-new c-violet"
     },
@@ -253,7 +253,7 @@ export default async function seed() {
       token: "BTC",
       amount: "0.000518 BTC",
       pair: "BTC/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BTC = 115909 USDC",
       color: "c-new c-violet"
     },
@@ -263,7 +263,7 @@ export default async function seed() {
       token: "BTC",
       amount: "0.000554 BTC",
       pair: "BTC/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BTC = 108283 USDC",
       color: "c-new c-violet"
     },
@@ -273,7 +273,7 @@ export default async function seed() {
       token: "ETH",
       amount: "0.010043 ETH",
       pair: "ETH/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 ETH = 2489 USDC",
       color: "c-new c-blue"
     },
@@ -283,7 +283,7 @@ export default async function seed() {
       token: "BTC",
       amount: "0.000560 BTC",
       pair: "BTC/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BTC = 107199 USDC",
       color: "c-new c-violet"
     },
@@ -293,7 +293,7 @@ export default async function seed() {
       token: "BTC",
       amount: "0.000559 BTC",
       pair: "BTC/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BTC = 107249 USDC",
       color: "c-new c-violet"
     },
@@ -303,7 +303,7 @@ export default async function seed() {
       token: "BTC",
       amount: "0.000581 BTC",
       pair: "BTC/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BTC = 103335 USDC",
       color: "c-new c-violet"
     },
@@ -313,7 +313,7 @@ export default async function seed() {
       token: "ETH",
       amount: "0.009809 ETH",
       pair: "ETH/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 ETH = 2549 USDC",
       color: "c-new c-blue"
     },
@@ -323,7 +323,7 @@ export default async function seed() {
       token: "BTC",
       amount: "0.000568 BTC",
       pair: "BTC/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BTC = 105595 USDC",
       color: "c-new c-violet"
     },
@@ -333,7 +333,7 @@ export default async function seed() {
       token: "BTC",
       amount: "0.000544 BTC",
       pair: "BTC/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BTC = 110282 USDC",
       color: "c-new c-violet"
     },
@@ -343,7 +343,7 @@ export default async function seed() {
       token: "BTC",
       amount: "0.000590 BTC",
       pair: "BTC/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BTC = 101704 USDC",
       color: "c-new c-violet"
     },
@@ -353,7 +353,7 @@ export default async function seed() {
       token: "ETH",
       amount: "0.009885 ETH",
       pair: "ETH/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 ETH = 2529 USDC",
       color: "c-new c-blue"
     },
@@ -363,7 +363,7 @@ export default async function seed() {
       token: "BTC",
       amount: "0.000577 BTC",
       pair: "BTC/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BTC = 104066 USDC",
       color: "c-new c-violet"
     },
@@ -373,7 +373,7 @@ export default async function seed() {
       token: "BTC",
       amount: "0.000550 BTC",
       pair: "BTC/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BTC = 109054 USDC",
       color: "c-new c-violet"
     },
@@ -383,7 +383,7 @@ export default async function seed() {
       token: "BTC",
       amount: "0.000562 BTC",
       pair: "BTC/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BTC = 106836 USDC",
       color: "c-new c-violet"
     },
@@ -393,7 +393,7 @@ export default async function seed() {
       token: "ETH",
       amount: "0.009815 ETH",
       pair: "ETH/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 ETH = 2547 USDC",
       color: "c-new c-blue"
     },
@@ -403,7 +403,7 @@ export default async function seed() {
       token: "BTC",
       amount: "0.000578 BTC",
       pair: "BTC/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BTC = 103869 USDC",
       color: "c-new c-violet"
     },
@@ -413,7 +413,7 @@ export default async function seed() {
       token: "BTC",
       amount: "0.000575 BTC",
       pair: "BTC/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BTC = 104379 USDC",
       color: "c-new c-violet"
     },
@@ -423,7 +423,7 @@ export default async function seed() {
       token: "BTC",
       amount: "0.000633 BTC",
       pair: "BTC/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BTC = 94857 USDC",
       color: "c-new c-violet"
     },
@@ -433,7 +433,7 @@ export default async function seed() {
       token: "ETH",
       amount: "0.01695 ETH",
       pair: "ETH/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 ETH = 1770 USDC",
       color: "c-new c-blue",
       details: "Conforme a la actualización del 16/04, previa a la reciente subida del 16% de BTC, la estrategia de Cryptopedia es aumentar el volumen de compras. Estaré ausente durante mayo y regresaré en junio, por lo que he dejado órdenes pendientes configuradas. Salvo eventos extraordinarios, estas órdenes seguirán ejecutándose y para que no se cancelen se requiere que el precio de BTC se mantenga por debajo de $85k si el oro cae bajo los $2,900; por debajo de $100k si el oro baja de $3,100; y que no supere los $112k mientras el precio del oro no haya excedido los $3,700."
@@ -444,7 +444,7 @@ export default async function seed() {
       token: "BTC",
       amount: "0.000635 BTC",
       pair: "BTC/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BTC = 94260 USDC",
       color: "c-new c-violet"
     },
@@ -454,7 +454,7 @@ export default async function seed() {
       token: "BTC",
       amount: "0.000639 BTC",
       pair: "BTC/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BTC = 93820 USDC",
       color: "c-new c-violet"
     },
@@ -464,7 +464,7 @@ export default async function seed() {
       token: "BTC",
       amount: "0.000711 BTC",
       pair: "BTC/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BTC = 84357 USDC",
       color: "c-new c-violet"
     },
@@ -474,7 +474,7 @@ export default async function seed() {
       token: "ETH",
       amount: "0.01572 ETH",
       pair: "ETH/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 ETH = 1590 USDC",
       color: "c-new c-blue"
     },
@@ -484,7 +484,7 @@ export default async function seed() {
       token: "BTC",
       amount: "0.00072 BTC",
       pair: "BTC/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BTC = 83900 USDC",
       color: "c-new c-violet"
     },
@@ -494,7 +494,7 @@ export default async function seed() {
       token: "ETH",
       amount: "0.03072 ETH",
       pair: "ETH/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 ETH = 1628 USDC",
       color: "c-normal c-violet"
     },
@@ -504,7 +504,7 @@ export default async function seed() {
       token: "SOL",
       amount: "0.2823 SOL",
       pair: "SOL/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 SOL = 106.25 USDC",
       color: "c-normal c-blue"
     },
@@ -514,7 +514,7 @@ export default async function seed() {
       token: "LINK",
       amount: "2.6 LINK",
       pair: "LINK/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 LINK = 11.57 USDC",
       color: "c-normal c-blue"
     },
@@ -524,7 +524,7 @@ export default async function seed() {
       token: "ETH",
       amount: "0.0274 ETH",
       pair: "ETH/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 ETH = 1826 USDC",
       color: "c-normal c-violet"
     },
@@ -534,7 +534,7 @@ export default async function seed() {
       token: "SEI",
       amount: "57 SEI",
       pair: "SEI/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 SEI = 0.178 USDC",
       color: "c-normal c-green"
     },
@@ -544,7 +544,7 @@ export default async function seed() {
       token: "SOL",
       amount: "0.157 SOL",
       pair: "SOL/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 SOL = 127.59 USDC",
       color: "c-normal c-blue"
     },
@@ -554,7 +554,7 @@ export default async function seed() {
       token: "ARB",
       amount: "57 ARB",
       pair: "ARB/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 ARB = 0.356 USDC",
       color: "c-normal c-blue",
       details: "Si has prestado atención al mercado habrás observado que ETH ha corregido mucho contra BTC en los últimos meses, quizás esta opción correlacionada tenga más sentido. Otras opciones similares serían: OP = 0,761$, POL = 0.248$"
@@ -565,7 +565,7 @@ export default async function seed() {
       token: "FET",
       amount: "36 FET",
       pair: "FET/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 FET = 0.57 USDC",
       color: "c-normal c-blue"
     },
@@ -575,7 +575,7 @@ export default async function seed() {
       token: "TON",
       amount: "3.7 TON",
       pair: "TON/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 TON = 2.7 USDC",
       color: "c-normal c-green"
     },
@@ -585,7 +585,7 @@ export default async function seed() {
       token: "UNI",
       amount: "2.7 UNI",
       pair: "UNI/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 UNI = 7.41 USDC",
       color: "c-normal c-blue"
     },
@@ -595,7 +595,7 @@ export default async function seed() {
       token: "VET",
       amount: "72 VET",
       pair: "VET/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 VET = 0.279 USDC",
       color: "c-normal c-blue"
     },
@@ -605,7 +605,7 @@ export default async function seed() {
       token: "SUI",
       amount: "7.7 SUI",
       pair: "SUI/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 SUI = 2.66 USDC",
       color: "c-normal c-blue"
     },
@@ -615,7 +615,7 @@ export default async function seed() {
       token: "ONDO",
       amount: "22 ONDO",
       pair: "ONDO/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 ONDO = 0.937 USDC",
       color: "c-normal c-blue"
     },
@@ -625,7 +625,7 @@ export default async function seed() {
       token: "NKN",
       amount: "180 NKN",
       pair: "NKN/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 NKN = 0.0557 USDC",
       color: "c-normal c-green",
       details: "Este proyecto aunque ha sido muy castigado por el mercado, es histórico y tiene una capitalización muy baja, por lo que es arriesgado pero a su vez una oportunidad."
@@ -636,7 +636,7 @@ export default async function seed() {
       token: "SYS",
       amount: "150 SYS",
       pair: "SYS/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 SYS = 0.0677 USDC",
       color: "c-normal c-green",
       details: "Este proyecto aunque ha sido muy castigado por el mercado, es histórico y reconocido por aquellos que entraron hace muchos años."
@@ -647,7 +647,7 @@ export default async function seed() {
       token: "BAT",
       amount: "55 BAT",
       pair: "BAT/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 BAT = 0.1835 USDC",
       color: "c-normal c-green",
       details: "Navegador con muchisimos usuarios"
@@ -658,7 +658,7 @@ export default async function seed() {
       token: "DOT",
       amount: "4.1 DOT",
       pair: "DOT/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 DOT = 4.9 USDC",
       color: "c-normal c-blue",
       details: "Aprovechando la volatilidad por el dia de la investidura de Trump, he creído y así lo avisé que podríamos ver precios extremos. Finalmente China con Deep Seek ha provocado este movimiento negativo en el mercado (no es casualidad la llegada a la presidencia de Trump)."
@@ -669,7 +669,7 @@ export default async function seed() {
       token: "KSM",
       amount: "1 KSM",
       pair: "KSM/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 KSM = 21.56 USDC",
       color: "c-normal c-blue",
       details: "Aprovechando la volatilidad por el dia de la investidura de Trump, creo que podemos ver precios extremos."
@@ -680,7 +680,7 @@ export default async function seed() {
       token: "AVAX",
       amount: "0.5 AVAX",
       pair: "AVAX/BTC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 AVAX = 0.000309 BTC",
       color: "c-normal c-green",
       details: "Operación que no estaba en las ordenes pendientes. Es el mínimo contra BTC desde 2021, cuando se acababa de crear el proyecto que hoy en día ocupa la posición 14ª."
@@ -691,7 +691,7 @@ export default async function seed() {
       token: "FLOKI",
       amount: "65K FLOKI",
       pair: "FLOKI/BTC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 FLOKI = 0.0(^8)1177 BTC",
       color: "c-normal c-green",
       details: "Dentro de la especulación como memecoin, Floki ha demostrado una cierta fortaleza cuando no hay grandes movimientos."
@@ -702,7 +702,7 @@ export default async function seed() {
       token: "ADA",
       amount: "23 ADA",
       pair: "ADA/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 ADA = 0.881 USDC",
       color: "c-normal c-blue",
       details: "Aprovechando la volatilidad por el dia de la investidura de Trump, he creído y así lo avisé que podríamos ver precios extremos. Finalmente China con Deep Seek ha provocado este movimiento negativo en el mercado (no es casualidad la llegada a la presidencia de Trump)."
@@ -713,7 +713,7 @@ export default async function seed() {
       token: "Thena",
       amount: "17 Thena",
       pair: "THE/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 THE = 0.845 USDC",
       color: "c-normal c-green",
       details: "Operación que estaba pendiente desde hace mucho tiempo. Es bastante especulativa"
@@ -724,7 +724,7 @@ export default async function seed() {
       token: "ROSS",
       amount: "8500 ROSS",
       pair: "ROSS/SOL",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 ROSS = 0.0000177 SOL",
       color: "c-normal c-blue",
       details: "Ya ha sido liberado ROSS!! Trump ha cumplido su promesa, pero el precio ha seguido el movimiento contrario. Hacemos esta operación muy arriesgada con la esperanza de que Ross vaya al programa de Joe Rogan"
@@ -735,7 +735,7 @@ export default async function seed() {
       token: "ROSS",
       amount: "1000 ROSS",
       pair: "ROSS/SOL",
-      operation: "op-venta",
+      operation: "VENTA",
       price: "1 ROSS = 0.00015 SOL",
       color: "c-normal c-blue",
       details: "Esta venta se ha realizado con el objetivo de recuperar toda la inversión inicial en $. Hemos vendido el 20% del ROSS comprado y hemos podido recuperar los $ gastados. El resto lo dejamos por si hay una gran subida"
@@ -746,7 +746,7 @@ export default async function seed() {
       token: "SOL",
       amount: "0.07 SOL",
       pair: "SOL/BTC",
-      operation: "op-venta",
+      operation: "VENTA",
       price: "1 SOL = 0.0027 BTC",
       color: "c-normal c-blue",
       details: "SOL esta luchando por superar el marketcap de XRP, lo que proyectaría el precio desde los 290$ actuales hasta los 369$ sin embargo debido a la alta especulación, siempre está bien asegurarse algo de BTC"
@@ -757,7 +757,7 @@ export default async function seed() {
       token: "ROSS",
       amount: "1300 ROSS",
       pair: "ROSS/SOL",
-      operation: "op-venta",
+      operation: "VENTA",
       price: "1 ROSS = 0.00016 SOL",
       color: "c-normal c-blue",
       details: "Creo que todavía puede subir mucho más, es por ello que solamente he vendido el 10% de la posición aprox, recuperando casi 1/3 de la inversión. También conseguimos bajar el precio de equilibrio hasta los 0.0(4)31 SOL o lo que es lo mismo, ahora debería de bajar un 75% el precio para empezar a tener perdidas."
@@ -768,7 +768,7 @@ export default async function seed() {
       token: "SOL",
       amount: "0.06 SOL",
       pair: "SOL/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 SOL = 170.56 USDC",
       color: "c-normal c-green"
     },
@@ -778,7 +778,7 @@ export default async function seed() {
       token: "FET",
       amount: "6 FET",
       pair: "FET/BTC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 FET = 0.0(^4)1284 BTC",
       color: "c-normal c-green",
       details: "Narrativa de IA (en nuestra opinión este sector va a sostener a la economía en los próximos años)."
@@ -789,7 +789,7 @@ export default async function seed() {
       token: "CELO",
       amount: "16 CELO",
       pair: "CELO/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 CELO = 0.634 USDC",
       color: "c-normal c-green",
       details: "Me parece interesante esta operación."
@@ -800,7 +800,7 @@ export default async function seed() {
       token: "KSM",
       amount: "0.27 KSM",
       pair: "KSM/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 KSM = 27.89 USDC",
       color: "c-normal c-green",
       details: "Red de pruebas de Polkadot."
@@ -811,7 +811,7 @@ export default async function seed() {
       token: "Simon's CAT",
       amount: "250K CAT",
       pair: "CAT/BTC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 CAT = 0.0^(9)413 BTC",
       color: "c-normal c-green",
       details: "Disponible en pocos exchanges, es una memecoin."
@@ -822,7 +822,7 @@ export default async function seed() {
       token: "SOL",
       amount: "0.05 SOL",
       pair: "SOL/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 SOL = 203.1 USDC",
       color: "c-normal c-green"
     },
@@ -832,7 +832,7 @@ export default async function seed() {
       token: "CAKE",
       amount: "3 CAKE",
       pair: "CAKE/USDT",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 CAKE = 2.79 USDT",
       color: "c-normal c-green",
       details: "Se trata del principal DEX de Binance Smart Chain."
@@ -843,7 +843,7 @@ export default async function seed() {
       token: "SQUID2",
       amount: "47B SQUID2",
       pair: "SQUID2/USDC",
-      operation: "op-venta",
+      operation: "VENTA",
       price: "1 SQUID2 = 0.0^(9)164 USDT",
       color: "c-normal c-green",
       details: "Se trata de recoger parte de la inversión inicial. Lleva un x4 casi y creo que podría llegar un x10 o más, por lo que dejo gran parte de la cantidad comprada."
@@ -854,7 +854,7 @@ export default async function seed() {
       token: "FET",
       amount: "5.6 FET",
       pair: "FET/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 FET = 1.795 USDC",
       color: "c-normal c-green",
       details: "FET tiene potencial y no ha subido apenas dentro de su rango de competidores en Marketcap (1.92$ ACTUAL, NO ES MAL PRECIO)."
@@ -865,7 +865,7 @@ export default async function seed() {
       token: "JUP",
       amount: "8 JUP",
       pair: "JUP/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 JUP = 1.25 USDC",
       color: "c-normal c-green",
       details: "JUP tiene potencial y no ha subido apenas dentro de su rango de competidores en Marketcap (1.35$ ACTUAL, NO ES MAL PRECIO)."
@@ -876,7 +876,7 @@ export default async function seed() {
       token: "Retardio",
       amount: "90 Retardio",
       pair: "Retardio/USD",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 Retardio = 0.125 USD",
       color: "c-normal c-yellow",
       details: "En Raydium se puede comprar con SOL, contrato: 6ogzHhzdrQr9Pgv6hZ2MNze7UrzBMAFyBBWUYp1Fhitx."
@@ -887,7 +887,7 @@ export default async function seed() {
       token: "ARKM",
       amount: "4.11 ARKM",
       pair: "ARKM/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 ARKM = 2.43 USDC",
       color: "c-normal c-green",
       details: "ARKM tiene potencial y no ha subido apenas dentro de su rango de competidores en Marketcap (Precio actual 2.43 cerca de resistencia)."
@@ -898,7 +898,7 @@ export default async function seed() {
       token: "TRX",
       amount: "108 TRX",
       pair: "TRX/BTC",
-      operation: "op-venta",
+      operation: "VENTA",
       price: "1 TRX = 0.00000317 BTC",
       color: "c-normal c-violet",
       details: "Operación realizada siguiendo la estrategia de ventas escalonadas VS BTC."
@@ -909,7 +909,7 @@ export default async function seed() {
       token: "SQUID2",
       amount: "311B SQUID2",
       pair: "SQUID2/USDT",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 SQUID2 = 0.0^(10)48 USDT",
       color: "c-normal c-yellow",
       details: "Memecoin sobre la serie 'El juego del calamar'"
@@ -920,7 +920,7 @@ export default async function seed() {
       token: "XMR",
       amount: "0.05 XMR",
       pair: "XMR/USDT",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 XMR = 200 USDT",
       color: "c-normal c-yellow"
     },
@@ -930,7 +930,7 @@ export default async function seed() {
       token: "EWT",
       amount: "5.13 EWT",
       pair: "EWT/USDT",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 EWT = 1.95 USDT",
       color: "c-normal c-yellow"
     },
@@ -940,7 +940,7 @@ export default async function seed() {
       token: "KLV",
       amount: "1.755 KLV",
       pair: "KLV/USDT",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 KLV = 0.0057 USDT",
       color: "c-normal c-yellow"
     },
@@ -950,7 +950,7 @@ export default async function seed() {
       token: "VARA",
       amount: "645 VARA",
       pair: "VARA/USDT",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 VARA = 0.031 USDT",
       color: "c-normal c-yellow"
     },
@@ -960,7 +960,7 @@ export default async function seed() {
       token: "CGPT",
       amount: "90 CGPT",
       pair: "CGPT/USDT",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 CGPT = 0.225 USDT",
       color: "c-normal c-yellow"
     },
@@ -970,7 +970,7 @@ export default async function seed() {
       token: "API3",
       amount: "7.9 API3",
       pair: "API3/USDT",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 API3 = 2.53 USDT",
       color: "c-normal c-yellow"
     },
@@ -980,7 +980,7 @@ export default async function seed() {
       token: "LITH",
       amount: "47K LITH",
       pair: "LITH/USDT",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 LITH = 0.00042 USDT",
       color: "c-normal c-yellow"
     },
@@ -990,7 +990,7 @@ export default async function seed() {
       token: "VRA",
       amount: "2.590 VRA",
       pair: "VRA/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 VRA = 0.00774 USDC",
       color: "c-normal c-yellow"
     },
@@ -1000,7 +1000,7 @@ export default async function seed() {
       token: "ADA",
       amount: "25 ADA",
       pair: "ADA/BTC",
-      operation: "op-venta",
+      operation: "VENTA",
       price: "1 ADA = 0.00000926 BTC",
       color: "c-normal c-blue"
     },
@@ -1010,7 +1010,7 @@ export default async function seed() {
       token: "ADA",
       amount: "20 ADA",
       pair: "ADA/USDC",
-      operation: "op-venta",
+      operation: "VENTA",
       price: "1 ADA = 0.776 USDC",
       color: "c-normal c-green"
     },
@@ -1020,7 +1020,7 @@ export default async function seed() {
       token: "ROSS",
       amount: "10833 ROSS",
       pair: "ROSS/USD",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 ROSS = 0.00934 USD",
       color: "c-normal c-orange"
     },
@@ -1030,7 +1030,7 @@ export default async function seed() {
       token: "OP",
       amount: "10 OP",
       pair: "OP/USDC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 OP = 1.52 USDC",
       color: "c-normal c-green"
     },
@@ -1040,7 +1040,7 @@ export default async function seed() {
       token: "XMR",
       amount: "0.07 XMR",
       pair: "XMR/BTC",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 XMR = 0.001597 BTC",
       color: "c-normal c-green"
     },
@@ -1050,7 +1050,7 @@ export default async function seed() {
       token: "ROSS",
       amount: "2000 ROSS",
       pair: "ROSS/USD",
-      operation: "op-compra",
+      operation: "COMPRA",
       price: "1 ROSS = 0.000115 SOL",
       color: "c-normal c-green"
     }
