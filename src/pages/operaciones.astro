@@ -10,8 +10,7 @@ import { db, Orders, Operations, Colors, Invest } from 'astro:db';
 import { desc } from 'astro:db';
 
 // Obtenemos todos los registros de las tablas
-// Ordenamos las órdenes por created_at descendente (más recientes primero)
-const orders = await db.select().from(Orders).orderBy(desc(Orders.created_at));
+const orders = await db.select().from(Orders);
 // Ordenamos las operaciones por created_at descendente (más recientes primero)
 const operations = await db.select().from(Operations).orderBy(desc(Operations.created_at));
 const colors = await db.select().from(Colors);
@@ -98,49 +97,58 @@ const invest = await db.select().from(Invest);
         </Fragment>
         <Fragment slot="desc">Inversiones sobre el total disponible mensual (No se puede pedir prestado)</Fragment>
       </Sectionhead>
-      <div class="flex justify-center">
-        <div class="w-full overflow-x-auto">
-          <table class="w-full border-separate border-zinc-950 border-2 rounded">
-            <caption class="caption-top">
-              <span class="sr-only">Inversiones sobre el total disponible mensual (No se puede pedir prestado)</span>
-            </caption>
-            <thead class="bg-gray-100">
-              <tr>
-                <th class="c-titles">MES</th>
-                <th class="c-titles">ENTRADAS</th>
-                <th class="c-titles">SALIDAS</th>
-                <th class="c-titles">INVERTIDO</th>
-              </tr>
-            </thead>
-            <tbody>
-              {/* 1) Primeras filas normales */}
-              {invest.slice(0, invest.length - 2).map((investItem) => (
+      
+      <details class="group">
+        <summary class="cursor-pointer text-center bg-gray-100 border border-gray-300 rounded-lg p-4 hover:bg-gray-200 transition-colors">
+          <span class="text-lg font-semibold">📊 Ver tabla de inversiones</span>
+          <span class="ml-2 text-sm text-gray-600 group-open:hidden">(Click para expandir)</span>
+          <span class="ml-2 text-sm text-gray-600 hidden group-open:inline">(Click para colapsar)</span>
+        </summary>
+        
+        <div class="flex justify-center mt-4">
+          <div class="w-full overflow-x-auto">
+            <table class="w-full border-separate border-zinc-950 border-2 rounded">
+              <caption class="caption-top">
+                <span class="sr-only">Inversiones sobre el total disponible mensual (No se puede pedir prestado)</span>
+              </caption>
+              <thead class="bg-gray-100">
                 <tr>
-                  <td class="c-normal">{investItem.mes}</td>
-                  <td class="c-normal text-green-600">{`+${investItem.entradas}`}</td>
-                  <td class="c-normal text-red-600">{`-${investItem.salidas}`}</td>
-                  <td class="c-normal text-green-600 bg-yellow-100">{`+${investItem.invertido}`}</td>
+                  <th class="c-titles">MES</th>
+                  <th class="c-titles">ENTRADAS</th>
+                  <th class="c-titles">SALIDAS</th>
+                  <th class="c-titles">INVERTIDO</th>
                 </tr>
-              ))}
+              </thead>
+              <tbody>
+                {/* 1) Primeras filas normales */}
+                {invest.slice(0, invest.length - 2).map((investItem) => (
+                  <tr>
+                    <td class="c-normal">{investItem.mes}</td>
+                    <td class="c-normal text-green-600">{`+${investItem.entradas}`}</td>
+                    <td class="c-normal text-red-600">{`-${investItem.salidas}`}</td>
+                    <td class="c-normal text-green-600 bg-yellow-100">{`+${investItem.invertido}`}</td>
+                  </tr>
+                ))}
 
-              {/* 2) Separador antes de las dos últimas */}
-              <tr>
-                <td colspan="4" class="border-t-2 border-zinc-950 p-0"></td>
-              </tr>
-
-              {/* 3) Últimas dos filas, destacando */}
-              {invest.slice(-2).map((investItem) => (
-                <tr class="bg-blue-50 text-blue-700 font-semibold">
-                  <td class="c-normal">{investItem.mes}</td>
-                  <td class="c-normal text-black">{`+${investItem.entradas}`}</td>
-                  <td class="c-normal text-black">{`-${investItem.salidas}`}</td>
-                  <td class="c-normal text-black bg-lime-300">{`+${investItem.invertido}`}</td>
+                {/* 2) Separador antes de las dos últimas */}
+                <tr>
+                  <td colspan="4" class="border-t-2 border-zinc-950 p-0"></td>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+
+                {/* 3) Últimas dos filas, destacando */}
+                {invest.slice(-2).map((investItem) => (
+                  <tr class="bg-blue-50 text-blue-700 font-semibold">
+                    <td class="c-normal">{investItem.mes}</td>
+                    <td class="c-normal text-black">{`+${investItem.entradas}`}</td>
+                    <td class="c-normal text-black">{`-${investItem.salidas}`}</td>
+                    <td class="c-normal text-black bg-lime-300">{`+${investItem.invertido}`}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
-      </div>
+      </details>
     </section>
 
     <!-- Sección de Órdenes de Trading -->

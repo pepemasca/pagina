@@ -41,55 +41,83 @@ export default async function seed() {
   await db.insert(Invest).values([
     { 
       id: 1,
-      mes: "04/25", 
+      mes: "08/25", 
       entradas: "41%", 
       salidas: "0%", 
       invertido: "41%" 
     },
     { 
       id: 2,
+      mes: "07/25", 
+      entradas: "41%", 
+      salidas: "0%", 
+      invertido: "41%" 
+    },
+    { 
+      id: 3,
+      mes: "06/25", 
+      entradas: "41%", 
+      salidas: "0%", 
+      invertido: "41%" 
+    },
+    { 
+      id: 4,
+      mes: "05/25", 
+      entradas: "41%", 
+      salidas: "0%", 
+      invertido: "41%" 
+    },
+    { 
+      id: 5,
+      mes: "04/25", 
+      entradas: "41%", 
+      salidas: "0%", 
+      invertido: "41%" 
+    },
+    { 
+      id: 6,
       mes: "03/25", 
       entradas: "13,1%", 
       salidas: "0%", 
       invertido: "13,10%" 
     },
     { 
-      id: 3,
+      id: 7,
       mes: "02/25", 
       entradas: "16,07%", 
       salidas: "0%", 
       invertido: "16,07%" 
     },
     { 
-      id: 4,
+      id: 8,
       mes: "01/25", 
       entradas: "3,56%", 
       salidas: "0,19%", 
       invertido: "3,37%" 
     },
     { 
-      id: 5,
+      id: 9,
       mes: "12/24", 
       entradas: "19,55%", 
       salidas: "3,42%", 
       invertido: "16,13%" 
     },
     { 
-      id: 6,
+      id: 10,
       mes: "11/24", 
       entradas: "12,76%", 
       salidas: "3,86%", 
       invertido: "8,9%" 
     },
     { 
-      id: 7,
+      id: 11,
       mes: "Promedio", 
       entradas: "17,67%", 
       salidas: "1,245%", 
       invertido: "16,43%" 
     },
     { 
-      id: 8,
+      id: 12,
       mes: "Acumulado", 
       entradas: "Es la suma de", 
       salidas: "lo no invertido", 
@@ -147,6 +175,108 @@ export default async function seed() {
 
   // Insertamos todas las operaciones históricas con fechas manuales completas
   await db.insert(Operations).values([
+    {
+      created_at: new Date('2025-09-15T12:30:00'),
+      date: "15/09/25",
+      token: "ETH",
+      amount: "0.005568 ETH",
+      pair: "ETH/USDC",
+      operation: "COMPRA",
+      price: "1 ETH = 4490 USDC",
+      color: "c-new c-blue",
+      details: "Última compra de las ordenes automáticas que empezamos en Abril con razón de la subida del oro y oportunidades a la vista. A partir de ahora entramos en un periodo más manual donde seleccionaremos altcoins y comenzaremos a desprendernos de liquidez·"
+    },
+    {
+      created_at: new Date('2025-09-15T11:35:00'),
+      date: "15/09/25",
+      token: "BTC",
+      amount: "0.000524 BTC",
+      pair: "BTC/USDC",
+      operation: "COMPRA",
+      price: "1 BTC = 114491 USDC",
+      color: "c-new c-violet"
+    },
+    {
+      created_at: new Date('2025-09-15T11:30:00'),
+      date: "10/09/25",
+      token: "BTC",
+      amount: "0.000538 BTC",
+      pair: "BTC/USDC",
+      operation: "COMPRA",
+      price: "1 BTC = 111526 USDC",
+      color: "c-new c-violet"
+    },
+    {
+      created_at: new Date('2025-09-15T11:25:00'),
+      date: "05/09/25",
+      token: "BTC",
+      amount: "0.000534 BTC",
+      pair: "BTC/USDC",
+      operation: "COMPRA",
+      price: "1 BTC = 112260 USDC",
+      color: "c-new c-violet"
+    },
+    {
+      created_at: new Date('2025-09-15T11:25:00'),
+      date: "05/09/25",
+      token: "BTC",
+      amount: "0.000534 BTC",
+      pair: "BTC/USDC",
+      operation: "COMPRA",
+      price: "1 BTC = 112260 USDC",
+      color: "c-new c-violet"
+    },
+    {
+      created_at: new Date('2025-09-04T10:30:00'),
+      date: "04/09/25",
+      token: "SURF",
+      amount: "280 SURF",
+      pair: "SURF/ADA",
+      operation: "COMPRA",
+      price: "1 SURF = 0.3577 ADA",
+      color: "c-new c-blue",
+      details: "Moneda del ecosistema de Cardano, se puede comprar en dexhunter.io a través de una billetera cómo pueda ser Yoroi. Muy especulativo, pero si logramos triplicar la inversión en 3 meses ya habrá valido la pena."
+    },
+    {
+      created_at: new Date('2025-09-01T10:30:00'),
+      date: "30/08/25",
+      token: "ETH",
+      amount: "0.00574 ETH",
+      pair: "ETH/USDC",
+      operation: "COMPRA",
+      price: "1 ETH = 4355 USDC",
+      color: "c-new c-blue"
+    },
+    {
+      created_at: new Date('2025-09-01T09:25:00'),
+      date: "30/08/25",
+      token: "BTC",
+      amount: "0.000557 BTC",
+      pair: "BTC/USDC",
+      operation: "COMPRA",
+      price: "1 BTC = 107794 USDC",
+      color: "c-new c-violet"
+    },
+    {
+      created_at: new Date('2025-09-01T09:20:00'),
+      date: "25/08/25",
+      token: "BTC",
+      amount: "0.000539 BTC",
+      pair: "BTC/USDC",
+      operation: "COMPRA",
+      price: "1 BTC = 111219 USDC",
+      color: "c-new c-violet"
+    },
+    {
+      created_at: new Date('2025-09-01T09:15:00'),
+      date: "20/08/25",
+      token: "BTC",
+      amount: "0.00053 BTC",
+      pair: "BTC/USDC",
+      operation: "COMPRA",
+      price: "1 BTC = 113364 USDC",
+      color: "c-new c-violet"
+    },
     {
       created_at: new Date('2025-08-15T10:30:00'),
       date: "15/08/25",
