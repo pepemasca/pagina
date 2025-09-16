@@ -127,6 +127,60 @@ export default async function seed() {
 
   await db.insert(Orders).values([
     { 
+      created_at: new Date('2025-09-16T10:30:00'),
+      token: "HYPE",
+      amount: "0.6453 HYPE",
+      pair: "HYPE/USDC",
+      operation: "COMPRA",
+      price: "1 HYPE = 46.49 USDC",
+      color: "c-new c-blue"
+    },
+    { 
+      created_at: new Date('2025-09-16T10:04:00'),
+      token: "LINK",
+      amount: "1.44 LINK",
+      pair: "LINK/USDC",
+      operation: "COMPRA",
+      price: "1 LINK = 20.96 USDC",
+      color: "c-new c-blue"
+    },
+    { 
+      created_at: new Date('2025-09-16T10:03:00'),
+      token: "SUI",
+      amount: "9.75 SUI",
+      pair: "SUI/USDC",
+      operation: "COMPRA",
+      price: "1 SUI = 3.08 USDC",
+      color: "c-new c-blue"
+    },
+    { 
+      created_at: new Date('2025-09-16T10:02:00'),
+      token: "XMR",
+      amount: "0.118 XMR",
+      pair: "XMR/USDC",
+      operation: "COMPRA",
+      price: "1 XMR = 254 USDC",
+      color: "c-new c-blue"
+    },
+    { 
+      created_at: new Date('2025-09-16T10:01:00'),
+      token: "ONDO",
+      amount: "36 ONDO",
+      pair: "ONDO/USDC",
+      operation: "COMPRA",
+      price: "1 ONDO = 0.84 USDC",
+      color: "c-new c-blue"
+    },
+    { 
+      created_at: new Date('2025-09-16T10:00:00'),
+      token: "ADA",
+      amount: "41 ADA",
+      pair: "ADA/USDC",
+      operation: "COMPRA",
+      price: "1 ADA = 0.738 USDC",
+      color: "c-new c-blue"
+    },
+    { 
       created_at: new Date('2025-09-14T10:00:00'),
       token: "ADA",
       amount: "20 ADA",
@@ -175,6 +229,46 @@ export default async function seed() {
 
   // Insertamos todas las operaciones históricas con fechas manuales completas
   await db.insert(Operations).values([
+    {
+      created_at: new Date('2025-09-16T11:45:00'),
+      date: "16/09/25",
+      token: "HYPE",
+      amount: "0.444 HYPE",
+      pair: "HYPE/USDC",
+      operation: "COMPRA",
+      price: "1 HYPE = 54 USDC",
+      color: "c-new c-blue"
+    },
+    {
+      created_at: new Date('2025-09-16T11:40:00'),
+      date: "16/09/25",
+      token: "LINK",
+      amount: "1 LINK",
+      pair: "LINK/USDC",
+      operation: "COMPRA",
+      price: "1 LINK = 23.5 USDC",
+      color: "c-new c-blue"
+    },
+    {
+      created_at: new Date('2025-09-16T11:35:00'),
+      date: "16/09/25",
+      token: "XMR",
+      amount: "0.069 XMR",
+      pair: "XMR/USDC",
+      operation: "COMPRA",
+      price: "1 XMR = 320 USDC",
+      color: "c-new c-blue"
+    },
+    {
+      created_at: new Date('2025-09-15T11:35:00'),
+      date: "15/09/25",
+      token: "BTC",
+      amount: "0.000524 BTC",
+      pair: "BTC/USDC",
+      operation: "COMPRA",
+      price: "1 BTC = 114491 USDC",
+      color: "c-new c-violet"
+    },
     {
       created_at: new Date('2025-09-15T12:30:00'),
       date: "15/09/25",
@@ -234,7 +328,7 @@ export default async function seed() {
       pair: "SURF/ADA",
       operation: "COMPRA",
       price: "1 SURF = 0.3577 ADA",
-      color: "c-new c-blue",
+      color: "c-new c-violet",
       details: "Moneda del ecosistema de Cardano, se puede comprar en dexhunter.io a través de una billetera cómo pueda ser Yoroi. Muy especulativo, pero si logramos triplicar la inversión en 3 meses ya habrá valido la pena."
     },
     {
@@ -245,7 +339,7 @@ export default async function seed() {
       pair: "ETH/USDC",
       operation: "COMPRA",
       price: "1 ETH = 4355 USDC",
-      color: "c-new c-blue"
+      color: "c-normal c-blue"
     },
     {
       created_at: new Date('2025-09-01T09:25:00'),
@@ -255,7 +349,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 107794 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-09-01T09:20:00'),
@@ -265,7 +359,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 111219 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-09-01T09:15:00'),
@@ -275,7 +369,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 113364 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-08-15T10:30:00'),
@@ -285,7 +379,7 @@ export default async function seed() {
       pair: "ETH/USDC",
       operation: "COMPRA",
       price: "1 ETH = 4426 USDC",
-      color: "c-new c-blue"
+      color: "c-normal c-blue"
     },
     {
       created_at: new Date('2025-08-15T09:15:00'),
@@ -295,7 +389,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 117324 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-08-10T14:20:00'),
@@ -305,7 +399,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 119309 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-08-05T16:45:00'),
@@ -315,7 +409,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 114148 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-07-30T11:30:00'),
@@ -325,7 +419,7 @@ export default async function seed() {
       pair: "ETH/USDC",
       operation: "COMPRA",
       price: "1 ETH = 3807 USDC",
-      color: "c-new c-blue"
+      color: "c-normal c-blue"
     },
     {
       created_at: new Date('2025-07-30T10:15:00'),
@@ -335,7 +429,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 117857 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-07-25T13:45:00'),
@@ -345,7 +439,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 117595 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-07-20T15:20:00'),
@@ -355,7 +449,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 117344 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-07-15T12:10:00'),
@@ -365,7 +459,7 @@ export default async function seed() {
       pair: "ETH/USDC",
       operation: "COMPRA",
       price: "1 ETH = 3133 USDC",
-      color: "c-new c-blue"
+      color: "c-normal c-blue"
     },
     {
       created_at: new Date('2025-07-15T11:55:00'),
@@ -375,7 +469,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 117685 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-07-10T09:30:00'),
@@ -385,7 +479,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 115909 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-07-05T14:15:00'),
@@ -395,7 +489,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 108283 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-06-30T16:45:00'),
@@ -405,7 +499,7 @@ export default async function seed() {
       pair: "ETH/USDC",
       operation: "COMPRA",
       price: "1 ETH = 2489 USDC",
-      color: "c-new c-blue"
+      color: "c-normal c-blue"
     },
     {
       created_at: new Date('2025-06-30T16:30:00'),
@@ -415,7 +509,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 107199 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-06-25T11:20:00'),
@@ -425,7 +519,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 107249 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-06-20T13:45:00'),
@@ -435,7 +529,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 103335 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-06-15T15:30:00'),
@@ -445,7 +539,7 @@ export default async function seed() {
       pair: "ETH/USDC",
       operation: "COMPRA",
       price: "1 ETH = 2549 USDC",
-      color: "c-new c-blue"
+      color: "c-normal c-blue"
     },
     {
       created_at: new Date('2025-06-15T15:15:00'),
@@ -455,7 +549,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 105595 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-06-10T10:45:00'),
@@ -465,7 +559,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 110282 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-06-05T12:30:00'),
@@ -475,7 +569,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 101704 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-05-30T12:30:00'),
@@ -485,7 +579,7 @@ export default async function seed() {
       pair: "ETH/USDC",
       operation: "COMPRA",
       price: "1 ETH = 2529 USDC",
-      color: "c-new c-blue"
+      color: "c-normal c-blue"
     },
     {
       created_at: new Date('2025-05-30T12:15:00'),
@@ -495,7 +589,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 104066 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-05-25T14:45:00'),
@@ -505,7 +599,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 109054 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-05-20T16:20:00'),
@@ -515,7 +609,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 106836 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-05-15T11:30:00'),
@@ -525,7 +619,7 @@ export default async function seed() {
       pair: "ETH/USDC",
       operation: "COMPRA",
       price: "1 ETH = 2547 USDC",
-      color: "c-new c-blue"
+      color: "c-normal c-blue"
     },
     {
       created_at: new Date('2025-05-15T11:15:00'),
@@ -535,7 +629,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 103869 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-05-10T13:45:00'),
@@ -545,7 +639,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 104379 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-05-05T15:30:00'),
@@ -555,7 +649,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 94857 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-04-30T10:45:00'),
@@ -565,7 +659,7 @@ export default async function seed() {
       pair: "ETH/USDC",
       operation: "COMPRA",
       price: "1 ETH = 1770 USDC",
-      color: "c-new c-blue",
+      color: "c-normal c-blue",
       details: "Conforme a la actualización del 16/04, previa a la reciente subida del 16% de BTC, la estrategia de Cryptopedia es aumentar el volumen de compras. Estaré ausente durante mayo y regresaré en junio, por lo que he dejado órdenes pendientes configuradas. Salvo eventos extraordinarios, estas órdenes seguirán ejecutándose y para que no se cancelen se requiere que el precio de BTC se mantenga por debajo de $85k si el oro cae bajo los $2,900; por debajo de $100k si el oro baja de $3,100; y que no supere los $112k mientras el precio del oro no haya excedido los $3,700."
     },
     {
@@ -576,7 +670,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 94260 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-04-25T12:45:00'),
@@ -586,7 +680,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 93820 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-04-20T14:30:00'),
@@ -596,7 +690,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 84357 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-04-15T16:15:00'),
@@ -606,7 +700,7 @@ export default async function seed() {
       pair: "ETH/USDC",
       operation: "COMPRA",
       price: "1 ETH = 1590 USDC",
-      color: "c-new c-blue"
+      color: "c-normal c-blue"
     },
     {
       created_at: new Date('2025-04-15T16:00:00'),
@@ -616,7 +710,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 83900 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-04-06T11:30:00'),
