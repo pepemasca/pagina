@@ -1,94 +1,122 @@
 /** @type {import('tailwindcss').Config} */
-const defaultTheme = require("tailwindcss/defaultTheme");
+const defaultTheme = require('tailwindcss/defaultTheme')
+const plugin = require('tailwindcss/plugin')
 
 module.exports = {
-  content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
-  theme: {
-    extend: {
-      // Conservamos tu configuración actual para fuentes
-      fontFamily: {
-        sans: [
-          "Bricolage Grotesque Variable",
-          "Inter Variable",
-          "Inter",
-          ...defaultTheme.fontFamily.sans,
-        ],
-      },
-
-      // Extensión para agregar un borde de 3px
-      borderWidth: {
-        '3.2': '3.2px', // Borde de 3.5px
-        '3': '3px', // Borde de 3px
-        '2.8': '2.8px', // Borde de 2.5px
-      },
-    },
-  },
-
-  plugins: [
-    require("@tailwindcss/typography"), // Conservamos tu plugin de tipografía
-
-
-
-    // Añadimos las clases personalizadas
-    function ({ addComponents }) {
-      addComponents({
-        // Clase normal para celdas
-        ".c-normal": {
-          "@apply border rounded border-gray-500 px-1 sm:px-3 py-2 text-center align-middle text-[9px] sm:text-base": {},
-        },
-
-        ".c-normal-left": {
-          "@apply border rounded border-gray-500 px-2 sm:px-4 py-2 align-middle text-[8px] sm:text-base": {},
-        },
-
-        // Clase para celdas de tokens en la versión nueva
-        ".c-new": {
-          "@apply border-2.8 rounded border-pink-400 px-2 sm:px-4 py-2 text-center align-middle text-[9px] sm:text-base": {},
-        },
-
-        // Clase para titulos de columnas
-        ".c-titles": {
-          "@apply border-3.2 rounded-sm border-double border-slate-700 px-2 sm:px-4 py-2 text-center align-middle font-bold text-[9px] sm:text-base": {},
-        },
-
-        // Clase para fechas
-        ".c-underline": {
-          "@apply underline decoration-inherit underline-offset-4": {},
-        },
-
-        // Clase para operaciones de compra (con texto "COMPRA")
-        ".op-compra": {
-          "@apply text-green-500 font-semibold border-2.8 border-green-500 border-double rounded-lg": {},
-          "&::before": {
-            content: '"COMPRA"', // Agrega automáticamente el texto "COMPRA"
-          },
-        },
-
-        // Clase para operaciones de venta (con texto "VENTA")
-        ".op-venta": {
-          "@apply text-red-500 font-semibold border-2.8 border-red-500 border-double rounded-lg": {},
-          "&::before": {
-            content: '"VENTA"', // Agrega automáticamente el texto "VENTA"
-          },
-        },
-
-        // Clases de colores personalizados
-        ".c-green": {
-          "@apply bg-lime-200": {},
-        },
-        ".c-blue": {
-          "@apply bg-cyan-100": {},
-        },
-        ".c-violet": {
-          "@apply bg-purple-200": {},
-        },
-        ".c-orange": {
-          "@apply bg-orange-200": {},
-        },
-        ".c-yellow": {
-          "@apply bg-yellow-300": {},
-        },
-      });
-    },
-  ],
-};
+	theme: {
+		extend: {
+			fontFamily: {
+				sans: [
+					'Bricolage Grotesque Variable',
+					'Inter Variable',
+					'Inter',
+					...defaultTheme.fontFamily.sans,
+				],
+			},
+			borderWidth: {
+				'3.2': '3.2px',
+				'3': '3px',
+				'2.8': '2.8px',
+			},
+		},
+	},
+	plugins: [
+		require('@tailwindcss/typography'),
+		plugin(function ({ addComponents }) {
+			addComponents({
+				'.c-normal': {
+					borderWidth: '1px',
+					borderStyle: 'solid',
+					borderColor: 'var(--color-gray-500)',
+					borderRadius: 'var(--radius-sm)',
+					paddingInline: '0.25rem', /* px-1 */
+					paddingBlock: '0.5rem', /* py-2 */
+					textAlign: 'center',
+					verticalAlign: 'middle',
+					fontSize: '9px',
+					'@screen sm': {
+						paddingInline: '0.75rem', /* px-3 */
+						fontSize: '1rem', /* text-base */
+					},
+				},
+				'.c-normal-left': {
+					borderWidth: '1px',
+					borderStyle: 'solid',
+					borderColor: 'var(--color-gray-500)',
+					borderRadius: 'var(--radius-sm)',
+					paddingInline: '0.5rem', /* px-2 */
+					paddingBlock: '0.5rem', /* py-2 */
+					verticalAlign: 'middle',
+					fontSize: '8px',
+					'@screen sm': {
+						paddingInline: '1rem', /* px-4 */
+						fontSize: '1rem', /* text-base */
+					},
+				},
+				'.c-new': {
+					borderWidth: '2.8px',
+					borderStyle: 'solid',
+					borderColor: 'var(--color-pink-400)',
+					borderRadius: 'var(--radius-sm)',
+					paddingInline: '0.5rem', /* px-2 */
+					paddingBlock: '0.5rem', /* py-2 */
+					textAlign: 'center',
+					verticalAlign: 'middle',
+					fontSize: '9px',
+					'@screen sm': {
+						paddingInline: '1rem', /* px-4 */
+						fontSize: '1rem', /* text-base */
+					},
+				},
+				'.c-titles': {
+					borderWidth: '3.2px',
+					borderStyle: 'double',
+					borderColor: 'var(--color-slate-700)',
+					borderRadius: 'var(--radius-xs)', /* rounded-sm */
+					paddingInline: '0.5rem', /* px-2 */
+					paddingBlock: '0.5rem', /* py-2 */
+					textAlign: 'center',
+					verticalAlign: 'middle',
+					fontWeight: '700',
+					fontSize: '9px',
+					'@screen sm': {
+						paddingInline: '1rem', /* px-4 */
+						fontSize: '1rem',
+					},
+				},
+				'.c-underline': {
+					textDecorationLine: 'underline',
+					textDecorationColor: 'inherit',
+					textUnderlineOffset: '4px',
+				},
+				'.op-compra': {
+					color: 'var(--color-green-500)',
+					fontWeight: '600',
+					borderWidth: '2.8px',
+					borderStyle: 'double',
+					borderColor: 'var(--color-green-500)',
+					borderRadius: 'var(--radius-lg)',
+						},
+						'.op-compra::before': {
+							content: '"COMPRA"',
+				},
+				'.op-venta': {
+					color: 'var(--color-red-500)',
+					fontWeight: '600',
+					borderWidth: '2.8px',
+					borderStyle: 'double',
+					borderColor: 'var(--color-red-500)',
+					borderRadius: 'var(--radius-lg)',
+						},
+						'.op-venta::before': {
+							content: '"VENTA"',
+				},
+				'.c-green': { backgroundColor: 'var(--color-lime-200)' },
+				'.c-blue': { backgroundColor: 'var(--color-cyan-100)' },
+				'.c-violet': { backgroundColor: 'var(--color-purple-200)' },
+				'.c-orange': { backgroundColor: 'var(--color-orange-200)' },
+				'.c-yellow': { backgroundColor: 'var(--color-yellow-300)' },
+			})
+		}),
+	],
+}

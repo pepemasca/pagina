@@ -42,7 +42,7 @@ publishedMadrigueraEntries.sort((a, b) => b.data.publishDate.valueOf() - a.data.
           <a href={`/madriguera/${publishedMadrigueraEntries[0].slug}`}>
             <div class="flex flex-col md:flex-row w-full h-full">
               <!-- Mitad izquierda: Título, autor y fecha -->
-              <div class="w-full md:w-1/2 p-8 flex flex-col justify-between bg-orange-400 bg-opacity-75 backdrop-blur-lg">
+              <div class="w-full md:w-1/2 p-8 flex flex-col justify-between bg-orange-400/75 backdrop-blur-lg">
                 <div>
                   <h2 class="text-4xl font-semibold">{publishedMadrigueraEntries[0].data.title}</h2>
                   <div class="flex gap-2 mt-4 text-gray-500">
