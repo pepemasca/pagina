@@ -21,9 +21,9 @@ import { Icon } from "astro-icon/components";
               32sTZE86Bh2kRxN8zSmtDyeTn6vdXnhdR7
             </span>
             <button 
-              onclick="copyToClipboard()" 
-              class="ml-2 flex items-center space-x-1 px-2 py-1 text-[11px] sm:text-base font-medium text-white bg-blue-500 rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
-              <a>Copiar</a>
+              id="copy-bitcoin-btn"
+              class="ml-2 flex items-center space-x-1 px-2 py-1 text-[11px] sm:text-base font-medium text-white bg-blue-500 rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 transition-colors">
+              <span>Copiar</span>
               <Icon class="text-white w-4 h-4" name="uil:bitcoin" />
             </button>
           </div>
@@ -35,9 +35,9 @@ import { Icon } from "astro-icon/components";
             0x26d197bB4ac8268285a93b86a03e498f29cF5ce4
           </span>
           <button 
-            onclick="copyToClipboard()" 
-            class="ml-2 flex items-center space-x-1 px-2 py-1 text-[11px] sm:text-base font-medium text-white bg-blue-500 rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
-            <a>Copiar</a>
+            id="copy-ethereum-btn"
+            class="ml-2 flex items-center space-x-1 px-2 py-1 text-[11px] sm:text-base font-medium text-white bg-blue-500 rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 transition-colors">
+            <span>Copiar</span>
             <Icon class="text-white w-4 h-4" name="simple-icons:ethereum" />
           </button>
         </div>
@@ -45,3 +45,74 @@ import { Icon } from "astro-icon/components";
     </div>
   </Container>
 </Layout>
+
+<script>
+  function copyToClipboard(text) {
+    navigator.clipboard.writeText(text).then(() => {
+      // Mostrar feedback visual
+      showCopyFeedback();
+    }).catch(err => {
+      console.error('Error al copiar: ', err);
+      // Fallback para navegadores más antiguos
+      fallbackCopyTextToClipboard(text);
+    });
+  }
+
+  function fallbackCopyTextToClipboard(text) {
+    const textArea = document.createElement("textarea");
+    textArea.value = text;
+    textArea.style.top = "0";
+    textArea.style.left = "0";
+    textArea.style.position = "fixed";
+    document.body.appendChild(textArea);
+    textArea.focus();
+    textArea.select();
+    
+    try {
+      document.execCommand('copy');
+      showCopyFeedback();
+    } catch (err) {
+      console.error('Fallback: Error al copiar', err);
+    }
+    
+    document.body.removeChild(textArea);
+  }
+
+  function showCopyFeedback() {
+    // Crear notificación temporal
+    const notification = document.createElement('div');
+    notification.textContent = '¡Dirección copiada!';
+    notification.className = 'fixed top-20 right-4 bg-amber-800 text-white px-4 py-2 rounded shadow-lg z-50 transition-opacity';
+    document.body.appendChild(notification);
+    
+    // Eliminar la notificación después de 2 segundos
+    setTimeout(() => {
+      notification.style.opacity = '0';
+      setTimeout(() => {
+        document.body.removeChild(notification);
+      }, 300);
+    }, 2000);
+  }
+
+  // Agregar event listeners cuando la página se carga
+  document.addEventListener('DOMContentLoaded', () => {
+    const bitcoinBtn = document.getElementById('copy-bitcoin-btn');
+    const ethereumBtn = document.getElementById('copy-ethereum-btn');
+    const bitcoinAddressElement = document.getElementById('bitcoin-address');
+    const ethereumAddressElement = document.getElementById('ethereum-address');
+
+    if (bitcoinBtn && bitcoinAddressElement) {
+      const bitcoinAddress = bitcoinAddressElement.textContent?.trim() || '';
+      bitcoinBtn.addEventListener('click', () => {
+        copyToClipboard(bitcoinAddress);
+      });
+    }
+
+    if (ethereumBtn && ethereumAddressElement) {
+      const ethereumAddress = ethereumAddressElement.textContent?.trim() || '';
+      ethereumBtn.addEventListener('click', () => {
+        copyToClipboard(ethereumAddress);
+      });
+    }
+  });
+</script>
