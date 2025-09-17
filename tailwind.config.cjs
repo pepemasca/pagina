@@ -39,6 +39,11 @@ module.exports = {
 						fontSize: '1rem', /* text-base */
 					},
 				},
+				/* Ensure c-new overrides c-normal when both are present */
+				'.c-normal.c-new': {
+					borderWidth: '2.8px',
+					borderColor: 'var(--color-pink-400)',
+				},
 				'.c-normal-left': {
 					borderWidth: '1px',
 					borderStyle: 'solid',
