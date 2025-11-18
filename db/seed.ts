@@ -98,9 +98,9 @@ export default async function seed() {
     { 
       id: 9,
       mes: "12/24", 
-      entradas: "19,55%", 
+      entradas: "19,56%", 
       salidas: "3,42%", 
-      invertido: "16,13%" 
+      invertido: "16,14%" 
     },
     { 
       id: 10,
@@ -127,58 +127,76 @@ export default async function seed() {
 
   await db.insert(Orders).values([
     { 
-      created_at: new Date('2025-09-16T10:30:00'),
-      token: "HYPE",
-      amount: "0.6453 HYPE",
-      pair: "HYPE/USDC",
-      operation: "COMPRA",
-      price: "1 HYPE = 46.49 USDC",
-      color: "c-new c-blue"
-    },
-    { 
-      created_at: new Date('2025-09-16T10:04:00'),
-      token: "LINK",
-      amount: "1.44 LINK",
-      pair: "LINK/USDC",
-      operation: "COMPRA",
-      price: "1 LINK = 20.96 USDC",
-      color: "c-new c-blue"
-    },
-    { 
-      created_at: new Date('2025-09-16T10:03:00'),
-      token: "SUI",
-      amount: "9.75 SUI",
-      pair: "SUI/USDC",
-      operation: "COMPRA",
-      price: "1 SUI = 3.08 USDC",
-      color: "c-new c-blue"
-    },
-    { 
-      created_at: new Date('2025-09-16T10:02:00'),
-      token: "XMR",
-      amount: "0.118 XMR",
-      pair: "XMR/USDC",
-      operation: "COMPRA",
-      price: "1 XMR = 254 USDC",
-      color: "c-new c-blue"
-    },
-    { 
-      created_at: new Date('2025-09-16T10:01:00'),
-      token: "ONDO",
-      amount: "36 ONDO",
-      pair: "ONDO/USDC",
-      operation: "COMPRA",
-      price: "1 ONDO = 0.84 USDC",
-      color: "c-new c-blue"
-    },
-    { 
-      created_at: new Date('2025-09-16T10:00:00'),
+      created_at: new Date('2025-11-18T11:07:00'),
       token: "ADA",
-      amount: "41 ADA",
-      pair: "ADA/USDC",
+      amount: "6 ADA",
+      pair: "ADA/BTC",
       operation: "COMPRA",
-      price: "1 ADA = 0.738 USDC",
-      color: "c-new c-blue"
+      price: "1 ADA = 0,00000483 BTC",
+      color: "c-new c-violet"
+    },
+    { 
+      created_at: new Date('2025-11-18T11:06:00'),
+      token: "AVAX",
+      amount: "6 AVAX",
+      pair: "AVAX/BTC",
+      operation: "COMPRA",
+      price: "1 AVAX = 0.00015093 BTC",
+      color: "c-new c-violet"
+    },
+    { 
+      created_at: new Date('2025-11-18T11:05:00'),
+      token: "ETH",
+      amount: "0.09 ETH",
+      pair: "ETH/USDC",
+      operation: "COMPRA",
+      price: "1 ETH = 1673.26 USDC",
+      color: "c-new c-orange"
+    },
+    { 
+      created_at: new Date('2025-11-18T11:04:00'),
+      token: "ETH",
+      amount: "0.0285 ETH",
+      pair: "ETH/USDC",
+      operation: "COMPRA",
+      price: "1 ETH = 2103.53 USDC",
+      color: "c-new c-violet"
+    },
+    { 
+      created_at: new Date('2025-11-18T11:03:00'),
+      token: "BNB",
+      amount: "0.1 BNB",
+      pair: "BNB/USDC",
+      operation: "COMPRA",
+      price: "1 BNB = 697 USDC",
+      color: "c-new c-violet"
+    },
+    { 
+      created_at: new Date('2025-11-18T11:02:00'),
+      token: "FET",
+      amount: "400 FET",
+      pair: "FET/USDC",
+      operation: "COMPRA",
+      price: "1 FET = 0.1634 USDC",
+      color: "c-new c-violet"
+    },
+    { 
+      created_at: new Date('2025-11-18T11:01:00'),
+      token: "LINK",
+      amount: "9 LINK",
+      pair: "LINK/EUR",
+      operation: "COMPRA",
+      price: "1 LINK = 9.3 EUR",
+      color: "c-new c-violet"
+    },
+    { 
+      created_at: new Date('2025-11-18T11:00:00'),
+      token: "ADA",
+      amount: "500 ADA",
+      pair: "ADA/EUR",
+      operation: "COMPRA",
+      price: "1 ADA = 0.268 EUR",
+      color: "c-new c-orange"
     },
     { 
       created_at: new Date('2025-09-14T10:00:00'),
@@ -230,6 +248,156 @@ export default async function seed() {
   // Insertamos todas las operaciones históricas con fechas manuales completas
   await db.insert(Operations).values([
     {
+      created_at: new Date('2025-11-18T13:04:00'),
+      date: "04/11/25",
+      token: "LINK",
+      amount: "2 LINK",
+      pair: "LINK/EUR",
+      operation: "COMPRA",
+      price: "1 LINK = 12.5 EUR",
+      color: "c-new c-blue"
+    },
+    {
+      created_at: new Date('2025-11-18T13:04:00'),
+      date: "04/11/25",
+      token: "ARB",
+      amount: "100 ARB",
+      pair: "ARB/USDC",
+      operation: "COMPRA",
+      price: "1 ARB = 0.251 USDC",
+      color: "c-new c-blue"
+    },
+    {
+      created_at: new Date('2025-11-18T13:03:00'),
+      date: "04/11/25",
+      token: "OP",
+      amount: "85 OP",
+      pair: "OP/USDC",
+      operation: "COMPRA",
+      price: "1 OP = 0.326 USDC",
+      color: "c-new c-blue"
+    },
+    {
+      created_at: new Date('2025-11-18T13:02:00'),
+      date: "04/11/25",
+      token: "SUI",
+      amount: "25 SUI",
+      pair: "SUI/USDC",
+      operation: "COMPRA",
+      price: "1 SUI = 1.77 USDC",
+      color: "c-new c-blue"
+    },
+    {
+      created_at: new Date('2025-11-18T13:01:00'),
+      date: "04/11/25",
+      token: "AVAX",
+      amount: "1.2 AVAX",
+      pair: "AVAX/EUR",
+      operation: "COMPRA",
+      price: "1 AVAX = 13.68 EUR",
+      color: "c-new c-green"
+    },
+    {
+      created_at: new Date('2025-11-18T13:00:00'),
+      date: "04/11/25",
+      token: "ADA",
+      amount: "100 ADA",
+      pair: "ADA/EUR",
+      operation: "COMPRA",
+      price: "1 ADA = 0.44 EUR",
+      color: "c-new c-blue"
+    },
+    {
+      created_at: new Date('2025-11-18T12:05:00'),
+      date: "11/10/25",
+      token: "ONDO",
+      amount: "36 ONDO",
+      pair: "ONDO/USDC",
+      operation: "COMPRA",
+      price: "1 ONDO = 0.84 USDC",
+      color: "c-new c-blue"
+    },
+    {
+      created_at: new Date('2025-11-18T12:04:00'),
+      date: "11/10/25",
+      token: "ADA",
+      amount: "41 ADA",
+      pair: "ADA/USDC",
+      operation: "COMPRA",
+      price: "1 ADA = 0.738 USDC",
+      color: "c-new c-blue"
+    },
+    {
+      created_at: new Date('2025-11-18T12:03:00'),
+      date: "11/10/25",
+      token: "XMR",
+      amount: "0.118 XMR",
+      pair: "XMR/USDC",
+      operation: "COMPRA",
+      price: "1 XMR = 254 USDC",
+      color: "c-new c-blue"
+    },
+    {
+      created_at: new Date('2025-11-18T12:02:00'),
+      date: "11/10/25",
+      token: "SUI",
+      amount: "25 SUI",
+      pair: "SUI/USDC",
+      operation: "COMPRA",
+      price: "1 SUI = 2.61 USDC",
+      color: "c-new c-violet"
+    },
+    {
+      created_at: new Date('2025-11-18T12:01:00'),
+      date: "11/10/25",
+      token: "LINK",
+      amount: "3.75 LINK",
+      pair: "LINK/USDC",
+      operation: "COMPRA",
+      price: "1 LINK = 17.35 USDC",
+      color: "c-new c-violet"
+    },
+    {
+      created_at: new Date('2025-11-18T12:00:00'),
+      date: "11/10/25",
+      token: "HYPE",
+      amount: "1.78 HYPE",
+      pair: "HYPE/USDC",
+      operation: "COMPRA",
+      price: "1 HYPE = 36.58 USDC",
+      color: "c-new c-violet"
+    },
+    {
+      created_at: new Date('2025-09-25T12:45:00'),
+      date: "25/09/25",
+      token: "SUI",
+      amount: "9.75 SUI",
+      pair: "SUI/USDC",
+      operation: "COMPRA",
+      price: "1 SUI = 3.08 USDC",
+      color: "c-new c-blue"
+    },
+    {
+      created_at: new Date('2025-09-25T11:45:00'),
+      date: "25/09/25",
+      token: "LINK",
+      amount: "1.44 LINK",
+      pair: "LINK/USDC",
+      operation: "COMPRA",
+      price: "1 LINK = 20.96 USDC",
+      color: "c-new c-blue"
+    },
+    {
+      created_at: new Date('2025-09-23T11:45:00'),
+      date: "23/09/25",
+      token: "HYPE",
+      amount: "0.6453 HYPE",
+      pair: "HYPE/USDC",
+      operation: "COMPRA",
+      price: "1 HYPE = 46.49 USDC",
+      color: "c-new c-blue"
+    },
+    {
       created_at: new Date('2025-09-16T11:45:00'),
       date: "16/09/25",
       token: "HYPE",
@@ -237,7 +405,7 @@ export default async function seed() {
       pair: "HYPE/USDC",
       operation: "COMPRA",
       price: "1 HYPE = 54 USDC",
-      color: "c-new c-blue"
+      color: "c-normal c-blue"
     },
     {
       created_at: new Date('2025-09-16T11:40:00'),
@@ -247,7 +415,7 @@ export default async function seed() {
       pair: "LINK/USDC",
       operation: "COMPRA",
       price: "1 LINK = 23.5 USDC",
-      color: "c-new c-blue"
+      color: "c-normal c-blue"
     },
     {
       created_at: new Date('2025-09-16T11:35:00'),
@@ -257,7 +425,7 @@ export default async function seed() {
       pair: "XMR/USDC",
       operation: "COMPRA",
       price: "1 XMR = 320 USDC",
-      color: "c-new c-blue"
+      color: "c-normal c-blue"
     },
     {
       created_at: new Date('2025-09-15T11:35:00'),
@@ -267,7 +435,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 114491 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-09-15T12:30:00'),
@@ -277,7 +445,7 @@ export default async function seed() {
       pair: "ETH/USDC",
       operation: "COMPRA",
       price: "1 ETH = 4490 USDC",
-      color: "c-new c-blue",
+      color: "c-normal c-blue",
       details: "Última compra de las ordenes automáticas que empezamos en Abril con razón de la subida del oro y oportunidades a la vista. A partir de ahora entramos en un periodo más manual donde seleccionaremos altcoins y comenzaremos a desprendernos de liquidez·"
     },
     {
@@ -288,7 +456,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 114491 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-09-15T11:30:00'),
@@ -298,7 +466,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 111526 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-09-15T11:25:00'),
@@ -308,7 +476,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 112260 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-09-15T11:25:00'),
@@ -318,7 +486,7 @@ export default async function seed() {
       pair: "BTC/USDC",
       operation: "COMPRA",
       price: "1 BTC = 112260 USDC",
-      color: "c-new c-violet"
+      color: "c-normal c-violet"
     },
     {
       created_at: new Date('2025-09-04T10:30:00'),
@@ -328,7 +496,7 @@ export default async function seed() {
       pair: "SURF/ADA",
       operation: "COMPRA",
       price: "1 SURF = 0.3577 ADA",
-      color: "c-new c-violet",
+      color: "c-normal c-violet",
       details: "Moneda del ecosistema de Cardano, se puede comprar en dexhunter.io a través de una billetera cómo pueda ser Yoroi. Muy especulativo, pero si logramos triplicar la inversión en 3 meses ya habrá valido la pena."
     },
     {
