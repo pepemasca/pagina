@@ -98,9 +98,9 @@ export default async function seed() {
     { 
       id: 9,
       mes: "12/24", 
-      entradas: "19,56%", 
+      entradas: "19,55%", 
       salidas: "3,42%", 
-      invertido: "16,14%" 
+      invertido: "16,13%" 
     },
     { 
       id: 10,
