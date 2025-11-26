@@ -4,138 +4,129 @@ import { db, Orders, Operations, Colors, Invest } from 'astro:db';
 export default async function seed() {
 
   await db.insert(Colors).values([
-    { 
+    {
       id: 1,
-      color: "c-green", 
-      text: "Menos de 20$ (2%)", 
-      details: "*2% de la liquidez mensual disponible para inversión. En el ejemplo son 1.000$ mensuales." 
+      color: "c-green",
+      text: "Menos de 20$ (2%)",
+      details: "*2% de la liquidez mensual disponible para inversión. En el ejemplo son 1.000$ mensuales."
     },
-    { 
+    {
       id: 2,
-      color: "c-blue", 
-      text: "Entre 20$ y 50$ (2%-5%)" 
+      color: "c-blue",
+      text: "Entre 20$ y 50$ (2%-5%)"
     },
-    { 
+    {
       id: 3,
-      color: "c-violet", 
-      text: "Entre 50$ y 100$ (5%-10$)" 
+      color: "c-violet",
+      text: "Entre 50$ y 100$ (5%-10$)"
     },
-    { 
+    {
       id: 4,
-      color: "c-orange", 
-      text: "Más de 100$ (10% o más)" 
+      color: "c-orange",
+      text: "Más de 100$ (10% o más)"
     },
-    { 
+    {
       id: 5,
-      color: "c-yellow", 
-      text: "Seguro anti subida de BTC (10% de la liquidez mensual)" 
+      color: "c-yellow",
+      text: "Seguro anti subida de BTC (10% de la liquidez mensual)"
     },
-    { 
+    {
       id: 6,
-      color: "c-new text-pink-400", 
-      text: "Publicado hace menos de 10 días" 
+      color: "c-new text-pink-400",
+      text: "Publicado hace menos de 10 días"
     }
   ]);
 
   // Insertar datos de la tabla Invest
   await db.insert(Invest).values([
-    { 
+    {
       id: 1,
-      mes: "08/25", 
-      entradas: "41%", 
-      salidas: "0%", 
-      invertido: "41%" 
+      mes: "08/25",
+      entradas: "41%",
+      salidas: "0%",
+      invertido: "41%"
     },
-    { 
+    {
       id: 2,
-      mes: "07/25", 
-      entradas: "41%", 
-      salidas: "0%", 
-      invertido: "41%" 
+      mes: "07/25",
+      entradas: "41%",
+      salidas: "0%",
+      invertido: "41%"
     },
-    { 
+    {
       id: 3,
-      mes: "06/25", 
-      entradas: "41%", 
-      salidas: "0%", 
-      invertido: "41%" 
+      mes: "06/25",
+      entradas: "41%",
+      salidas: "0%",
+      invertido: "41%"
     },
-    { 
+    {
       id: 4,
-      mes: "05/25", 
-      entradas: "41%", 
-      salidas: "0%", 
-      invertido: "41%" 
+      mes: "05/25",
+      entradas: "41%",
+      salidas: "0%",
+      invertido: "41%"
     },
-    { 
+    {
       id: 5,
-      mes: "04/25", 
-      entradas: "41%", 
-      salidas: "0%", 
-      invertido: "41%" 
+      mes: "04/25",
+      entradas: "41%",
+      salidas: "0%",
+      invertido: "41%"
     },
-    { 
+    {
       id: 6,
-      mes: "03/25", 
-      entradas: "13,1%", 
-      salidas: "0%", 
-      invertido: "13,10%" 
+      mes: "03/25",
+      entradas: "13,1%",
+      salidas: "0%",
+      invertido: "13,10%"
     },
-    { 
+    {
       id: 7,
-      mes: "02/25", 
-      entradas: "16,07%", 
-      salidas: "0%", 
-      invertido: "16,07%" 
+      mes: "02/25",
+      entradas: "16,07%",
+      salidas: "0%",
+      invertido: "16,07%"
     },
-    { 
+    {
       id: 8,
-      mes: "01/25", 
-      entradas: "3,56%", 
-      salidas: "0,19%", 
-      invertido: "3,37%" 
+      mes: "01/25",
+      entradas: "3,56%",
+      salidas: "0,19%",
+      invertido: "3,37%"
     },
-    { 
+    {
       id: 9,
-      mes: "12/24", 
-      entradas: "19,55%", 
-      salidas: "3,42%", 
-      invertido: "16,13%" 
+      mes: "12/24",
+      entradas: "19,55%",
+      salidas: "3,42%",
+      invertido: "16,13%"
     },
-    { 
+    {
       id: 10,
-      mes: "11/24", 
-      entradas: "12,76%", 
-      salidas: "3,86%", 
-      invertido: "8,9%" 
+      mes: "11/24",
+      entradas: "12,76%",
+      salidas: "3,86%",
+      invertido: "8,9%"
     },
-    { 
+    {
       id: 11,
-      mes: "Promedio", 
-      entradas: "17,67%", 
-      salidas: "1,245%", 
-      invertido: "16,43%" 
+      mes: "Promedio",
+      entradas: "17,67%",
+      salidas: "1,245%",
+      invertido: "16,43%"
     },
-    { 
+    {
       id: 12,
-      mes: "Acumulado", 
-      entradas: "Es la suma de", 
-      salidas: "lo no invertido", 
-      invertido: "98,57%" 
+      mes: "Acumulado",
+      entradas: "Es la suma de",
+      salidas: "lo no invertido",
+      invertido: "98,57%"
     }
   ]);
 
   await db.insert(Orders).values([
-    { 
-      created_at: new Date('2025-11-18T11:07:00'),
-      token: "ADA",
-      amount: "6 ADA",
-      pair: "ADA/BTC",
-      operation: "COMPRA",
-      price: "1 ADA = 0,00000483 BTC",
-      color: "c-new c-violet"
-    },
-    { 
+    {
       created_at: new Date('2025-11-18T11:06:00'),
       token: "AVAX",
       amount: "6 AVAX",
@@ -144,7 +135,7 @@ export default async function seed() {
       price: "1 AVAX = 0.00015093 BTC",
       color: "c-new c-violet"
     },
-    { 
+    {
       created_at: new Date('2025-11-18T11:05:00'),
       token: "ETH",
       amount: "0.09 ETH",
@@ -153,7 +144,7 @@ export default async function seed() {
       price: "1 ETH = 1673.26 USDC",
       color: "c-new c-orange"
     },
-    { 
+    {
       created_at: new Date('2025-11-18T11:04:00'),
       token: "ETH",
       amount: "0.0285 ETH",
@@ -162,7 +153,7 @@ export default async function seed() {
       price: "1 ETH = 2103.53 USDC",
       color: "c-new c-violet"
     },
-    { 
+    {
       created_at: new Date('2025-11-18T11:03:00'),
       token: "BNB",
       amount: "0.1 BNB",
@@ -171,7 +162,7 @@ export default async function seed() {
       price: "1 BNB = 697 USDC",
       color: "c-new c-violet"
     },
-    { 
+    {
       created_at: new Date('2025-11-18T11:02:00'),
       token: "FET",
       amount: "400 FET",
@@ -180,7 +171,7 @@ export default async function seed() {
       price: "1 FET = 0.1634 USDC",
       color: "c-new c-violet"
     },
-    { 
+    {
       created_at: new Date('2025-11-18T11:01:00'),
       token: "LINK",
       amount: "9 LINK",
@@ -189,7 +180,7 @@ export default async function seed() {
       price: "1 LINK = 9.3 EUR",
       color: "c-new c-violet"
     },
-    { 
+    {
       created_at: new Date('2025-11-18T11:00:00'),
       token: "ADA",
       amount: "500 ADA",
@@ -198,7 +189,7 @@ export default async function seed() {
       price: "1 ADA = 0.268 EUR",
       color: "c-new c-orange"
     },
-    { 
+    {
       created_at: new Date('2025-09-14T10:00:00'),
       token: "ADA",
       amount: "20 ADA",
@@ -207,7 +198,7 @@ export default async function seed() {
       price: "1 ADA = 1.4186 USDC",
       color: "c-normal c-blue"
     },
-    { 
+    {
       created_at: new Date('2025-09-14T09:45:00'),
       token: "ADA",
       amount: "25 ADA",
@@ -216,7 +207,7 @@ export default async function seed() {
       price: "1 ADA = 0.00002164 BTC",
       color: "c-normal c-violet"
     },
-    { 
+    {
       created_at: new Date('2025-09-14T09:30:00'),
       token: "LINK",
       amount: "1 LINK",
@@ -225,7 +216,7 @@ export default async function seed() {
       price: "1 LINK = 0.0003872 BTC",
       color: "c-normal c-blue"
     },
-    { 
+    {
       created_at: new Date('2025-09-14T09:15:00'),
       token: "SOL",
       amount: "0.2 SOL",
@@ -234,7 +225,7 @@ export default async function seed() {
       price: "1 SOL = 0.00354 BTC",
       color: "c-normal c-violet"
     },
-    { 
+    {
       created_at: new Date('2025-09-14T09:00:00'),
       token: "GRT",
       amount: "92 GRT",
@@ -247,6 +238,16 @@ export default async function seed() {
 
   // Insertamos todas las operaciones históricas con fechas manuales completas
   await db.insert(Operations).values([
+    {
+      created_at: new Date('2025-11-19T10:00:00'),
+      date: "19/11/25",
+      token: "ADA",
+      amount: "180 ADA",
+      pair: "ADA/BTC",
+      operation: "COMPRA",
+      price: "1 ADA = 0,00000483 BTC",
+      color: "c-new c-violet"
+    },
     {
       created_at: new Date('2025-11-18T13:04:00'),
       date: "04/11/25",
@@ -1447,6 +1448,6 @@ export default async function seed() {
       color: "c-normal c-green"
     }
   ]);
-  
+
   console.log('✅ Base de datos poblada con éxito');
 }
