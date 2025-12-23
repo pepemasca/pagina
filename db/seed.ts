@@ -40,100 +40,113 @@ export default async function seed() {
   // Insertar datos de la tabla Invest
   await db.insert(Invest).values([
     {
-      id: 1,
+      mes: "11/25",
+      entradas: "36,7%",
+      salidas: "0%",
+      invertido: "36,7%"
+    },
+    {
+      mes: "10/25",
+      entradas: "27%",
+      salidas: "0%",
+      invertido: "27%"
+    },
+    {
+      mes: "09/25",
+      entradas: "56,85%",
+      salidas: "0%",
+      invertido: "56,85%"
+    },
+    {
       mes: "08/25",
       entradas: "41%",
       salidas: "0%",
       invertido: "41%"
     },
     {
-      id: 2,
       mes: "07/25",
       entradas: "41%",
       salidas: "0%",
       invertido: "41%"
     },
     {
-      id: 3,
       mes: "06/25",
       entradas: "41%",
       salidas: "0%",
       invertido: "41%"
     },
     {
-      id: 4,
       mes: "05/25",
       entradas: "41%",
       salidas: "0%",
       invertido: "41%"
     },
     {
-      id: 5,
       mes: "04/25",
       entradas: "41%",
       salidas: "0%",
       invertido: "41%"
     },
     {
-      id: 6,
       mes: "03/25",
       entradas: "13,1%",
       salidas: "0%",
       invertido: "13,10%"
     },
     {
-      id: 7,
       mes: "02/25",
       entradas: "16,07%",
       salidas: "0%",
       invertido: "16,07%"
     },
     {
-      id: 8,
       mes: "01/25",
       entradas: "3,56%",
       salidas: "0,19%",
       invertido: "3,37%"
     },
     {
-      id: 9,
       mes: "12/24",
       entradas: "19,55%",
       salidas: "3,42%",
       invertido: "16,13%"
     },
     {
-      id: 10,
       mes: "11/24",
       entradas: "12,76%",
       salidas: "3,86%",
       invertido: "8,9%"
     },
     {
-      id: 11,
       mes: "Promedio",
-      entradas: "17,67%",
-      salidas: "1,245%",
-      invertido: "16,43%"
+      entradas: "30,73%",
+      salidas: "0.57%",
+      invertido: "30,16%"
     },
     {
-      id: 12,
-      mes: "Acumulado",
-      entradas: "Es la suma de",
-      salidas: "lo no invertido",
-      invertido: "98,57%"
+      mes: "Invertido",
+      entradas: "-",
+      salidas: "Σ de invertido",
+      invertido: "3.995,5 $"
+    },
+    {
+      mes: "No Invertido",
+      entradas: "-",
+      salidas: "Σ de no invertido",
+      invertido: "9.004,5 $"
     }
   ]);
 
   await db.insert(Orders).values([
     {
-      created_at: new Date('2025-11-18T11:06:00'),
-      token: "AVAX",
-      amount: "6 AVAX",
-      pair: "AVAX/BTC",
+      created_at: new Date('2025-12-05T10:01:00'),
+      token: "MSTR",
+      amount: "1 MSTR",
+      pair: "MSTR/USDC",
       operation: "COMPRA",
-      price: "1 AVAX = 0.00015093 BTC",
-      color: "c-new c-violet"
+      price: "1 MSTR = 135.8 USDC",
+      color: "c-new c-orange",
+      details: "Potencial compra de la acción de Strategy (Disponible en brokers como Revolut) para tomar una posición más apalancada sin tener que gestionar el precio de liquidación ni el pago de intereses"
     },
     {
       created_at: new Date('2025-11-18T11:05:00'),
@@ -239,6 +252,16 @@ export default async function seed() {
   // Insertamos todas las operaciones históricas con fechas manuales completas
   await db.insert(Operations).values([
     {
+      created_at: new Date('2025-12-01T10:06:00'),
+      date: "01/12/25",
+      token: "AVAX",
+      amount: "6 AVAX",
+      pair: "AVAX/BTC",
+      operation: "COMPRA",
+      price: "1 AVAX = 0.00015093 BTC",
+      color: "c-new c-violet"
+    },
+    {
       created_at: new Date('2025-11-19T10:00:00'),
       date: "19/11/25",
       token: "ADA",
@@ -247,6 +270,17 @@ export default async function seed() {
       operation: "COMPRA",
       price: "1 ADA = 0,00000483 BTC",
       color: "c-new c-violet"
+    },
+    {
+      created_at: new Date('2025-11-18T13:05:00'),
+      date: "04/11/25",
+      token: "SURF",
+      amount: "800 SURF",
+      pair: "SURF/ADA",
+      operation: "COMPRA",
+      price: "1 SURF = 0.194 ADA",
+      color: "c-new c-violet",
+      details: "No puse esta operación en la anterior modificación, pero los que hablais conmigo estabais avisados de su existencia"
     },
     {
       created_at: new Date('2025-11-18T13:04:00'),
@@ -447,7 +481,7 @@ export default async function seed() {
       operation: "COMPRA",
       price: "1 ETH = 4490 USDC",
       color: "c-normal c-blue",
-      details: "Última compra de las ordenes automáticas que empezamos en Abril con razón de la subida del oro y oportunidades a la vista. A partir de ahora entramos en un periodo más manual donde seleccionaremos altcoins y comenzaremos a desprendernos de liquidez·"
+      details: "Última compra de las ordenes automáticas que empezamos en Abril con razón de la subida del oro y oportunidades a la vista. A partir de ahora entramos en un periodo más manual donde seleccionaremos altcoins y comenzaremos a desprendernos de liquidez."
     },
     {
       created_at: new Date('2025-09-15T11:35:00'),

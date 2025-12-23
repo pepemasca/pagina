@@ -121,7 +121,7 @@ const invest = await db.select().from(Invest);
               </thead>
               <tbody>
                 {/* 1) Primeras filas normales */}
-                {invest.slice(0, invest.length - 2).map((investItem) => (
+                {invest.slice(0, invest.length - 3).map((investItem) => (
                   <tr>
                     <td class="c-normal text-[7.5px] sm:text-sm md:text-base">{investItem.mes}</td>
                     <td class="c-normal text-green-600 text-[7.5px] sm:text-sm md:text-base">{`+${investItem.entradas}`}</td>
@@ -136,11 +136,11 @@ const invest = await db.select().from(Invest);
                 </tr>
 
                 {/* 3) Últimas dos filas, destacando */}
-                {invest.slice(-2).map((investItem) => (
+                {invest.slice(-3).map((investItem) => (
                   <tr class="bg-blue-50 text-blue-700 font-semibold">
                     <td class="c-normal text-[7.5px] sm:text-sm md:text-base">{investItem.mes}</td>
-                    <td class="c-normal text-black text-[7.5px] sm:text-sm md:text-base">{`+${investItem.entradas}`}</td>
-                    <td class="c-normal text-black text-[7.5px] sm:text-sm md:text-base">{`-${investItem.salidas}`}</td>
+                    <td class="c-normal text-black text-[7.5px] sm:text-sm md:text-base">{investItem.entradas}</td>
+                    <td class="c-normal text-black text-[7.5px] sm:text-sm md:text-base">{investItem.salidas}</td>
                     <td class="c-normal text-black bg-lime-300 text-[7.5px] sm:text-sm md:text-base">{`+${investItem.invertido}`}</td>
                   </tr>
                 ))}
